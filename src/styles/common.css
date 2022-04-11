@@ -1,0 +1,167 @@
+html {
+  font-size: calc(10px + 1.3vmin);
+  font-family: Work Sans;
+}
+
+@media (max-height: 1100px) {
+  html {
+    font-size: calc(10px + 1.1vmin);
+  }
+}
+
+@media (max-height: 900px) {
+  html {
+    font-size: calc(10px + 1vmin);
+  }
+}
+
+@media (max-height: 800px) {
+  html {
+    font-size: calc(10px + 0.8vmin);
+  }
+}
+
+@media (max-height: 700px) {
+  html {
+    font-size: calc(10px + 0.6vmin);
+  }
+}
+
+body {
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  margin-block-start: 2vh;
+  margin-block-end: 2vh;
+}
+
+img {
+  image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: optimize-contrast;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
+#root {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+*::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.fill-parent {
+  width: 100%;
+  height: 100%;
+}
+
+.portrait-bg {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+.fade-out {
+  animation: 0.25s forwards fade-out;
+}
+
+.fade-in {
+  animation: 0.25s forwards fade-in;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.clickable {
+  cursor: pointer;
+  transition: filter 0.5s, transform 0.25s;
+}
+
+.clickable:hover {
+  filter: brightness(130%);
+  /* transform: scale(1.06); */
+}
+
+.greyed-out {
+  filter: grayscale(1) !important;
+}
+
+.greyed-out:hover {
+  filter: brightness(130%) !important;
+}
+
+.card {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 2px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.invisible {
+  pointer-events: none;
+  opacity: 0;
+}
+
+.rotate-prompt {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  left: 0px;
+  top: 0px;
+  background-color: black;
+  align-items: center;
+  text-align: center;
+}
+
+.fsTitle {
+  font-size: 2rem;
+}
+
+.fsSubtitle {
+  font-size: 1.4rem;
+}
+
+.fsFooter {
+  font-size: 0.8rem;
+  /* margin-top: 1rem; */
+}

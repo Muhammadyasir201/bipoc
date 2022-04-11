@@ -1,0 +1,1590 @@
+{
+  "intro": {
+    "backgroundImage": "/public/images/backgrounds/title-bg.svg",
+    "title": "Connected Markets:",
+    "titleTwo": "Just BIPOC Sourcing",
+    "subTitle": "Foodservice Self-Assessment Tool",
+    "description": "How prepared are you to launch an equitable foodservice sourcing pilot? Assess your organization’s readiness to implement better purchasing decisions that actively support BIPOC (Black, Indigenous, and People of Color) producers.",
+    "footerText": "How much do you know about the seafood you source?",
+    "footerPara": "A Greener Blue (AGB) is a <strong>Green Brown Blue</strong> food systems solution activator that builds tools to support a better aquaculture. The work is led by The Lexicon, with support from Food at Google. To learn more about Green Brown Blue and <strong><i>Connected Markets: Aquaculture</i></strong>, contact <a style='color: #fff; text-decoration: none;' href='mailto:info@greenbrownblue.com'>info@greenbrownblue.com</a>.",
+    "logo1": "/public/images/greenbrownblue_logo-1.svg",
+    "logo2": "/public/images/TheLexicon_logo.svg",
+    "logo3": "/public/images/Group 661.svg"
+  },
+  "welcome": {
+    "backgroundImage": "/public/images/backgrounds/welcome-bg.svg",
+    "title": "Welcome to the Connected Market.",
+    "content": "<div style='font-size: 0.9vw;'>Your purchasing decisions matter.<br /><br />Companies and organizations who seek to support BIPOC suppliers via procurement should engage with learning about the history of regional and national food system policies and practices and the cumulative impacts on Black, Indigenous, Latinx, and Asian producers. Many well-intentioned sourcing pilots that target marginalized producers can fail because of blind spots. When BIPOC producers are promised sales that fail to materialize due to flawed pilot design, companies can worsen inequities in the food system and cause deeply damaging breakdowns in trust that can have ripple effects for other pilots. Companies should acknowledge the power they hold and commit themselves to the appropriate preparations to avoid such an outcome. <br /> <br />In a <strong>connected market</strong>, producers are empowered to deliver high-quality goods at a fair price that support both their communities and the marketplace. By becoming a partner in this relationship, food purchasers can source ingredients that champion a food system aligned with their values. <br /><br />Participating in a connected market requires not just being educated but becoming involved. Using this tool will help food purchasers learn more about the ingredients they source and how to ask the right questions to create a BIPOC sourcing pilot that supports a just economy.<br /><br />A connected market is a mindful market. </div>",
+    "footerText": "To the fullest extent possible under law, JUST BIPOC SOURCING has waived all copyrights and related or neighboring rights to this content under a Creative Commons Attribution–NonCommercial–ShareAlike 3.0 IGO (CC BY-NC-SA 3.0 IGO) license.",
+    "logo2": "/public/images/surface1.svg",
+    "logo3": "/public/images/logo-greenbrownblue.svg"
+  },
+  "ingredient": {
+    "backgroundImage": "/public/images/backgrounds/welcome.svg",
+    "finFishImage": "/public/images/finfish.svg",
+    "shellFishImage": "/public/images/shellfish.svg",
+    "seaWeedImage": "/public/images/seaweed.svg",
+    "shrimpImage": "/public/images/shrimp.svg"
+  },
+  "howto": {
+    "Finfish": {
+      "icon": "/public/images/icon-howto.svg",
+      "title": "How to use this tool",
+      "content": "Select the ingredient’s <strong>region</strong> of origin.<br /><br />Answer a <strong>series of questions</strong> based on the principles; these are divided into three thematic areas based on A Greener Blue’s Principles of Aquaculture. <br /><br />Review the <strong>outcomes screen</strong> that scores your supply chain knowledge. <br /><br />Based on your results, you will receive <strong>Get Connected</strong> action cards to help you work with your producers and suppliers to improve your knowledge about the ingredients you source and align your purchasing decisions with your company’s values.",
+      "principlesDesc": "A Greener Blue’s Ten Principles of Finfish Aquaculture are grouped into three areas food purchasers can support: <strong>Planet</strong>, which focuses primarily on the environmental benefits of aquaculture; <strong>People</strong>, which considers the positive effects that sharing aquaculture knowledge and skills can have on women and youth; and <strong>Supply Chains</strong>, which shows how supporting responsible handling and communication between partners builds resilience, accountability, and connection from the water to the table.",
+      "sections": {
+        "planet": {
+          "principles": [
+            "Helps address climate change",
+            "Supports global ecosystems and co-exists with wildlife",
+            "Optimizes impact on water resources and nutrient cycles",
+            "Ensures a safe growing environment for a safe food source"
+          ],
+          "icon": "/public/images/GLOBE.svg",
+          "color": "#42b294"
+        },
+        "people": {
+          "principles": [
+            "Enhances flavor and nutrition",
+            "Prioritizes fair treatment, inclusion, and equality of workers",
+            "Builds resilience and opportunity in local communities"
+          ],
+          "icon": "/public/images/fisherPerson.svg",
+          "color": "#3e89ff"
+        },
+        "Supply Chain": {
+          "principles": [
+            "Preserves the product’s story and quality throughout<br/> the supply chain",
+            "Creates co-products beyond seafood"
+          ],
+          "icon": "/public/images/supplyChain.svg",
+          "color": "#fbb040"
+        }
+      },
+      "learnFact": "Learn more about the A GREENER BLUE team."
+    },
+    "Shellfish": {
+      "icon": "/public/images/icon-howto.svg",
+      "title": "How to use this tool",
+      "content": "Select the ingredient’s <strong>region</strong> of origin.<br /><br />Answer a <strong>series of questions</strong> based on the principles; these are divided into three thematic areas based on A Greener Blue’s Principles of Aquaculture. <br /><br />Review the <strong>outcomes screen</strong> that scores your supply chain knowledge. <br /><br />Based on your results, you will receive <strong>Get Connected</strong> action cards to help you work with your producers and suppliers to improve your knowledge about the ingredients you source and align your purchasing decisions with your company’s values.",
+      "principlesDesc": "A Greener Blue’s Ten Principles of Shellfish Aquaculture are grouped into three areas food purchasers can support: <strong>Planet</strong>, which focuses primarily on the environmental benefits of Aquaculture; <strong>People</strong>, which considers the positive effects that sharing Aquaculture knowledge and skills can have on women and youth; and <strong>Supply Chains</strong>, which shows how supporting responsible handling and communication between partners builds resilience, accountability, and connection from the water to the table.",
+      "sections": {
+        "planet": {
+          "principles": [
+            "Helps address climate change",
+            "Supports global ecosystems and co-exists with wildlife",
+            "Optimizes impact on water resources and nutrient cycles",
+            "Ensures a safe growing environment for a safe food source"
+          ],
+          "icon": "/public/images/GLOBE.svg",
+          "color": "#42b294"
+        },
+        "people": {
+          "principles": [
+            "Enhances flavor and nutrition",
+            "Prioritizes fair treatment, inclusion, and equality of workers",
+            "Builds resilience and opportunity in local communities"
+          ],
+          "icon": "/public/images/fisherPerson.svg",
+          "color": "#3e89ff"
+        },
+        "Supply Chain": {
+          "principles": [
+            "Preserves the product’s story and quality throughout<br/> the supply chain",
+            "Creates co-products beyond seafood"
+          ],
+          "icon": "/public/images/supplyChain.svg",
+          "color": "#fbb040"
+        }
+      },
+      "learnFact": "Learn more about the A GREENER BLUE team."
+    },
+    "Seaweed": {
+      "icon": "/public/images/icon-howto.svg",
+      "title": "How to use this tool",
+      "content": "Select the ingredient’s <strong>region</strong> of origin.<br /><br />Answer a <strong>series of questions</strong> based on the principles; these are divided into three thematic areas based on A Greener Blue’s Principles of Aquaculture. <br /><br />Review the <strong>outcomes screen</strong> that scores your supply chain knowledge. <br /><br />Based on your results, you will receive <strong>Get Connected</strong> action cards to help you work with your producers and suppliers to improve your knowledge about the ingredients you source and align your purchasing decisions with your company’s values.",
+      "principlesDesc": "A Greener Blue’s Ten Principles of Seaweed Aquaculture are grouped into three areas food purchasers can support: <strong>Planet</strong>, which focuses primarily on the environmental benefits of Aquaculture; <strong>People</strong>, which considers the positive effects that sharing Aquaculture knowledge and skills can have on women and youth; and <strong>Supply Chains</strong>, which shows how supporting responsible handling and communication between partners builds resilience, accountability, and connection from the water to the table. Seaweed aquaculture is unique in its many of uses and benefits.",
+      "sections": {
+        "planet": {
+          "principles": [
+            "Helps address climate change",
+            "Positively impacts coastal waters and habitats"
+          ],
+          "icon": "/public/images/GLOBE.svg",
+          "color": "#42b294"
+        },
+        "people": {
+          "principles": [
+            "Builds resilience and self-sufficiency in local communities",
+            "Prioritizes fair treatment, inclusion, and equality of workers"
+          ],
+          "icon": "/public/images/fisherPerson.svg",
+          "color": "#3e89ff"
+        },
+        "Supply Chain": {
+          "principles": [
+            "Preserves the quality and the story of the product throughout<br/> the supply chain",
+            "Generates benefits for diverse uses"
+          ],
+          "icon": "/public/images/supplyChain.svg",
+          "color": "#fbb040"
+        }
+      },
+      "learnFact": "Learn more about the A GREENER BLUE team."
+    },
+    "Shrimp": {
+      "icon": "/public/images/icon-howto.svg",
+      "title": "How to use this tool",
+      "content": "Select the ingredient’s <strong>region</strong> of origin.<br /><br />Answer a <strong>series of questions</strong> based on the principles; these are divided into three thematic areas based on A Greener Blue’s Principles of Aquaculture. <br /><br />Review the <strong>outcomes screen</strong> that scores your supply chain knowledge. <br /><br />Based on your results, you will receive <strong>Get Connected</strong> action cards to help you work with your producers and suppliers to improve your knowledge about the ingredients you source and align your purchasing decisions with your company’s values.",
+      "principlesDesc": "A Greener Blue’s Ten Principles of Shrimp Aquaculture are grouped into three areas food purchasers can support: <strong>Planet</strong>, which focuses primarily on the environmental benefits of aquaculture; <strong>People</strong>, which considers the positive effects that sharing aquaculture knowledge and skills can have on women and youth; and <strong>Supply Chains</strong>, which shows how supporting responsible handling and communication between partners builds resilience, accountability, and connection from the water to the table. Shrimp aquaculture is unique in its multiplicity of uses and benefits. ",
+      "sections": {
+        "planet": {
+          "principles": [
+            "Helps address climate change",
+            "Supports global ecosystems and co-exists with wildlife",
+            "Optimizes impact on water resources and nutrient cycles",
+            "Ensures a safe growing environment for a safe food source",
+            "Advance animal welfare"
+          ],
+          "icon": "/public/images/GLOBE.svg",
+          "color": "#42b294"
+        },
+        "people": {
+          "principles": [
+            "Enhances flavor and nutrition",
+            "Prioritizes fair treatment, inclusion, and equality of workers",
+            "Builds resilience and opportunity in local communities"
+          ],
+          "icon": "/public/images/fisherPerson.svg",
+          "color": "#3e89ff"
+        },
+        "Supply Chain": {
+          "principles": [
+            "Preserves the quality and the story of the product throughout<br/> the supply chain"
+          ],
+          "icon": "/public/images/supplyChain.svg",
+          "color": "#fbb040"
+        }
+      },
+      "learnFact": "Learn more about the A GREENER BLUE team."
+    }
+  },
+  "region": {
+    "title": "Let’s create your connected market.",
+    "content": "By shortening and eliminating the blindness from your supply chain, you can name the place and person from which the ingredients you source originate."
+  },
+  "section": {
+    "Finfish": {
+      "planet": {
+        "progress": "1",
+        "color": "#42b294",
+        "introIcon": "/public/images/GLOBEIntro.svg",
+        "icon": "/public/images/Group 666.svg",
+        "title": "The environmental benefits of aquaculture",
+        "sectionIntroHeadings": [
+          {
+            "title": "Helps address climate change",
+            "icon": "/public/images/CARBONFOOTPRINT.svg"
+          },
+          {
+            "title": "Supports global ecosystems and co-exists with wildlife",
+            "icon": "/public/images/COASTAL.svg"
+          },
+          {
+            "title": "Optimizes impact on water resources and nutrient cycles",
+            "icon": "/public/images/IMPROVEDWATERQUALITY-VerónicaDiaz.svg"
+          },
+          {
+            "title": "Ensures a safe growing environment for a safe food source",
+            "icon": "/public/images/REDUCEDINPUTS-AQUACULTURE.svg"
+          },
+          {
+            "title": "Advances animal welfare",
+            "icon": "/public/images/FISHFRIENDLY.svg"
+          }
+        ],
+        "principles": [
+          {
+            "progress": "2",
+            "title": "Helps Address Climate Change",
+            "resultTitle": "Helps address climate change",
+            "resultIcon": "/public/images/Group 650.svg",
+            "icon": "/public/images/finfish/imag1.svg",
+            "cls": "finFish1",
+            "titleCls": "finFish1Title",
+            "principleNo": "1",
+            "practices": [
+              "Producer sells locally to reduce food miles",
+              "Producer and distributor use lower-carbon transportation methods (i.e. reduced or zero air freight)",
+              "Renewable energy is used at production and processing sites",
+              "Producer uses deforestation-free feed",
+              "Product packaging is sustainable (ex: reusable, recyclable, or biodegradable)",
+              "I don’t know"
+            ],
+            "text": "To fulfill its role as the sustainable protein source of the future, farmed fish must also play a part in building climate resilience and preparedness. Research suggests seafood has a notably lower carbon footprint than beef and pork, but beyond the choice of <strong>what to eat</strong>, there are ways to address emissions and resource use in <strong>how we grow and process</strong>. Whether it is through the product they grow or the types of transportation they choose, farmers and supply chain actors can work together to instill climate-smart practices into aquaculture.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle 1 – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1uxySW2AHjL4z_4CzbFZUJM6tbOsep_aD/view"
+          },
+          {
+            "progress": "3",
+            "title": "SUPPORTS GLOBAL ECOSYSTEMS AND COEXISTS WITH WILDLIFE",
+            "resultTitle": "Supports global ecosystems and co-exists with wildlife",
+            "resultIcon": "/public/images/Group 651.svg",
+            "icon": "/public/images/finfish/imag2.svg",
+            "cls": "finFish1",
+            "titleCls": "",
+            "principleNo": "2",
+            "practices": [
+              "Producer leads or supports restoration projects",
+              "Producer creates new habitat using growing medium",
+              "Operation respects and protects marine wildlife (ex: producer does not kill animals; uses non-lethal predator barriers)",
+              "Producer actively works to reduce entanglement and is transparent about entanglement events",
+              "Producer fallows (rests) sites",
+              "Sites are placed away from vulnerable wild stocks and sensitive habitats",
+              "Emergency nets and double barriers are used to prevent escapes",
+              "Escape events are documented",
+              "Producer uses and improves sustainable feed models and feed transparency",
+              "I don’t know"
+            ],
+            "text": "Farmed seafood now makes up over 50% of all seafood eaten around the world. It is a key protein source for the future and is scaling rapidly, but it comes with external costs. Whether land or marine-based, fish farms must scale appropriately and safely. When farms are constructed and maintained with the surrounding wildlife and habitat in mind, they can mitigate impacts on the natural environment.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle 2 – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1etIaI5kvgmFs6D_b5POewiLkHz3ckyou/view"
+          },
+          {
+            "progress": "4",
+            "title": "OPTIMIZES IMPACT ON WATER RESOURCES AND NUTRIENT",
+            "resultTitle": "Optimizes impact on water resources and nutrient cycles",
+            "resultIcon": "/public/images/IMPROVEDWATERQUALITY-VerónicaDiaz (2).svg",
+            "icon": "/public/images/finfish/imag3.svg",
+            "cls": "",
+            "titleCls": "",
+            "principleNo": "3",
+            "practices": [
+              "Operation, often land-based, captures “waste” and creates co-products from excess nutrients (ex: compost or fertilizer)",
+              "Producer reclaims nutrients as food (ex: aquaponics)",
+              "Regular testing and monitoring for nitrogen and phosphorus",
+              "Collaboration and data sharing with researchers",
+              "Limited freshwater use for production",
+              "Land-based producers have programs to reclaim or re-apply discharged water",
+              "I don’t know"
+            ],
+            "text": "In a time when ocean chemistry is changing dramatically and freshwater resources are under increasing stress, how producers use and treat  water could determine not only an aquaculture farm’s viability, but our food systems and watersheds. Whether in the ocean or on land, producers can monitor water quality, eliminate waste accumulation, or capture nutrients that would otherwise leak into the environment.",
+            "question": "How much visibility do you have into the farming practices of this ingredient? ",
+            "bg": "/public/images/backgrounds/Principle 3 – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1UiO-BLt3LCLvdua9Cav1aF4XQaHCuZRZ/view"
+          },
+          {
+            "progress": "5",
+            "title": "PROMOTES A SAFE GROWING ENVIRONMENT",
+            "resultTitle": "Ensures a safe growing environment for a safe food source",
+            "resultIcon": "/public/images/Group 694.svg",
+            "icon": "/public/images/finfish/imag4.svg",
+            "cls": "",
+            "titleCls": "finFish4",
+            "principleNo": "4",
+            "practices": [
+              "Producer tests for and reports contaminant levels",
+              "Inputs are actively reduced",
+              "Producer does not feed antibiotics",
+              "Producer adheres to appropriate withdrawal period if antibiotics are prescribed for welfare",
+              "Producer does not use colorants, herbicides, or chemicals",
+              "Producer has regular and redundant pest and disease monitoring systems ",
+              "Disease outbreaks and mortality events at production sites are documented",
+              "I don’t know"
+            ],
+            "text": "Where a farm is placed and which inputs are added to it not only affect ecosystem health and fish welfare, but the health of the people who eat its products. Pest management, disease, and external contaminants can be managed in creative ways using new AI-based technology or supporting the natural responses of the local ecosystem and raised species.",
+            "question": "How much visibility do you have into the farming practices of this ingredient? ",
+            "bg": "/public/images/backgrounds/Principle 4 – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1EL6X075GQdMBdUt4CEV7DsgPy8JjVa_j/view"
+          },
+          {
+            "progress": "6",
+            "title": "ADVANCES ANIMAL WELFARE",
+            "resultTitle": "Advances animal welfare",
+            "resultIcon": "/public/images/Group 684.svg",
+            "icon": "/public/images/finfish/imag5.svg",
+            "cls": "",
+            "titleCls": "",
+            "principleNo": "5",
+            "practices": [
+              "Fish can access light and shade as desired",
+              "Stocking densities are optimized based on species and life stage",
+              "Fish are given species appropriate feed (for example, feed is not made with the same species being raised)",
+              "Feed ingredients using marine resources are from a traceable/reliable source (e.g. from healthy reduction fisheries stocks)",
+              "Producers use a humane method of slaughtering (ex: Percussive, electric, or anesthetic stunning; slaughter performed directly at rearing facility, etc.)",
+              "I don’t know"
+            ],
+            "text": "Just as stressing a cow before harvest generates tough flesh, so too does stressing a fish. Not only is welfare important for the final product, but it is important to the well-being and animal happiness. Approximately 100 billion aquatic animals are farmed each year in neglected, sufferable conditions. Until recently, there has been little advocacy aimed at improving fish welfare. As aquaculture scales up, welfare policies and innovations must be supported. A happier fish means a healthier environment and a safer food source.",
+            "question": "How much visibility do you have into the farming practices of this ingredient? ",
+            "bg": "/public/images/backgrounds/Principle 5 – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1eHcyiwBZXjhoXmmbW1gXwgJwqJo2xIqJ/view"
+          }
+        ]
+      },
+      "people": {
+        "color": "#3e89ff",
+        "progress": "7",
+        "icon": "/public/images/Group 660.svg",
+        "introIcon": "/public/images/FISHERPERSON-FilipaCampos-2.svg",
+        "title": "Sharing aquaculture knowledge and skills",
+        "sectionIntroHeadings": [
+          {
+            "title": "Enhances flavor and nutrition",
+            "icon": "/public/images/Layer_21.svg"
+          },
+          {
+            "title": "Builds resilience and opportunity in local communities",
+            "icon": "/public/images/COMMUNITY-LOCAL (1).svg"
+          },
+          {
+            "title": "Prioritizes fair treatment of workers, inclusion, and equality",
+            "icon": "/public/images/WORKERWELFARE (1).svg"
+          }
+        ],
+        "principles": [
+          {
+            "progress": "8",
+            "title": "ENHANCES FLAVOR AND NUTRITION",
+            "resultTitle": "Enhances flavor and nutrition",
+            "resultIcon": "/public/images/Group 683.svg",
+            "icon": "/public/images/finfish/imag6.svg",
+            "cls": "",
+            "titleCls": "",
+            "principleNo": "6",
+            "practices": [
+              "Optimization or continuous improvement of Omega 3 fatty acids",
+              "Omega 3 to Omega 6 ratios (Omega 6s can cause inflammation in people)",
+              "Product is frozen at peak freshness",
+              "Product is consistent in color, size, and texture",
+              "Product is refrozen or refreshed only once after initial freezing",
+              "Product is low in fat, and high in protein",
+              "I don’t know"
+            ],
+            "text": "From sugar kelp to scallops to salmon, aquatic foods are nutrient dense and a major source of protein, trace minerals, and healthy Omega 3 fatty acids. Recent studies show that consuming aquatic foods can improve brain development and heart health and reduce the risk of cancer. With new innovations, knowledge sharing, and culinary imagination, chefs and producers are bringing a consistently healthy product to our tables in newly delicious ways.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle 6 – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1lBe1CXoKVDiiAc1N6LTMKx-il7thnnyE/view"
+          },
+          {
+            "progress": "9",
+            "title": "BUILDS RESILIENCE AND SELF-SUFFICIENCY IN LOCAL COMMUNITIES",
+            "resultTitle": "Prioritizes fair treatment of workers, inclusion, and equality",
+            "resultIcon": "/public/images/Group 682.svg",
+            "icon": "/public/images/finfish/imag7.svg",
+            "cls": "finFish7",
+            "titleCls": "",
+            "principleNo": "7",
+            "practices": [
+              "Producers and processors leverage existing waterfront infrastructure, knowledge, and labor",
+              "Producer or supplier offers equipment sharing or financial support programs",
+              "Supply chain partners work directly with smallholder farmers",
+              "Producer and suppliers target vulnerable regions and communities to increase climate preparedness",
+              "Partners support education programs and job training",
+              "Operations are part of local ecotourism industry",
+              "Producer leads community education programs",
+              "Partners respect and work with Indigenous/First Nation communities",
+              "Producer enables community participation in resource management and decision making (ex: town hall meetings)",
+              "I don’t know"
+            ],
+            "text": "Working waterfronts have been central to coastal communities’ culture and economy, but now face declining wild stocks, unrenewed permits, and rising sea levels. Aquaculture, in its incredible diversity of species and production methods, can mobilize workers in coastal communities, leverage existing infrastructure, and benefit from the generational knowledge of fishers and farmers. When producers are embedded in their communities and create space for public collaboration and decision making, they enable bottom-up place-based solutions, economic security, and regional food sovereignty.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle 7 – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1k-sfgMfDRlDcHEiTdPSok7UMP4oE8FKQ/view"
+          },
+          {
+            "progress": "10",
+            "title": "PRIORITIZES INCLUSION, EQUALITY AND FAIR TREATMENT OF WORKERS",
+            "resultTitle": "Builds resilience and opportunity in local communities",
+            "resultIcon": "/public/images/Group 681.svg",
+            "icon": "/public/images/finfish/imag8.svg",
+            "cls": "finFish7",
+            "titleCls": "",
+            "principleNo": "8",
+            "practices": [
+              "No bonded or forced labor, trafficking, or child labor",
+              "Health care and benefits are offered",
+              "Social, environmental, and safety training is provided at each site for all workers",
+              "Pay equity is guaranteed",
+              "Policies improve and ensure religious, ethnic, and gender equity",
+              "Producer engages in mentorship",
+              "Mentorship includes people from underserved communities",
+              "Employers engage in and do not inhibit collective bargaining or union organizing",
+              "Workers make a livable wage",
+              "I don’t know"
+            ],
+            "text": "Women make up over 50% of the seafood-industry workforce yet are underrepresented in leadership and ownership roles. Aquaculture can weave fair and equal labor treatment into its expanding fabric. Gender equality is just one part of the equation. Fair compensation, and racial and religious equity are also central to a holistic aquaculture system. Both producers, suppliers, and retail owners can implement policies like non-discrimination, living wages, pay equity, and management practices like allowing collective bargaining, hiring women and members of marginalized communities into leadership roles to support, value, and include all workers.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle 8 – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1rtKjvnd8irXkAqAX8N5HiWrDzET6q6J0/view"
+          }
+        ]
+      },
+      "Supply Chain": {
+        "color": "#fbb040",
+        "progress": "11",
+        "icon": "/public/images/Group 654.svg",
+        "introIcon": "/public/images/VALUE_CHAIN_DIVYA_PR.svg",
+        "title": "Strengthening local economies and helping communities achieve greater food security",
+        "sectionIntroHeadings": [
+          {
+            "title": "Preserves the quality and story of the product throughout the supply chain",
+            "icon": "/public/images/Your_Icon.svg"
+          },
+          {
+            "title": "Creates co-products beyond seafood",
+            "icon": "/public/images/BIOGAS-JorgeDavidMendozaGordillo.svg"
+          }
+        ],
+        "principles": [
+          {
+            "progress": "12",
+            "title": "PRESERVES THE QUALITY AND THE STORY OF THE PRODUCT THROUGHOUT THE SUPPLY CHAIN",
+            "resultTitle": "Preserves the quality and story of the product throughout the supply chain",
+            "resultIcon": "/public/images/Group 680.svg",
+            "icon": "/public/images/finfish/imag9.svg",
+            "cls": "",
+            "titleCls": "",
+            "principleNo": "9",
+            "practices": [
+              "Cold chain procedures are present",
+              "Machine to machine sensor inputs (ex: data from satellites, thermometers) are used",
+              "Producer and supplier have clear and shared traceability values",
+              "Traceability platforms are interoperable; they can easily share data in a standardized and automated fashion",
+              "Key data elements align with industry standards",
+              "Identity preservation: stories and information of people, place, and practices are included in product branding",
+              "Consumer transparency mechanisms (i.e. QR codes on labeling)",
+              "Supplier is transparent about supply chain length and actors involved",
+              "Identities of supply chain actors from harvest to end consumer are available",
+              "I don’t know"
+            ],
+            "text": "Transparency and traceability are needed not only to guarantee the quality and safety of our foods but also relay the story of the people and place that produced them. Companies that are vertically integrated or shorten their supply chains can better track where their product goes, how it is changed, and whether their story gets told to a consumer. New technologies, alongside established industry best practices, allow partners to easily share data between steps in the supply chain. When everyone involved is aligned on how to maintain the integrity and identity of a product, seafood becomes more honest and sustainable.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle 9 – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/13TVUoj5_4TG6vwybR3iNQwDNholQP5uR/view"
+          },
+          {
+            "progress": "13",
+            "title": "CREATES CO-PRODUCTS BEYOND SEAFOOD",
+            "resultTitle": "Creates co-products beyond seafood",
+            "resultIcon": "/public/images/Group 655.svg",
+            "icon": "/public/images/finfish/imag10.svg",
+            "cls": "finFish1",
+            "titleCls": "finFish10Title",
+            "principleNo": "10",
+            "practices": [
+              "Non-food products (compost/fertilizer, fish oil, pet food) are produced",
+              "New co-products (i.e. biogas derived from fish offal) are researched and developed",
+              "Other waste reduction and diversion programs are supported",
+              "I don’t know"
+            ],
+            "text": "Aquaculture generates products beyond the fillet. Co-products, unlike by-products, are additional materials created during production that have value and are not thrown away. Fish producers are exploring creative ways to eliminate solid waste or freshwater discharge. Aquaponic systems generate leafy greens in addition to fish. New science is exploring the production of biogas from fish offal. These are just a few. Whatever the co-product, producers and their partners can establish additional channels and processing steps that reduce waste and generate sustainable alternatives to regular commodities.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle 10 – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1ouQSH_yS5RYpnnC9k1Fssf-OXkXlmZk9/view"
+          }
+        ]
+      }
+    },
+    "Shellfish": {
+      "planet": {
+        "color": "#42b294",
+        "icon": "/public/images/Group 666.svg",
+        "progress": "1",
+        "title": "The environmental benefits of aquaculture",
+        "introIcon": "/public/images/GLOBEIntro.svg",
+        "sectionIntroHeadings": [
+          {
+            "title": "Helps address climate change",
+            "icon": "/public/images/CARBONFOOTPRINT.svg"
+          },
+          {
+            "title": "Supports global ecosystems and co-exists with wildlife",
+            "icon": "/public/images/COASTAL.svg"
+          },
+          {
+            "title": "Optimizes impact on water resources and nutrient cycles",
+            "icon": "/public/images/IMPROVEDWATERQUALITY-VerónicaDiaz.svg"
+          },
+          {
+            "title": "Ensures a safe growing environment for a safe food source",
+            "icon": "/public/images/REDUCEDINPUTS-AQUACULTURE.svg"
+          },
+          {
+            "title": "Advances animal welfare",
+            "icon": "/public/images/FISHFRIENDLY.svg"
+          }
+        ],
+        "principles": [
+          {
+            "progress": "2",
+            "title": "Helps Address Climate Change",
+            "resultTitle": "Helps address climate change",
+            "resultIcon": "/public/images/Group 650.svg",
+            "icon": "/public/images/finfish/imag1.svg",
+            "cls": "finFish1",
+            "titleCls": "finFish1Title",
+            "principleNo": "1",
+            "practices": [
+              "Producer sells locally to reduce food miles",
+              "Producer and distributor use lower-carbon transportation methods (i.e. reduced or zero air freight)",
+              "Renewable energy use at production and processing sites",
+              "Product packaging is sustainable (ex: reusable, recyclable, or biodegradable)",
+              "Producer works with scientists and coastal agencies on climate change preparedness",
+              "I don’t know"
+            ],
+            "text": "To fulfill its role as the sustainable protein source of the future, farmed fish must also play a part in building climate resilience and preparedness. Research suggests seafood has a notably lower carbon footprint than beef and pork, but beyond the choice of <strong>what to eat</strong>, there are ways to address emissions and resource use in <strong>how we grow and process</strong>. Whether it is through the product they grow or the types of transportation they choose, farmers and supply chain actors can work together to instill climate-smart practices into aquaculture.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle 01.svg",
+            "actionCard": "https://drive.google.com/file/d/1py0qqS9uM8-uRuS-YS2_N_2bnGtXJDmP/view"
+          },
+          {
+            "progress": "3",
+            "title": "SUPPORTS GLOBAL ECOSYSTEMS aND COEXISTS WITH WILDLIFE",
+            "resultTitle": "Supports global ecosystems and co-exists with wildlife",
+            "resultIcon": "/public/images/Group 651.svg",
+            "icon": "/public/images/finfish/imag2.svg",
+            "cls": "ShellFish2",
+            "titleCls": "",
+            "principleNo": "2",
+            "practices": [
+              "Producer leads or supports restoration projects (ex: eel grass or oyster reefs)",
+              "Producer creates new habitat using growing medium",
+              "Operation respects and protects marine wildlife (i.e. producer does not kill animals, uses non-lethal predator barriers)",
+              "Producer actively works to reduce entanglement and is transparent about entanglement events ",
+              "Sites are placed away from vulnerable wild stocks and sensitive habitats",
+              "Operations help mitigate coastal erosion",
+              "I don’t know"
+            ],
+            "text": "<div style='font-size: 0.9vw; width: 33.5vw;'>When farms are constructed and maintained with the surrounding wildlife and habitat in mind, they can benefit rather than harm the natural environment. Mollusk farms, waters producing oysters, clams, mussels, and scallops, have inherent beneficial impacts on the surrounding environment. No additional intervention or secret sauce needed. Cages teem with microorganisms, algae and fish living symbiotically with the shellfish culture. Shellfish also do not require inputs, so their presence is not followed by feed, antibiotics, or additional pollutants.</div>",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle 02.svg",
+            "actionCard": "https://drive.google.com/file/d/1lHGoBXBrGZSAkCdeH_p3b8EFO-_t5WVJ/view"
+          },
+          {
+            "progress": "4",
+            "title": "OPTIMIZES IMPACT ON WATER RESOURCES AND NUTRIENT CYCLES",
+            "resultTitle": "Optimizes impact on water resources and nutrient cycles",
+            "resultIcon": "/public/images/IMPROVEDWATERQUALITY-VerónicaDiaz (2).svg",
+            "icon": "/public/images/finfish/imag3.svg",
+            "cls": "",
+            "titleCls": "",
+            "principleNo": "3",
+            "practices": [
+              "Regular testing and monitoring regimens for excess nutrients and pollutants",
+              "No freshwater used for production ",
+              "Collaboration and data sharing with researchers",
+              "Producer increased monitoring in the region, benefitting neighboring operations",
+              "Producer keeps extensive records of water-quality history",
+              "I don’t know"
+            ],
+            "text": "Shellfish, in addition to not needing freshwater for production, clean and filter the surrounding marine waters. By taking up nutrients like phosphorus and nitrogen, shellfish play a crucial part in stabilizing ocean chemistry, which, when properly balanced, protects against events like ocean acidification. Because shellfish farms are sites of significant change, they contribute to major water quality and ocean chemistry research and increased monitoring throughout their region.",
+            "question": "How much visibility do you have into the farming practices of this ingredient? ",
+            "bg": "/public/images/backgrounds/Principle 3.svg",
+            "actionCard": "https://drive.google.com/file/d/1tc6bdn9rUD77XC-_7sbjUEDBt2MujkDK/view"
+          },
+          {
+            "progress": "5",
+            "title": "PROMOTES A SAFE GROWING ENVIRONMENT FOR FOOD",
+            "resultTitle": "Ensures a safe growing environment for a safe food source",
+            "resultIcon": "/public/images/Group 694.svg",
+            "icon": "/public/images/finfish/imag4.svg",
+            "cls": "",
+            "titleCls": "ShellFish4title",
+            "principleNo": "4",
+            "practices": [
+              "Producer tests for and reports bacteria levels",
+              "Producer has regular and redundant pest and disease monitoring systems",
+              "Regular inspection and sanitation regimens",
+              "Disease outbreaks and mortality events at production sites are documented",
+              "Producer manages a hatchery and implements a biosecurity plan (High Health Plan)",
+              "Producer obtains necessary permits for seed transfers",
+              "Producer applies additional filtration or purification before distribution",
+              "I don’t know"
+            ],
+            "text": "Because shellfish require no feed, there are no on-farm inputs that threaten the biosecurity of grow-out sites. Shellfish standards in areas like the United States are extremely rigid, requiring producers to record years of highly-traceable data on water quality, viruses, and bacteria levels. Producers that manage hatcheries can further control and protect their stock so spat (larvae) do not transmit disease or absorb harmful bacteria.",
+            "bg": "/public/images/backgrounds/Principle 4.svg",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "actionCard": "https://drive.google.com/file/d/1MQYHXVpigk8OHYKiD6SCsi6qVznspO0Y/view"
+          },
+          {
+            "progress": "6",
+            "title": "ADVANCES ANIMAL WELFARE",
+            "resultTitle": "Advances animal welfare",
+            "resultIcon": "/public/images/Group 684.svg",
+            "icon": "/public/images/finfish/imag5.svg",
+            "cls": "",
+            "titleCls": "",
+            "principleNo": "5",
+            "practices": [""],
+            "text": "Bivalves are living, growing creatures, yet the intersection of animal welfare and bivalves is not well established. Researchers are still exploring their level of sentience. Welfare specifications in standards or certifications do not exist for bivalves as they do for fish. However, as with fish, we know that welfare does not exist in a silo–it is tied to every principle of responsible management. A producer’s application of the other nine principles illustrates the health and vitality of their product. Shellfish producers who maintain strong water quality and responsible densities promote long-term group health, a central pillar of welfare.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle 5.svg",
+            "actionCard": "https://drive.google.com/file/d/1s6q_TM74qofXLMLb62Auh84TiJ7F3cC0/view"
+          }
+        ]
+      },
+      "people": {
+        "color": "#3e89ff",
+        "progress": "7",
+        "icon": "/public/images/Group 660.svg",
+        "introIcon": "/public/images/FISHERPERSON-FilipaCampos-2.svg",
+        "title": "Sharing aquaculture knowledge and skills",
+        "sectionIntroHeadings": [
+          {
+            "title": "Enhances flavor and nutrition",
+            "icon": "/public/images/Layer_21.svg"
+          },
+          {
+            "title": "Builds resilience and opportunity in local communities",
+            "icon": "/public/images/COMMUNITY-LOCAL (1).svg"
+          },
+          {
+            "title": "Prioritizes fair treatment of workers, inclusion, and equality",
+            "icon": "/public/images/WORKERWELFARE (1).svg"
+          }
+        ],
+        "principles": [
+          {
+            "progress": "8",
+            "title": "ENHANCES FLAVOR AND NUTRITION",
+            "resultTitle": "Enhances flavor and nutrition",
+            "resultIcon": "/public/images/Group 683.svg",
+            "icon": "/public/images/finfish/imag6.svg",
+            "cls": "ShellFish6",
+            "titleCls": "ShellFish6Title",
+            "principleNo": "6",
+            "practices": [
+              "Producer has access to grading technology to assure size and shape uniformity ",
+              "Producer has internal size standards and tracking systems",
+              "Time to market is decreased (ex: harvest the day of distribution)",
+              "Processors and suppliers maintain temperature control",
+              "Producer use wet storage as opposed to dry storage ",
+              "Producer transfers shellfish into highly controlled finishing tanks before distribution",
+              "I don’t know"
+            ],
+            "text": "From sugar kelp to scallops to salmon, aquatic foods are nutrient dense and a major source of protein, trace minerals, and healthy Omega 3 fatty acids. Shellfish is a low-fat, high-protein food rich in essential minerals such as iron, zinc, and copper. While not traditionally a center-of-the-plate protein, shellfish are nutrient dense, providing a high concentration of beneficial nutrients in a small bite. Internal tracking and quality standards, increased access to grading technology, and storage practices improve consistency and perishability meaning better texture, flavor, and nutritional value.",
+            "bg": "/public/images/backgrounds/Principle 6.svg",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "actionCard": "https://drive.google.com/file/d/1Kf6mSlcofgxo_qk7L9ejf4JMdZeZ3QnV/view"
+          },
+          {
+            "progress": "9",
+            "title": "BUILDS RESILIENCE AND SELF-SUFFICIENCY IN LOCAL COMMUNITIES",
+            "resultTitle": "Prioritizes fair treatment of workers, inclusion, and equality",
+            "resultIcon": "/public/images/Group 682.svg",
+            "icon": "/public/images/finfish/imag7.svg",
+            "cls": "finFish7",
+            "titleCls": "",
+            "principleNo": "7",
+            "practices": [
+              "Producer and processors leverage existing waterfront infrastructure, knowledge, and labor",
+              "Supply-chain partners work directly with smallholder farmers",
+              "Producer and suppliers target vulnerable regions and communities to increase climate preparedness",
+              "Producer or supplier offers equipment sharing or financial-support programs",
+              "Partners support education programs and job training",
+              "Operations are part of local ecotourism industry",
+              "Producer leads community education programs",
+              "Partners respect and work with Indigenous/First Nation communities",
+              "Producer enables community participation in resource management and decision making (ex: town hall meetings)",
+              "I don’t know"
+            ],
+            "text": "<div style='width: 28vw;'>Working waterfronts have been central to coastal communities’ culture and economy, but now face declining wild stocks, unrenewed permits, and rising sea levels. Aquaculture, in its incredible diversity of species and production methods can mobilize workers in coastal communities, leverage existing infrastructure, and benefit from the generational knowledge of fishers and farmers. When producers are embedded in their communities and create space for public collaboration and decision making, they enable bottom-up place-based solutions, economic security, and regional food sovereignty.</div>",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle 7.svg",
+            "actionCard": "https://drive.google.com/file/d/1KBRf240bUM4ji0gXHyxJZvUDkPrejLmh/view"
+          },
+          {
+            "progress": "10",
+            "title": "PRIORITIZES INCLUSION, EQUALITY AND FAIR TREATMENT OF WORKERS",
+            "resultTitle": "Builds resilience and opportunity in local communities",
+            "resultIcon": "/public/images/Group 681.svg",
+            "icon": "/public/images/finfish/imag8.svg",
+            "cls": "finFish7",
+            "titleCls": "",
+            "principleNo": "8",
+            "practices": [
+              "No bonded or forced labor, trafficking, or child labor",
+              "Health care and benefits are offered",
+              "Social, environmental, and safety training is provided at each site for all workers",
+              "Pay equity is guaranteed",
+              "Policies improve and ensure religious, ethnic, and gender equity",
+              "Producer engages in mentorship",
+              "Mentorship includes people from underserved communities",
+              "Employers engage in and do not inhibit collective bargaining or union organizing",
+              "Workers make a livable wage",
+              "I don’t know"
+            ],
+            "text": "Women make up over 50% of the seafood-industry workforce yet are underrepresented in leadership and ownership roles. Aquaculture can weave fair and equal labor treatment into its expanding fabric. Gender equality is just one part of the equation. Fair compensation, and racial and religious equity are also central to a holistic aquaculture system. Both producers, suppliers, and retail owners can implement policies like non-discrimination, living wages, pay equity, and management practices like allowing collective bargaining, hiring women and members of marginalized communities into leadership roles to support, value, and include all workers.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle 8.svg",
+            "actionCard": "https://drive.google.com/file/d/1hRwycc__uua9acWPi-MpxAGFPLoLmDJ4/view"
+          }
+        ]
+      },
+      "Supply Chain": {
+        "color": "#fbb040",
+        "progress": "11",
+        "icon": "/public/images/Group 654.svg",
+        "introIcon": "/public/images/VALUE_CHAIN_DIVYA_PR.svg",
+        "title": "Strengthening local economies and helping communities achieve greater food security",
+        "sectionIntroHeadings": [
+          {
+            "title": "Preserves the quality and story of the product throughout the supply chain",
+            "icon": "/public/images/Your_Icon.svg"
+          },
+          {
+            "title": "Creates co-products beyond seafood",
+            "icon": "/public/images/BIOGAS-JorgeDavidMendozaGordillo.svg"
+          }
+        ],
+        "principles": [
+          {
+            "progress": "12",
+            "title": "PRESERVES THE QUALITY AND THE STORY OF THE PRODUCT THROUGHOUT THE SUPPLY CHAIN",
+            "resultTitle": "Preserves the quality and story of the product throughout the supply chain",
+            "resultIcon": "/public/images/Group 680.svg",
+            "icon": "/public/images/finfish/imag9.svg",
+            "cls": "ShellFish9",
+            "titleCls": "ShellFish9Title",
+            "principleNo": "9",
+            "practices": [
+              "Cold chain procedures are present",
+              "Machine to machine sensor inputs (ex: data from satellites, thermometers) are used",
+              "Producer and supplier have clear and shared traceability values",
+              "Traceability platforms are interoperable; they can easily share data in a standardized and automated fashion",
+              "Key data elements align with industry standards",
+              "Identity preservation: stories and information of people, place, and practices are included in product branding",
+              "Consumer transparency mechanisms (i.e. QR codes on labeling)",
+              "Supplier is transparent about supply-chain length and actors involved",
+              "Identities of supply-chain actors from harvest to end consumer are used",
+              "I don’t know"
+            ],
+            "text": "Transparency and traceability are needed not only to guarantee the quality and safety of our foods but also relay the story of the people and place that produce them. Companies that are vertically integrated or shorten their supply chains can keep better track of where their product goes, how it is changed, and whether their story gets told to a consumer. New technologies, alongside established industry best practices, allow partners to easily share data between steps in the supply chain. When everyone involved is aligned on how to maintain the integrity and identity of a product, seafood becomes more honest and sustainable.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle 9.svg",
+            "actionCard": "https://drive.google.com/file/d/1ReSAKx6OKoByvKyKX96UoQpoxJ2XMQoF/view"
+          },
+          {
+            "progress": "13",
+            "title": "CREATES CO-PRODUCTS BEYOND SEAFOOD",
+            "resultTitle": "Creates co-products beyond seafood",
+            "resultIcon": "/public/images/Group 655.svg",
+            "icon": "/public/images/finfish/imag10.svg",
+            "cls": "ShellFish10",
+            "titleCls": "finFish10Title",
+            "principleNo": "10",
+            "practices": [
+              "Producer generates soil amendments (compost/fertilizer)",
+              "Shucked shells are used as an ingredient in poultry feed",
+              "Supply chain partners recover shucked shells for oyster-reef restoration",
+              "Other waste reduction and diversion programs are supported",
+              "I don’t know"
+            ],
+            "text": "<div style='width: 30vw; margin-top: -10px;'>Aquaculture includes products beyond the oyster.  Co-products, unlike by-products, are additional materials created during production that have value and are not thrown away. Waste and leftover shells from shellfish farms can be reclaimed as compost or fertilizer. Shells are also an ingredient in poultry feed. However, co-products can also have applications beyond food or agriculture. Shucked oyster shells can be collected and used as substrate to grow more oysters or return to seabeds to catalyze oyster reef restoration.</div>",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle 10.svg",
+            "actionCard": "https://drive.google.com/file/d/1UgZvrMdPdpkTeUtIsgAbbfvOmvF2IYf1/view"
+          }
+        ]
+      }
+    },
+    "Seaweed": {
+      "planet": {
+        "color": "#42b294",
+        "progress": "1",
+        "icon": "/public/images/Group 666.svg",
+        "introIcon": "/public/images/GLOBEIntro.svg",
+        "title": "The environmental benefits of aquaculture",
+        "sectionIntroHeadings": [
+          {
+            "title": "Helps address climate change",
+            "icon": "/public/images/CARBONFOOTPRINT.svg"
+          },
+          {
+            "title": "Positively impacts coastal waters and habitats",
+            "icon": "/public/images/COASTAL.svg"
+          }
+        ],
+        "principles": [
+          {
+            "progress": "2",
+            "title": "Helps Address Climate Change",
+            "resultTitle": "Helps address climate change",
+            "resultIcon": "/public/images/Group 650.svg",
+            "icon": "/public/images/finfish/imag1.svg",
+            "cls": "finFish1",
+            "titleCls": "finFish1Title",
+            "principleNo": "1",
+            "practices": [
+              "Producer engages in research to track nutrient uptake and sequestration",
+              "Producer receives credits/monetary compensation for nutrient uptake (nitrogen, phosphorus, or carbon)",
+              "Producer grows seaweed for livestock-feed additives that reduce methane emissions from cows",
+              "Producer sells locally to reduce food miles",
+              "Producer and distributor use lower-carbon transportation methods (i.e. reduced or zero air freight)",
+              "Renewable energy is used at production and processing sites",
+              "Product packaging is sustainable (ex: reusable, recyclable, or biodegradable)",
+              "I don’t know"
+            ],
+            "text": "Seaweeds contribute wide-reaching ecosystem services both in the water during grow-out and in their application.  Research shows that seaweeds sequester inorganic nutrients (nitrogen, phosphorus, carbon, etc.) and transform them into organic compounds which are to avoiding nutrient depletion. Producers can mitigate climate-change impacts through nutrient-uptake management during cultivation, emission reductions related to production and distribution, and species and application choices. The multiple intersections of seaweed and climate change make seaweed aquaculture an important tool for addressing broad concerns of climate change, but also reducing the impact on humans.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1Ns5GsVIswFATASZyYFlDfaWIDxz9BI35/view"
+          },
+          {
+            "progress": "3",
+            "title": "POSITIVELY IMPACTS COASTAL WATERS AND HABITATS",
+            "resultTitle": "Positively impacts coastal waters and habitats",
+            "resultIcon": "/public/images/Group 651.svg",
+            "icon": "/public/images/finfish/imag2.svg",
+            "cls": "finFish1",
+            "titleCls": "",
+            "principleNo": "2",
+            "practices": [
+              "Producer leads or supports restoration projects (ex: reseeding kelp forests)",
+              "Producer creates new habitat using growing medium",
+              "Operation respects and protects marine wildlife (i.e. producer does not kill animals, uses non-lethal predator barriers)",
+              "Producer actively works to reduce entanglement and is transparent about entanglement events ",
+              "Operations help mitigate coastal erosion",
+              "Testing and monitoring regimens for excess nutrients and pollutants are in place",
+              "Collaboration and data sharing with researchers",
+              "Producer is implementing or exploring integration with finfish or shellfish",
+              "I don’t know"
+            ],
+            "text": "<div style='margin-top: -10px;'>Seaweeds, like bivalve mollusks, do not require feed or inputs to grow and, they remove other excess nutrients from the surrounding environment, benefitting and restoring the local ecosystem. Seaweed also releases oxygen to nearby organisms and helps balance ocean chemistry, leading to a reduction in coastal acidification, hypoxia, and turbidity. When placed near other aquaculture sites, seaweeds have the potential to improve the health of finfish and shellfish while reducing effluence to other systems. Producers can strategically place farms, engage in restoration projects, and collaborate with researchers to advance our understanding of ecosystem services</div>",
+            "bg": "/public/images/backgrounds/Principle 2.svg",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "actionCard": "https://drive.google.com/file/d/1r493UmWnuEj3JgGK7-W17SSMUf5yUgWI/view"
+          }
+        ]
+      },
+      "people": {
+        "color": "#3e89ff",
+        "progress": "4",
+        "icon": "/public/images/Group 644.svg",
+        "introIcon": "/public/images/FISHERPERSON-FilipaCampos-2.svg",
+        "title": "Sharing aquaculture knowledge and skills",
+        "sectionIntroHeadings": [
+          {
+            "title": "Builds resilience and self-sufficiency in local communities",
+            "icon": "/public/images/COMMUNITY-LOCAL (1).svg"
+          },
+          {
+            "title": "Prioritizes inclusion, equality, and fair treatment of workers",
+            "icon": "/public/images/WORKERWELFARE (1).svg"
+          }
+        ],
+        "principles": [
+          {
+            "progress": "5",
+            "title": "BUILDS RESILIENCE AND SELF-SUFFICIENCY IN LOCAL COMMUNITIES",
+            "resultTitle": "Builds resilience and self-sufficiency in local communities",
+            "resultIcon": "/public/images/Group 681.svg",
+            "icon": "/public/images/finfish/imag8.svg",
+            "cls": "seaweed3",
+            "titleCls": "",
+            "principleNo": "3",
+            "practices": [
+              "Producer and processors leverage existing waterfront infrastructure, knowledge, and labor",
+              "Supply-chain partners work directly with smallholder farmers",
+              "Producers and suppliers target vulnerable regions and communities to increase climate preparedness ",
+              "Producer or supplier offers equipment sharing or financial support programs",
+              "Partners support education programs and job training",
+              "Operation is part of local ecotourism industry",
+              "All partners respect and work with indigenous/First Nation communities",
+              "Producer enables community participation in resource management and decision making (ex: town hall meetings)",
+              "I don’t know"
+            ],
+            "text": "<div style='font-size: 0.9vw; width: 27vw;'>Working waterfronts have been of central importance to coastal communities’ culture and economy. However, climate change, economic disparities, and inequitable supply chains threaten the health of coastal regions and smallholder farmers. In areas like the United States, where seaweed production makes up less than 1% of global production, new seaweed production can leverage existing infrastructure and include the generational knowledge of fishers and coastal communities, especially indigenous and First Nations people. When producers are embedded in their communities and create space for public collaboration and decision making, they enable bottom-up decision making, place-based solutions, economic security, and coastal food sovereignty.</div>",
+            "bg": "/public/images/backgrounds/Principle1 3.svg",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "actionCard": "https://drive.google.com/file/d/1qzjIzoEH3GjJvCeM7Kgzci1oyx8LnLl2/view"
+          },
+          {
+            "progress": "6",
+            "title": "BUILDS RESILIENCE AND SELF-SUFFICIENCY IN LOCAL COMMUNITIES",
+            "resultTitle": "Prioritizes inclusion, equality, and fair treatment of workers",
+            "resultIcon": "/public/images/Group 682.svg",
+            "icon": "/public/images/finfish/imag7.svg",
+            "cls": "shrimp8",
+            "titleCls": "",
+            "principleNo": "4",
+            "practices": [
+              "No bonded or forced labor, trafficking, or child labor",
+              "Health care and benefits are offered",
+              "Social, environmental, and safety training is provided at each site for all workers",
+              "Pay equity is guaranteed",
+              "Policies improve and ensure religious, ethnic, and gender equity",
+              "Producer engages in mentorship",
+              "Mentorship includes people from underserved communities",
+              "Employers engage in and do not inhibit collective bargaining or union organizing",
+              "Workers make a livable wage ",
+              "I don’t know"
+            ],
+            "text": "Women make up over 50% of the seafood industry workforce yet are underrepresented in leadership and ownership roles. Aquaculture can weave fair and equal labor treatment into its expanding fabric. Gender equality is just one part ofz the equation. Fair compensation, and racial and religious equity are also central to a holistic aquaculture system. Both producers, suppliers, and retail owners can implement policies like non-discrimination, living wages, pay equity–and management practices like allowing collective bargaining, hiring women and members of marginalized communities into leadership roles to support, value, and include all workers.",
+            "question": "How much visibility do you have into the farming practices of this ingredient? ",
+            "bg": "/public/images/backgrounds/Principle1 4.svg",
+            "actionCard": "https://drive.google.com/file/d/1Ow_ccyGdofpE10L02bDli2cb-Lbr0437/view"
+          }
+        ]
+      },
+      "Supply Chain": {
+        "color": "#fbb040",
+        "progress": "7",
+        "icon": "/public/images/Group 654.svg",
+        "introIcon": "/public/images/VALUE_CHAIN_DIVYA_PR.svg",
+        "title": "Strengthening local economies and helping communities achieve greater food security",
+        "sectionIntroHeadings": [
+          {
+            "title": "Preserves the quality and the story of the product throughout the supply chain",
+            "icon": "/public/images/PROCESSINGFACILITY-DivyaPR (1).svg"
+          },
+          {
+            "title": "Generates benefits for diverse uses",
+            "icon": "/public/images/BIOGAS-JorgeDavidMendozaGordillo.svg"
+          }
+        ],
+        "principles": [
+          {
+            "progress": "8",
+            "title": "PRESERVES THE QUALITY AND THE STORY OF THE PRODUCT THROUGHOUT THE SUPPLY CHAIN",
+            "resultTitle": "Preserves the quality and the story of the product throughout the supply chain",
+            "resultIcon": "/public/images/Group 680.svg",
+            "icon": "/public/images/finfish/imag11.svg",
+            "cls": "",
+            "titleCls": "",
+            "principleNo": "5",
+            "practices": [
+              "Cold chain procedures are present",
+              "Machine to machine sensor inputs (ex: data from satellites, thermometers) are used",
+              "Producer and supplier have clear and shared traceability values ",
+              "Traceability platforms are interoperable; they can easily share data in a standardized and automated fashion",
+              "Key data elements align with industry standards",
+              "Identity preservation: stories and information of people, place, and practices are included in product branding ",
+              "Consumer transparency mechanisms (i.e. QR codes on labeling)",
+              "Supplier is transparent about length of supply chain and actors involved ",
+              "Identities of actors in supply chain from harvest to end consumer",
+              "I don’t know"
+            ],
+            "text": "Transparency and traceability are needed not only to guarantee the quality and safety of our foods but also relay the story of the people and place that produce them. Companies that are vertically integrated or shorten their supply chains can keep better track of where their product goes, how it is changed, and whether their story gets told to a consumer. New technologies, alongside established industry best practices, allow partners to easily share data between steps in the supply chain. When everyone involved is aligned on how to maintain the integrity and identity of a product, seafood becomes more honest and sustainable.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle1 5.svg",
+            "actionCard": "https://drive.google.com/file/d/1a98M_70zEt00rcZWBNAcxQuV7WlW3ggE/view"
+          },
+          {
+            "progress": "9",
+            "title": "GENERATES BENEFITS FOR DIVERSE USES",
+            "resultTitle": "Generates benefits for diverse uses",
+            "resultIcon": "/public/images/Group 655.svg",
+            "icon": "/public/images/finfish/imag10.svg",
+            "cls": "seaweed3",
+            "titleCls": "",
+            "principleNo": "6",
+            "practices": [
+              "Producer grows seaweed for non-food products–biofuels, biopolymers, bioplastics, or feed additives",
+              "Producer is exploring new market applications and products",
+              "Seaweed is used for food additives such as carrageenan (thickener/emulsifier)",
+              "Partners support research and development into new applications",
+              "Seaweed is integrated into composts and fertilizers",
+              "Food products are safe and nutrient dense",
+              "I don’t know"
+            ],
+            "text": "Seaweed's versatility allows it to enhance a wide range of products from food, to livestock feed, to alternative packaging. It can impact the health benefits of a product, to being used as bio-based additive and preservative, to serving as a large scale climate-change solution. Packaging made from seaweed offers a future of less plastic pollution. Livestock feed with a little asparagopsis seaweed added reduces methane emissions in cows. Seaweed producers, technical assistance providers, scientists, and investors are forming strong networks to provide a secure and nutrient dense food source and employ seaweed as a tool to solve the most pressing issues facing our planet today.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle1 6.svg",
+            "actionCard": "https://drive.google.com/file/d/16byRHoRfhAw60B3cbcH7BIh6zFxxbAWN/view"
+          }
+        ]
+      }
+    },
+    "Shrimp": {
+      "planet": {
+        "color": "#42b294",
+        "icon": "/public/images/Group 666.svg",
+        "progress": "1",
+        "title": "The environmental benefits of aquaculture",
+        "introIcon": "/public/images/GLOBEIntro.svg",
+        "sectionIntroHeadings": [
+          {
+            "title": "Helps address climate change",
+            "icon": "/public/images/CARBONFOOTPRINT.svg"
+          },
+          {
+            "title": "Supports global ecosystems and co-exists with wildlife",
+            "icon": "/public/images/COASTAL.svg"
+          },
+          {
+            "title": "Optimizes impact on water resources and nutrient cycles",
+            "icon": "/public/images/IMPROVEDWATERQUALITY-VerónicaDiaz.svg"
+          },
+          {
+            "title": "Ensures a safe growing environment for a safe food source",
+            "icon": "/public/images/REDUCEDINPUTS-AQUACULTURE.svg"
+          },
+          {
+            "title": "Advances animal welfare",
+            "icon": "/public/images/FISHFRIENDLY.svg"
+          }
+        ],
+        "principles": [
+          {
+            "progress": "2",
+            "title": "Helps Address Climate Change",
+            "resultTitle": "Helps address climate change",
+            "resultIcon": "/public/images/Group 650.svg",
+            "icon": "/public/images/finfish/imag1.svg",
+            "cls": "shrimp1",
+            "titleCls": "finFish1Title",
+            "principleNo": "1",
+            "practices": [
+              "Producer sells locally to reduce food miles",
+              "Producer and distributor use lower-carbon transportation methods (i.e. reduced or zero air freight)",
+              "Renewable energy use at production and processing sites",
+              "Energy efficient equipment and operational management are prioritized",
+              "Producer use alternative-sustainable feed",
+              "Producer uses deforestation-free feed",
+              "Producer contributes to mangrove reforestation or maintenance ",
+              "Product packaging is sustainable (ex: reusable, recyclable, or biodegradable)",
+              "I don’t know"
+            ],
+            "text": "To fulfill its role as the sustainable protein source of the future, farmed shrimp must also play a part in building climate resilience and preparedness. Research suggests seafood has a notably lower carbon footprint than beef and pork, but beyond the choice of what to eat, there are ways to address emissions and resource use in how we grow and process. Whether it is through the product they grow or the types of transportation they choose, farmers and supply chain actors can work together to engrain climate-smart practices into aquaculture.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle1 1 – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1kwDonyfi0ugW0MphhhKJGnV8QwmWx1dT/view"
+          },
+          {
+            "progress": "3",
+            "title": "SUPPORTS GLOBAL ECOSYSTEMS aND COEXISTS WITH WILDLIFE",
+            "resultTitle": "Supports global ecosystems and co-exists with wildlife",
+            "resultIcon": "/public/images/Group 651.svg",
+            "icon": "/public/images/finfish/imag2.svg",
+            "cls": "shrimp2",
+            "titleCls": "shrimpTitle2",
+            "principleNo": "2",
+            "practices": [
+              "Producer leads or supports restoration projects",
+              "Operation respects and protects marine wildlife (ex: producer does not kill animals; uses non-lethal predator barriers)",
+              "Producer uses reservoir and waste-water treatment",
+              "Producer does not exceed carrying capacity of sites",
+              "Producer does not use any restricted input substances",
+              "Producer uses and improves sustainable feed models and feed transparency",
+              "Sites are placed away from conservation sites and avoid deforestation",
+              "Sites are placed away from vulnerable wild stocks and sensitive habitats",
+              "Emergency nets and double barriers are used to prevent escapes",
+              "I don’t know"
+            ],
+            "text": "<div style='font-size: 0.9vw; margin-top: -10px;'>Farmed seafood now makes up over 50% of all seafood eaten around the world. It is a key protein source for the future and is scaling rapidly, but it comes with external costs. Whether extensive or intensive, shrimp farms must scale appropriately and safely. When sites are constructed and maintained with the surrounding wildlife and habitat in mind, they can mitigate impacts on the natural environment.</div>",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle1 2 – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1ZtnqtLi_WKtklVnMuY6Te73jgf9270aJ/view"
+          },
+          {
+            "progress": "4",
+            "title": "OPTIMIZES IMPACT ON WATER RESOURCES AND NUTRIENT CYCLES",
+            "resultTitle": "Optimizes impact on water resources and nutrient cycles",
+            "resultIcon": "/public/images/IMPROVEDWATERQUALITY-VerónicaDiaz (2).svg",
+            "icon": "/public/images/finfish/imag3.svg",
+            "cls": "finFish7",
+            "titleCls": "",
+            "principleNo": "3",
+            "practices": [
+              "Producer captures accumulated waste and treat water before discharge",
+              "Producer uses alternative sustainable feed with optimum feed conversion ratio and growth",
+              "Producer uses best quality of seeds and other inputs",
+              "Avoids use of groundwater and discharge of saline water to freshwater areas",
+              "There is regular testing and monitoring for nitrogen and phosphorus",
+              "Producers collaborate with researchers",
+              "I don’t know"
+            ],
+            "text": "In the adjacent sites to coastal areas and rapid intensification growth, how shrimp producers use and treat water sources determines the impact on surrounding ecosystems and sustainability of the sites to continue producing. Producers can monitor water quality, eliminate waste accumulation, or capture nutrients that would otherwise leak into the environment.",
+            "question": "How much visibility do you have into the farming practices of this ingredient? ",
+            "bg": "/public/images/backgrounds/Principle3.svg",
+            "actionCard": "https://drive.google.com/file/d/1nZITy3W4tTSGMtsX7rpWsIUoft14HF6i/view"
+          },
+          {
+            "progress": "5",
+            "title": "PROMOTES A SAFE GROWING ENVIRONMENT FOR FOOD",
+            "resultTitle": "Promotes a safe growing environment for a safe food source",
+            "resultIcon": "/public/images/Group 694.svg",
+            "icon": "/public/images/finfish/imag4.svg",
+            "cls": "finFish7",
+            "titleCls": "",
+            "principleNo": "4",
+            "practices": [
+              "Producer tests for and reports contaminant levels",
+              "Inputs are actively reduced",
+              "Producer does not feed antibiotics",
+              "Producer adheres to appropriate withdrawal period if antibiotics are prescribed for welfare",
+              "Producer does not use colorants, herbicides, or chemicals",
+              "Producer has regular and redundant pest and disease monitoring systems",
+              "Producer minimizes disease occurrences and spreading",
+              "Disease outbreaks and mortality events at production sites are documented",
+              "I don’t know"
+            ],
+            "text": "Where a farm is placed and which inputs are added to it not only affect ecosystem health and shrimp welfare, but the health of the people who eat its products. Pest management, disease, and external contaminants can be managed in creative ways using new AI-based technology or supporting the natural responses of the local ecosystem and raised species.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle1 4 – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1R5PlWYLt5jOQM5uJUW7BB73gSTkkzJ_J/view"
+          },
+          {
+            "progress": "6",
+            "title": "ADVANCES ANIMAL WELFARE",
+            "resultTitle": "Advances animal welfare",
+            "resultIcon": "/public/images/Group 684.svg",
+            "icon": "/public/images/finfish/imag5.svg",
+            "cls": "shrimp5",
+            "titleCls": "",
+            "principleNo": "5",
+            "practices": [
+              "Stocking densities are optimized based on species and life stage",
+              "Shrimps are given species appropriate feed (for example, feed is not made with the same species being raised)",
+              "Shrimps are given optimum water quality to grow ",
+              "Seed production implement animal welfare in hatchery",
+              "Feed ingredients using marine resources are from a traceable/reliable source (e.g. from healthy reduction fisheries stocks)",
+              "Producers use an efficient humane method of harvesting e.g. ice soaked",
+              "I don’t know"
+            ],
+            "text": "Just as stressing a cow before harvest generates tough flesh, so too does stressing a shrimp. Not only is welfare important for the final product, but it is important to the well-being and happiness of the animal. Approximately 100 billion aquatic animals are farmed each year in neglected, sufferable conditions. Until recently there has been little advocacy aimed at improving fish welfare. As aquaculture scales up, welfare policies and innovations must be supported. A happier stock also means a healthier environment and a safer food source.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle1 5 – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1wW_4RDPRvg7fA8eRda-kx5jSko8je_WQ/view"
+          }
+        ]
+      },
+      "people": {
+        "color": "#3e89ff",
+        "progress": "7",
+        "icon": "/public/images/Group 660.svg",
+        "introIcon": "/public/images/FISHERPERSON-FilipaCampos-2.svg",
+        "title": "Sharing aquaculture knowledge and skills",
+        "sectionIntroHeadings": [
+          {
+            "title": "Enhances flavor and nutrition",
+            "icon": "/public/images/Layer_21.svg"
+          },
+          {
+            "title": "Builds resilience and opportunity in local communities",
+            "icon": "/public/images/COMMUNITY-LOCAL (1).svg"
+          },
+          {
+            "title": "Prioritizes fair treatment of workers, inclusion, and equality",
+            "icon": "/public/images/WORKERWELFARE (1).svg"
+          }
+        ],
+        "principles": [
+          {
+            "progress": "8",
+            "title": "ENHANCES FLAVOR AND NUTRITION",
+            "resultTitle": "Enhances flavor and nutrition",
+            "resultIcon": "/public/images/Group 683.svg",
+            "icon": "/public/images/finfish/imag6.svg",
+            "cls": "shrimp6",
+            "titleCls": "",
+            "principleNo": "6",
+            "practices": [
+              "Product is freshly harvested and processed",
+              "Product is consistent in color, size, and texture",
+              "Product is frozen or refreshed only once freezing",
+              "I don’t know"
+            ],
+            "text": "From sugar kelp to scallops to salmon, aquatic foods are nutrient dense and a major source of protein, trace minerals, and healthy Omega 3 fatty acids. Recent studies show that consuming aquatic foods can improve brain development and heart health and reduce the risk of cancer. With new innovations, knowledge sharing, and culinary imagination, chefs and producers are bringing a consistently healthy product to our tables in newly delicious ways. As one of the most consumed seafoods globally, maintaining shrimps freshness and quality is a priority.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle1 6 – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1rZeNXm1emdeCXelp4i2e_9Ej8HRzALgU/view"
+          },
+          {
+            "progress": "9",
+            "title": "BUILDS RESILIENCE AND SELF-SUFFICIENCY IN LOCAL COMMUNITIES",
+            "resultTitle": "Builds resilience and opportunity in local communities",
+            "resultIcon": "/public/images/Group 681.svg",
+            "icon": "/public/images/finfish/imag8.svg",
+            "cls": "shrimp7",
+            "titleCls": "shrimp7Title",
+            "principleNo": "7",
+            "practices": [
+              "Producer and processors leverage existing waterfront infrastructure, knowledge, and labor",
+              "Producer or supplier offers equipment sharing or financial-support programs",
+              "Supply chain partners work directly with smallholder farmers",
+              "Producer and suppliers target vulnerable regions and communities to increase climate preparedness",
+              "Partners support education programs and job training",
+              "Producer leads community education programs",
+              "Partners respect and work with Indigenous/First Nation communities",
+              "Producer enables community participation in resource management and decision making",
+              "I don’t know"
+            ],
+            "text": "Shrimp producers have been central to coastal communities’ culture and economy. With shrimp's incredibly high value, producers can contribute positively to the community. Aquaculture, in its incredible diversity of species and production methods can mobilize workers in coastal communities, leverage existing infrastructure, and benefit from the generational knowledge of fishers and farmers. Producers should also ensure that there is no infringement on the rights of community members. When producers are embedded in their communities and create space for public collaboration and decision making, they enable bottom-up place-based solutions, economic security, and regional food sovereignty.",
+            "bg": "/public/images/backgrounds/Principle7.svg",
+            "actionCard": "https://drive.google.com/file/d/1LiojgdwE-Mujpsh60wN1dtwZfmda4_gj/view"
+          },
+          {
+            "progress": "10",
+            "title": "PRIORITIZES INCLUSION, EQUALITY AND FAIR TREATMENT OF WORKERS",
+            "resultTitle": "Prioritizes fair treatment of workers, inclusion, and equality",
+            "resultIcon": "/public/images/Group 682.svg",
+            "icon": "/public/images/finfish/imag7.svg",
+            "cls": "shrimp8",
+            "titleCls": "",
+            "principleNo": "8",
+            "practices": [
+              "No bonded or forced labor, trafficking, or child labor",
+              "Health care and benefits are offered",
+              "Social, environmental, and safety training is provided at each site for all workers",
+              "Equality and non-discrimination is integrated into operations",
+              "Policies improve and ensure religious, ethnic, and gender equity",
+              "Producer engages in mentorship",
+              "Producer increase equal opportunities and benefits for women",
+              "Mentorship includes people from underserved communities",
+              "Employers engage in and do not inhibit collective bargaining or union organizing",
+              "Workers make a livable wage",
+              "I don’t know"
+            ],
+            "text": "Women make up over 50% of the seafood industry workforce yet are underrepresented in leadership and ownership roles. Aquaculture can weave fair and equal labor treatment into its expanding fabric. Gender equality is just one part of the equation. Fair compensation, and racial and religious equity are central to a holistic aquaculture system. Both producers, suppliers, and retail owners can implement policies like non-discrimination, living wages, pay equity, and management practices like allowing collective bargaining, hiring women and members of marginalized communities into leadership roles, to support, value, and include all workers.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle1 8 – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1ef0qbvHJRi-jvK4rM8BwGFwv26JdYltM/view"
+          }
+        ]
+      },
+      "Supply Chain": {
+        "color": "#fbb040",
+        "progress": "11",
+        "icon": "/public/images/Group 654.svg",
+        "introIcon": "/public/images/VALUE_CHAIN_DIVYA_PR.svg",
+        "title": "Strengthening local economies and helping communities achieve greater food security",
+        "sectionIntroHeadings": [
+          {
+            "title": "Preserves the quality and story of the product throughout the supply chain",
+            "icon": "/public/images/PROCESSINGFACILITY-DivyaPR (1).svg"
+          }
+        ],
+        "principles": [
+          {
+            "progress": "12",
+            "title": "PRESERVES THE QUALITY AND THE STORY OF THE PRODUCT THROUGHOUT THE SUPPLY CHAIN",
+            "resultTitle": "Preserves the quality and story of the product throughout the supply chain",
+            "resultIcon": "/public/images/Group 680.svg",
+            "icon": "/public/images/finfish/imag11.svg",
+            "cls": "",
+            "titleCls": "",
+            "principleNo": "9",
+            "practices": [
+              "Cold chain procedures are present",
+              "Machine to machine sensor inputs (ex: data from satellites, thermometers) are used",
+              "Producer and supplier have clear and shared traceability values",
+              "Traceability platforms are interoperable; they can easily share data in a standardized and automated fashion",
+              "Key data elements align with industry standards",
+              "Identity preservation: stories and information of people, place, and practices are included in product branding",
+              "Consumer transparency mechanisms (i.e. QR codes on labeling)",
+              "Supplier is transparent about length of supply chain and actors involved",
+              "Identities of supply chain actors from harvest to end consumer are available",
+              "I don’t know"
+            ],
+            "text": "Transparency and traceability are needed not only to guarantee the quality and safety of our foods but also relay the story of the people and place that produced them. Companies that are vertically integrated or shorten their supply chains can better track where their product goes, how it is changed, and whether their story gets told to a consumer. New technologies, alongside established industry best practices, allow partners to easily share data between steps in the supply chain. When everyone involved is aligned on how to maintain the integrity and identity of a product, seafood becomes more honest and sustainable.",
+            "question": "How much visibility do you have into the farming practices of this ingredient?",
+            "bg": "/public/images/backgrounds/Principle1 9 – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1_d_bfEr_Ot9uEsJNIbRwiqV-Gl0ih1JR/view"
+          }
+        ]
+      }
+    },
+    "dialog": {
+      "title": "Don’t worry about having the right answer!",
+      "content": "There are no right answers!<br/><br/>This tool may ask you questions about things you are unfamiliar with. Don’t worry. This is not a test. Instead, think of this tool as a way to identify the impacts of your purchases — both positive and negative.<br/><br/>These questions will help <strong>Connected Markets: Aquaculture</strong> give you personalized answers that guide you in building a more connected supply chain, which supports a greener blue economy.",
+      "iconClose": "https://agrobiodiversity.franticsoftware.com/wp-content/uploads/2021/04/Group-160.png"
+    }
+  },
+  "sections": {
+    "Finfish": "16",
+    "Shellfish": "16",
+    "Seaweed": "12",
+    "Shrimp": "15"
+  },
+  "certifications": {
+    "Finfish": {
+      "progress": "14",
+      "title": "Certifications",
+      "question": "Select all that apply to your ingredient.",
+      "footer": "Not sure? Learn more about these<strong> certifications</strong>",
+      "bg": "/public/images/backgrounds/Certifications – 1.svg",
+      "rows": [
+        "Aquaculture Stewardship Council (ASC)",
+        "Monterey Bay Aquarium Seafood Watch - Green Rated ",
+        "Monterey Bay Aquarium Seafood Watch - Yellow Rated",
+        "Global Seafood Alliance Best Seafood Practices (BSP)<br/> - <span style='font-weight: 300; color: #333;'>formerly Best Aquaculture Practices</span>",
+        "Global Seafood Alliance Responsible Vessel Standard (RFVS)",
+        "Global Seafood Alliance Seafood Processor Standard (SPS)",
+        "Fair Trade USA",
+        "Whole Foods Responsibly Farmed",
+        "OceanWise Certified",
+        "Friend of the Sea",
+        "GLOBALG.A.P.",
+        "SQF",
+        "MEL Japan",
+        "BIM CQA",
+        "A Greener World Salmon Welfare Certification",
+        "Dolphin Safe Certified",
+        "HACCP",
+        "Other",
+        "I don’t know"
+      ]
+    },
+    "Shellfish": {
+      "progress": "14",
+      "title": "Certifications",
+      "question": "Select all that apply to your ingredient.",
+      "footer": "Not sure? Learn more about these<strong> certifications</strong>",
+      "bg": "/public/images/backgrounds/Certifications – 1.svg",
+      "rows": [
+        "Aquaculture Stewardship Council (ASC)",
+        "Monterey Bay Aquarium Seafood Watch - Green Rated ",
+        "Monterey Bay Aquarium Seafood Watch - Yellow Rated",
+        "Global Seafood Alliance Best Seafood Practices (BSP)<br/> - formerly Best Aquaculture Practices",
+        "Global Seafood Alliance Responsible Vessel Standard (RFVS)",
+        "Global Seafood Alliance Seafood Processor Standard (SPS)",
+        "Fair Trade USA",
+        "Friend of the Sea",
+        "Whole Foods Responsibly Farmed",
+        "OceanWise Certified",
+        "GLOBALG.A.P.",
+        "SQF",
+        "MEL Japan",
+        "BIM CQA",
+        "Hatchery - High Health Certification",
+        "Interstate Shippers List (ICSS)",
+        "HACCP",
+        "Other",
+        "I don’t know"
+      ]
+    },
+    "Seaweed": {
+      "progress": "10",
+      "title": "Certifications",
+      "question": "Select all that apply to your ingredient.",
+      "footer": "Not sure? Learn more about these<strong> certifications</strong>",
+      "bg": "/public/images/backgrounds/Certifications – 1.svg",
+      "rows": [
+        "ASC-MSC Seaweed Standard",
+        "Monterey Bay Aquarium Seafood Watch - Green Rated",
+        "Monterey Bay Aquarium Seafood Watch - Yellow Rated",
+        "Global Seafood Alliance Responsible Vessel Standard (RFVS)",
+        "Global Seafood Alliance Seafood Processor Standard (SPS)",
+        "Friend of the Sea",
+        "OceanWise Certified",
+        "GLOBALG.A.P.",
+        "SQF",
+        "MEL Japan",
+        "HACCP",
+        "Other",
+        "I don’t know"
+      ]
+    },
+    "Shrimp": {
+      "progress": "13",
+      "title": "Certifications",
+      "question": "Select all that apply to your ingredient.",
+      "footer": "Not sure? Learn more about these<strong> certifications</strong>",
+      "bg": "/public/images/backgrounds/Certifications 1– 1.svg",
+      "rows": [
+        "Aquaculture Stewardship Council (ASC)",
+        "Monterey Bay Aquarium Seafood Watch - Green Rated ",
+        "Monterey Bay Aquarium Seafood Watch - Yellow Rated",
+        "Global Seafood Alliance Responsible Vessel Standard (RFVS)",
+        "Global Seafood Alliance Seafood Processor Standard (SPS)",
+        "Fair Trade USA",
+        "Whole Foods Responsibly Farmed",
+        "OceanWise Certified",
+        "Friend of the Sea",
+        "GLOBALG.A.P.",
+        "SQF",
+        "BIM CQA",
+        "Naturland",
+        "HACCP",
+        "Other",
+        "I don’t know"
+      ]
+    },
+    "learn": {
+      "bg": "/public/images/backgrounds/Transparency Programs – Learn More.svg",
+      "title": "Certifications",
+      "content": "Certifications are very useful ‘shortcuts’ to be sure that your suppliers are using certain practices.<br/><br/>Check out the links below to learn more about the most common certifications.",
+      "rows": [
+        [
+          "Aquaculture Stewardship Council (ASC)",
+          "ASC Standards promote responsible aquaculture by addressing the key environmental impacts of farming and setting requirements for safe condition and providing workers’ right while protecting surrounding communities.",
+          "https://www.asc-aqua.org/"
+        ],
+        [
+          "MEL Japan",
+          "Marine Eco-Label Japan (MEL) supports seafood producers that are taking proactive measures to manage fisheries resources for sustainable use and conservation of marine ecosystems , as well as processors and distributors that make positive efforts to procure seafood from such producers. This ensures transparency with regard to resource management and handling of seafood in the processing/distribution stages,which helps all fisheries-related businesses gain credibility and consumers to make appropriate choices.",
+          "https://melj.jp/eng/"
+        ],
+        [
+          "Monterey Bay Aquarium Seafood Watch - Green Rated ",
+          "MBA Seafood Watch promotes sustainable seafood production that can maintain or increase production without jeopardizing the structure and function of affected ecosystems. The sustainable production also means addressing impact of individual farms and the cumulative impacts of multiple farms at the local or regional scale.",
+          "https://www.seafoodwatch.org/"
+        ],
+        [
+          "BIM CQA",
+          "The CQA Standards ensures sustainable production for finfish, salmon and mussels that covers two modules of farm production site and processing plant. There are two scopes including organic production and eco production. Eco production shows the commitment the environmentally sustainable development during the production process.",
+          "https://bim.ie/aquaculture/sustainability-and-certification/certified-quality-aquaculture-cqa-programme/"
+        ],
+        [
+          "Global Seafood Alliance Best Seafood Practices (BSP) - <span style='font-weight: 300;'>formerly Best Aquaculture Practices</span>",
+          "BAP is a seafood specific certification program that focuses on four key areas of sustainability-environmental, social, food safety and animal health and welfare - at each step of the aquaculture production chain from hatchery, feedmill to grow out culture.",
+          "https://www.bapcertification.org/"
+        ],
+        [
+          "A Greener World Salmon Welfare Certification",
+          "The A Greener World (AGW) certifies farmed non -GMO salmon production based on the RSPCA respected standards. The certification ensures that salmon production benefits the environmental, social, and economic, in respect for the marine environment and preserves natural resources for the future.",
+          "https://agreenerworld.org/"
+        ],
+        [
+          "Global Seafood Alliance Responsible Vessel Standard (RFVS)",
+          "The Responsible Vessel Standard (RFVS) is a voluntary, vessel-based program certifying high standards of operational practices relating to crew safety and welfare on board fishing vessels. The RFVS is an assurance tool to help fishing vessel owners and operators showcase industry-agreed best practices through independent, third-party auditing.",
+          "https://bspcertification.org/"
+        ],
+        ["Dolphin Safe Certified", "", ""],
+        [
+          "Global Seafood Alliance Seafood Processor Standard (SPS)",
+          "The Seafood Processor Standard (SPS) aims to ensure sustainable production of seafood at manufacturing or processing organizations that covers food safety management, social responsibility, environmental management, animal welfare, traceability, and effluent management.",
+          "https://bspcertification.org/"
+        ],
+        [
+          "HACCP",
+          "HACCP certification is an international standard defining the requirements for effective control of food safety. It is built around seven principles including<br/> <br/>&nbsp&nbsp&nbsp&nbsp- Conduct Hazard Analysis of biological, chemical or physical food hazards<br/> &nbsp&nbsp&nbsp&nbsp- Determine critical control points<br/>&nbsp&nbsp&nbsp&nbsp- Establish critical control limits, for example, minimum cooking temperature and time<br/>&nbsp&nbsp&nbsp&nbsp- Establish a system to monitor control of Critical Control Points<br/>&nbsp&nbsp&nbsp&nbsp- Establish corrective actions<br/>&nbsp&nbsp&nbsp&nbsp- Establish procedure for verification to confirm that the HACCP system is working effectively<br/>&nbsp&nbsp&nbsp&nbsp- Establish documentation and record keeping",
+          "https://www.globalgap.org/uk_en/"
+        ],
+        [
+          "Fair Trade USA",
+          "Fair Trade USA aims to ensure products meet rigorous social, environmental and economic standards that focus on safe working conditions, environmental protection, sustainable livelihoods and community development funds.",
+          "https://www.fairtradecertified.org/"
+        ],
+        ["Hatchery - High Health Certification", "", ""],
+        [
+          "Whole Foods Responsibly Farmed",
+          "The Whole Foods Market Responsibly Farmed standards aim to ensure minimum requirement and expectations for all producers supplying or seeking to supply farmed seafood to Whole Foods Markets. The standard covers requirements for farming operations and ensures humane harvesting practices. The Whole Foods Market® “Responsibly Farmed” logo helps customers recognize the commitment to offering farmed seafood that has been third-party verified to meet the Quality Standards for Farmed Seafood.",
+          "https://eu.wholefoodsmarket.com/?destination=www.wholefoodsmarket.com%2F"
+        ],
+        ["Interstate Shippers List (ICSS)", "", ""],
+        [
+          "OceanWise Certified",
+          "OceanWise provides seafood recommendations to promote sustainable seafood options. The categories include binary rating system that are Ocean Wise Recommended or Not Recommended to communicate seafood’s’ environmental sustainability. Each rating is informed by a large quantity of data that allows the program to evaluate the impacts of seafood production on aquatic organisms and ecosystems. The standard covers the entire production chain from feed to fork including feedmill, hatcheries, farms, and chain of custody for transparency.",
+          "https://seafood.ocean.org/"
+        ],
+        [
+          "ASC-MSC Seaweed Standard",
+          "ASC-MSC seaweed standard promotes environmentally and socially responsible production of seaweed, minimizing operation’s impact to the surrounding environment and providing best care for employees and communities.",
+          "https://www.asc-aqua.org/"
+        ],
+        [
+          "Friend of the Sea",
+          "Friend of the Sea has developed a certification series of sustainable standards for aquaculture that minimizes the negative effects of aquaculture operations. It provides a tool for the fish farming industry to develop whilst respecting the marine environment and preserving our valuable natural resources for the future. The standard includes requirements for no impact on critical habitat, compliance with water-quality parameters, reduction of escapes to negligible levels, no use of harmful antifouling nor growth hormones, compliances with social accountability, and reduction of carbon footprint.",
+          "https://friendofthesea.org/"
+        ],
+        [
+          "GLOBALG.A.P.",
+          "The GLOBALG.A.P. Aquaculture Standard enables sustainable seafood through ensuring the legal compliance of production, food safety, workers’ occupational health and safety, social practice, animal welfare, and environmental and ecological care.",
+          "https://www.globalgap.org/uk_en/"
+        ],
+        [
+          "SQF",
+          "The SQF certification aims to ensure commitment to food safety and operational excellence in food-safety management. The SQF Code ensures that suppliers in food industry apply the HACCP for control of food quality hazards and food safety.",
+          "https://www.sqfi.com/"
+        ]
+      ]
+    }
+  },
+  "transparency": {
+    "title": "Transparency Programs",
+    "question": "Are you using supply chain transparency programs that audit practices you selected with this tool?",
+    "footer": "Not sure? Learn more about these<strong> transparency programs</strong>.",
+    "Finfish": "/public/images/backgrounds/Transparency Programs.svg",
+    "Shellfish": "/public/images/backgrounds/Transparency Programs.svg",
+    "Seaweed": "/public/images/backgrounds/Transparency Programs.svg",
+    "Shrimp": "/public/images/backgrounds/Transparency Programs 1– 1.svg",
+    "programs": [
+      {
+        "text": "Distributed ledgers and blockchain-based transparency programs",
+        "multiplier": 1.75
+      },
+      {
+        "text": "Third-party verifier",
+        "multiplier": 1.5
+      },
+      {
+        "text": "External-independent audit",
+        "multiplier": 1.5
+      },
+      {
+        "text": "Internal audit",
+        "multiplier": 1.25
+      },
+      {
+        "text": "Nothing at this time",
+        "multiplier": 1
+      }
+    ],
+    "learn": {
+      "title": "Transparency Programs",
+      "content": "How can we be sure that the information shared by suppliers is true, and reflects the production processes? Transparency programs are tools that give you full visibility of the practices of your suppliers and producers. There are different transparency programs that offer varying levels of detail and assurance. They can range from a simple internal audit, in which a company vouches for the truthfulness of what is said, to Blockchain-based systems in which a distributed network of independent computers control all the data shared and make sure that this is immutable.",
+      "bg": "/public/images/backgrounds/Transparency Programs – Learn More.svg"
+    },
+    "progress": {
+      "Finfish": "15",
+      "Shellfish": "15",
+      "Seaweed": "11",
+      "Shrimp": "14"
+    }
+  },
+  "result": {
+    "title": "Your Connected Market",
+    "subTitle": "Click on the icons for Get Connected action cards that can help you learn more about your supply chain.",
+    "download": "Download all <strong>Get Connected</strong> Action Cards",
+    "replay": "Use The Tool Again",
+    "learnTeam": "Learn more about the <strong>Greener Blue team.</strong>",
+    "learn": "Learn how your score was tabulated",
+    "allActionCards": "https://drive.google.com/drive/folders/1H3i2fndBXy0SWSdLLFk3sFOpN8fBrKvR",
+    "explainer": {
+      "title": "The Scoring System",
+      "graph": "/public/images/graph.svg",
+      "content": "Your Connected Market score is calculated by adding the total points gained from each principle. The score of each principle is given by the level of visibility expressed by the sliding bar, plus extra points for each practice checked. To that sum, a point is added for each certification your product has. This sum is multiplied by the value of transparency program selected. The transparency programs have different weights that vary based on the level of accuracy that they can guarantee."
+    }
+  },
+  "credits": {
+    "bg": "/public/images/backgrounds/Credits – 1.svg",
+    "title": "Connected Markets: Aquaculture",
+    "subtitle": "Supply Chain Self-Assessment Tool",
+    "content": "Connected Markets: Aquaculture was developed by A Greener Blue, an initiative of Green Brown Blue. This food systems solutions activator brings together food companies, NGOs, scientists, entrepreneurs, and food producers from across the globe to tackle some of the most complex challenges facing our food systems. Instead of an activator for startups or new products, these groups design, rapidly prototype, and release ideas for change every six months.",
+    "teams": [
+      "Jennifer Bushman, Strategist<br/> Cora Hirashiki, Fat Moon Creative<br/> Blake Stok, Fair Trade USA<br/> Peter Handy, Bristol Seafood<br/> Stacy Shultz, Fortune Fish Co.<br/> Heather Barbod, Elemental Mktg<br/> Becca Millstein, Fishwife<br/> Barton Seaver, Chef<br/> Eva Mudde, GSSI<br/> Mark Kaplan, Topco / Envisible <br/> Michael Lee, California Aquaculture Association<br/> Derek Figueroa, Seattle Fish Co.<br/> Andrew Sutton, Disneyland Signature Restaurants<br/> Bill Dewey, Taylor Shellfish",
+      "Alf-Gøran Knutsen, Kvaroy Arctic <br/> Nick Mendoza, Neptune Snacks <br/> James Smith, Seatopia <br/> Todd English, Riverence Trout <br/> Kira Smiley, X Team <br/> Omar Alfi, Pacifico Aquaculture <br/> Michael Chambers, University of New Hampshire <br/> Bryton Shang, Aquabyte <br/> Corey Peet, Postelsia <br/> Steve Somerfield, Superior Fresh <br/> Sergio Guevara, Baja Shellfish <br/> Erick Peterson, Baja Shellfish <br/> John Finger, Hog Island Oyster Co. <br/> Tyler Isaac, Seafood Watch",
+      "Thierry Chopin, University of New Brunswick <br/> Rae Fuhrman, Stingray Sensing <br/> Michael Williamson, Cascadia Seaweed <br/> Jesse Baines, Atlantic Sea Farms <br/> Steve Meller, Rowena Pullan, CH4 Global <br/> Sea Briganti, LOLIWARE <br/> Alexandra Cousteau, Oceans 2050 <br/> Fritz Neumeyer, Oceans 2050 <br/> Rod Fujita, EDF <br/> Flavio Corsin, Aquaspark <br/> Michael Kann, Food at Google <br/> Adam Bent, Scout Canning <br/> Beth Walton, Oyster South <br/> Ian Jefferds, Penncove Shellfish"
+    ],
+    "gbb": {
+      "title": "GREEN BROWN BLUE PRODUCTION TEAM",
+      "teams": [
+        "Laura Howard-Gayeton: Executive Producer<br/>Conor Cusack: Project Management, Writing, Research, and Editing<br/>Trini Pratiwi: Project Management, Writing, Research, and Editing<br/> Chloe Cho: Project Management<br/>Sasha Avrutina: Art Direction and UX",
+        "Pier Giorgio Provenzano: Head of Digital<br/> Alina Miller: Character Design <br/> Amelia Heitz: Research Assistance and Copy <br/> Jennifer Bushman: Aquaculture Consultation<br/> Muhammad Yasir: Programming"
+      ]
+    },
+    "logo1": "/public/images/greenbrownblue_logo-1.svg",
+    "logo2": "/public/images/TheLexicon_logo.svg",
+    "logoGBB": "/public/images/logo-greenbrownblue.svg",
+    "gbbSubtitle": "Douglas Gayeton:  Creative Director and Information Architecture",
+    "logoCC": "/public/images/cc-zero.svg",
+    "footer": "<span style='text-align: left; font-size: 0.7rem;'><span style='font-style: italic; font-weight: 500;'>Connected Markets: Aquaculture</span> is made freely available to the public under a Creative Commons CC0 license. To the fullest extent possible under law, <span style='font-style: italic;'>A Greener Blue</span> and <span style='font-style: italic;'>Green Brown</span> Blue have waived all copyrights and related or neighboring rights to this content. </span>",
+    "reawakened1": "Green Brown Blue is produced by The Lexicon, a 501(c)(3) non-profit organization based in Petaluma, USA with support from Food at Google.",
+    "reawakened2": "To learn more about Green Brown Blue and Connected Markets: Aquaculture, contact <a style='color: #fff; text-decoration: none;' href='mailto:info@greenbrownblue.com'>info@greenbrownblue.com</a>."
+  },
+  "youDidIt": {
+    "Finfish": "/public/images/backgrounds/You Did It!1.svg",
+    "Shellfish": "/public/images/backgrounds/You Did It!1-1.svg",
+    "Seaweed": "/public/images/backgrounds/You Did It!-2.svg",
+    "Shrimp": "/public/images/backgrounds/You Did It!1 – 1.svg",
+    "btnImage": "/public/images/Group 6601.svg",
+    "subtitle": "You did it!",
+    "title": "Let’s check out your connected market.",
+    "subtitle2": "How well do you know your seafood suppliers? We’ll send you the results of this audit, along with personalized tools to improve your seafood sourcing, directly to your email inbox!"
+  }
+}

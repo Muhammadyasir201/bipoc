@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "planet": {
+      "color": "#42b294",
+      "progress": 1
+    },
+    "people": {
+      "color": "#3e89ff",
+      "progress": 7
+    },
+    "Supply Chain": {
+      "color": "#fbb040",
+      "progress": 11
+    }
+  },
+
+  "colors": {
+    "certifications": "#0FBCC0",
+    "transparency": "#0FBCC0"
+  },
+
+  "actionCards": {
+    "all": "https://drive.google.com/drive/folders/1H3i2fndBXy0SWSdLLFk3sFOpN8fBrKvR"
+  }
+}

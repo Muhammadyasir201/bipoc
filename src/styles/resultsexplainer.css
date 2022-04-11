@@ -1,0 +1,68 @@
+
+.results-explainer {
+    --headerHeight: 17vh;
+    --footerHeight: 10vh;
+    padding: 4vh 4vw 0px 4vw;    
+}
+
+@media (max-height: 500px) {
+    .results-explainer {
+        --headerHeight: 20vh;
+        --footerHeight: 15vh;
+    }
+}
+
+@media (max-width: 700px) and (max-height: 500px) {
+    .results-explainer {
+        --headerHeight: 32vh;
+        --footerHeight: 15vh;
+    }
+}
+
+.results-explainer-header {
+    height: var(--headerHeight);
+    max-width: 900px;
+}
+
+.results-explainer-body {
+    height: calc(100% - var(--headerHeight) - var(--footerHeight));
+    display: flex;
+}
+
+.results-explainer-body > img {
+    width: 100%;
+}
+
+.results-explainer-footer {
+    height: var(--footerHeight);
+    text-align: right;
+}
+
+.explainer-card {
+    stroke-width: 1px;
+    width: 95;
+    height: 95;
+    fill: transparent;
+}
+
+.explainer-icon {
+    width: 42;
+    height: 42;
+    fill: transparent;
+}
+
+.explainer-card-title {
+    text-anchor: middle;
+}
+
+.explainer-card-footer {
+    text-anchor: middle;
+    font-size: 11px;
+}
+
+.results-explainer > canvas {
+    pointer-events: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}

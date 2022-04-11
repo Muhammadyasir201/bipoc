@@ -1,0 +1,43 @@
+.howtosection-container {
+  display: flex;
+  margin: 4vh 0px;
+}
+
+.howtosection-left {
+  text-align: center;
+  width: 180px;
+}
+
+.howtosection-left img {
+  height: max(10vh, 100px);
+}
+
+.howtosection-right {
+  margin-left: 40px;
+}
+
+.howtosection-name {
+  /* font-size: 1.3rem; */
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 1vh;
+}
+
+.howtosection-line {
+  display: flex;
+  margin: 10px 0px;
+}
+
+.howtosection-line-left {
+  display: flex;
+  align-items: center;
+}
+
+.howtosection-line-right {
+  margin-left: 20px;
+}
+
+.howtosection-dash {
+  height: 4px;
+  width: 38px;
+}

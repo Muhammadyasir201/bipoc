@@ -1,0 +1,57 @@
+.section {
+  --footerHeight: 14vh;
+}
+
+@media (max-height: 600px) {
+  .section {
+    --footerHeight: 20vh;
+  }
+}
+
+.section-body {
+  height: calc(100% - var(--footerHeight));
+  padding-right: 1vw;
+}
+
+.section-body::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.section-body::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* .section-body::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+} */
+
+.section-footer {
+  height: var(--footerHeight);
+  padding-top: 10px;
+}
+
+.section-title {
+  margin: 3vh 0px;
+  font-weight: 500;
+}
+
+.panel.section {
+  width: 50%;
+  /* max-width: 640px; */
+  max-width: 33.3vw;
+}
+
+.section-click {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  z-index: 1;
+}

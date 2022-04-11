@@ -1,0 +1,85 @@
+.howto {
+  --footerHeight: 80px;
+  --leftPanelWidth: 35%;
+  --leftPanelColor: rgba(35, 136, 149, 0.73);
+  --footerPadding: 4vh;
+}
+
+@media (max-height: 600px) {
+  .howto {
+    --footerHeight: 60px;
+    --footerPadding: 3vh;
+  }
+}
+
+.howto-body {
+  height: calc(100% - var(--footerHeight));
+  overflow: auto;
+  display: flex;
+}
+
+.howto-body-left {
+  background-color: var(--leftPanelColor);
+  width: var(--leftPanelWidth);
+  position: relative;
+  color: white;
+  padding: 6vh 7vh 0px 7vh;
+}
+
+.howto-body-left img {
+  position: absolute;
+  top: -24.00079345703125px;
+  left: -75.00079345703125px;
+  width: 483px;
+  height: 483px;
+}
+
+.howto-body-left.backdrop {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+}
+
+.howto-body-right {
+  width: calc(100% - var(--leftPanelWidth));
+  padding: 6vh 10vh 0px 8vh;
+}
+
+.howto-title {
+  margin-bottom: 50px;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.howto-text {
+  margin: 30px 3px;
+}
+
+.howto-footer {
+  height: var(--footerHeight);
+  display: flex;
+}
+
+.howto-footer-left {
+  background-color: var(--leftPanelColor);
+  width: var(--leftPanelWidth);
+  display: flex;
+  align-items: center;
+  padding: 1vh 7vh var(--footerPadding) 7vh;
+}
+
+.howto-footer-left > span {
+  color: #fcfcfc;
+  font-weight: 600;
+}
+
+.howto-footer-right {
+  width: calc(100% - var(--leftPanelWidth));
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1vh 7vh var(--footerPadding) 8vh;
+}
+
+.howto-footer-right-text {
+  color: #0fbcc0;
+}

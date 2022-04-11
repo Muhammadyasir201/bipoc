@@ -1,0 +1,42 @@
+
+path {
+    pointer-events: fill;
+    cursor: pointer;    
+
+    /* fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none; */
+    
+}
+
+.non-interactive path {
+    pointer-events: none;
+}
+
+.interactive {
+    pointer-events: fill !important;
+}
+
+.pick-source path:hover {
+    fill: #0FBCC0;
+}
+
+.pick-destination path:hover {
+    fill: #522A1C;
+}
+
+.source-region {
+    fill: #0FBCC0 !important;
+}
+
+.destination-region {
+    fill: #522A1C !important;
+}
+
+/* g {
+    fill:#e16956;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none;
+} */
+

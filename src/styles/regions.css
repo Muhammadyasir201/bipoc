@@ -1,0 +1,23 @@
+
+.regions {
+     --footerHeight: 20vh;
+}
+
+.regions-body {
+    height: calc(100% - var(--footerHeight));
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 1fr .4fr;
+    padding: 20vh 5vw 0px 0px;
+}
+
+.regions-footer {    
+    height: var(--footerHeight);
+    float: right;
+    margin-right: 40px;
+}
+
+.regions-title {
+    margin: 3vh 0px;
+}
+

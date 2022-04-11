@@ -1,0 +1,104 @@
+.dialog-backdrop {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+}
+
+.dialog-root {
+  position: relative;
+  width: min(60%, 1152px);
+  /* height: min(65%, 370px); */
+  max-width: 1152px;
+  background-color: white;
+  margin: 0 auto;
+  align-self: center;
+  transform: scaleY(0);
+  padding: 4vh 4vw;
+  overflow: auto;
+  max-height: 90vh;
+}
+
+.dialog-root1 {
+  position: relative;
+  width: min(60%, 1152px);
+  background-color: white;
+  margin: 0 auto;
+  align-self: center;
+  transform: scaleY(0);
+  padding: 4vh 4vw;
+  overflow: auto;
+  width: 93vw;
+  height: 94vh;
+}
+
+.dialog-close {
+  /* position: absolute;
+  right: 0px;
+  top: 0px; */
+  /* padding: 3vmin; */
+  padding-top: 10px;
+  text-align: center;
+}
+
+.dialog-close > img {
+  height: 5vh;
+  max-height: 33px;
+}
+
+.dialog-title {
+  position: relative;
+  font-weight: 500;
+  margin-bottom: 2vh;
+  /* font-size: 2rem; */
+  font-size: 2.2vw;
+}
+
+.dialog-out {
+  animation: 0.3s forwards dialog-out;
+}
+.dialog-in {
+  animation: 0.3s forwards dialog-in;
+}
+
+.closeBtn {
+  background-color: white;
+  border: 1px solid #0fbcc0;
+  color: black;
+}
+
+@keyframes dialog-out {
+  from {
+    transform: scaleY(1);
+  }
+  to {
+    transform: scaleY(0);
+  }
+}
+@keyframes dialog-in {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+.results-explainer-header {
+  height: var(--headerHeight);
+  max-width: 1500px;
+}
+
+.results-explainer-body {
+  height: calc(100% - var(--headerHeight) - var(--footerHeight));
+  display: flex;
+}
+
+.results-explainer-footer {
+  height: var(--footerHeight);
+  text-align: right;
+}
+
+.fsFooter1 {
+  margin: 10px 0;
+}

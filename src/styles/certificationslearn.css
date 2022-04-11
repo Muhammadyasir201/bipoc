@@ -1,0 +1,54 @@
+.certifications-learn {
+  max-width: 1341px;
+  margin: 0 auto;
+  padding: 4vh 4vw;
+}
+
+.certifications-learn-body {
+  margin: 12vh 0px 0px 0px;
+}
+
+.certifications-learn-sections {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+}
+
+.certifications-learn-sections > div {
+  margin: 0px 15px;
+  font-weight: 600;
+}
+
+.certifications-learn-section-title {
+  margin: 10px 0px;
+  font-weight: bold;
+}
+
+.certifications-link {
+  color: #0fbcc0;
+}
+
+.certifications-link:hover {
+  filter: brightness(70%);
+}
+
+.certifications-popover {
+  padding: 40px;
+  max-width: 800px;
+}
+
+.certifications-popover a {
+  text-decoration: none;
+  color: #0fbcc0;
+  margin-top: 10px;
+}
+
+.certificationBtn {
+  padding: 10px 40px;
+  background-color: white;
+}
+
+.certificationBtn:hover {
+  filter: brightness(90%);
+}

@@ -1,0 +1,30 @@
+
+.location-container {
+    margin: 3vh 0px;
+}
+
+.location-header {
+    display: flex;
+}
+
+.location-question {
+    font-weight: bold;
+    padding-left: 20px;
+    width: 240px;
+}
+
+.location-footer {
+    padding: 10px 0px 0px 20px;
+}
+
+.location-footer.source {
+    color: #0FBCC0;
+}
+
+.location-footer.destination {
+    color: #522A1C;
+}
+
+.location-header img {
+    height: 8vh;
+}

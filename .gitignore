@@ -1,0 +1,8 @@
+node_modules
+dist
+wordpress
+.DS_Store
+npm-debug.log
+
+index.html
+.env

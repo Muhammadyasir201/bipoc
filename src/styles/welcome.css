@@ -1,0 +1,104 @@
+.welcome {
+  --maxWidth: 64vw;
+  --width: 75vw;
+  --buttonContainerHeight: 10vh;
+
+  color: black;
+}
+
+@media (max-height: 500px) {
+  .welcome {
+    --buttonContainerHeight: 17vh;
+  }
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 100%;
+}
+
+.welcome-panel {
+  background-color: white;
+  background: rgb(255, 255, 255, 0.9);
+  width: var(--width);
+  max-width: var(--maxWidth);
+  /* height: 72vh; */
+  /* max-height: 776px; */
+  margin: 0px auto;
+}
+
+.welcome-body {
+  overflow: auto;
+  padding: 4vh 5vw 0px 5vw;
+}
+
+.welcome-title {
+  margin: 3vh 0;
+  font-size: 3vw;
+  font-weight: 500;
+}
+
+.welcome-button-container {
+  height: var(--buttonContainerHeight);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-footer {
+  width: var(--width);
+  max-width: var(--maxWidth);
+  margin: 2vh auto 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome-footer-text {
+  color: white;
+  max-width: 750px;
+  font-size: 0.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+}
+
+.welcome-footer-logos {
+  display: flex;
+  align-self: baseline;
+  align-items: flex-start;
+}
+
+.welcome-footer-logos img {
+  max-width: 100%;
+  width: 127px;
+}
+
+.black-overlay1 {
+  height: 30vh;
+  width: 100vw;
+  -webkit-filter: blur(50px);
+  filter: blur(50px);
+  background-color: rgba(48, 75, 87, 0.4);
+  z-index: -1;
+  position: absolute;
+}
+
+.welcomeBtn {
+  color: white;
+  /* padding: 7px 17px 6px 18px;
+  font-size: 21px; */
+  padding: 9px 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9vw;
+  border-radius: 22px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #0fbcc0;
+}

@@ -1,0 +1,32 @@
+.actioncard {
+  cursor: pointer;
+}
+
+.actioncard-rect {
+  fill: white;
+  width: 86;
+  height: 160;
+  stroke-width: 1px;
+}
+
+.actioncard-icon {
+  width: 45;
+  height: 47;
+  fill: transparent;
+  pointer-events: none;
+}
+
+.actioncard-text {
+  width: 78;
+  height: 65;
+  fill: transparent;
+  pointer-events: none;
+}
+
+.actioncard-footer {
+  width: 86;
+  height: 18;
+  font-size: 12px;
+  text-anchor: middle;
+  pointer-events: none;
+}

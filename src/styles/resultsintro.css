@@ -1,0 +1,20 @@
+.results-intro {
+  text-align: center;
+  margin: 10% 0px 0px 0px;
+  color: white;
+}
+
+.results-intro-title {
+  margin: 20px 0px;
+}
+
+.results-intro-text {
+  font-size: 3rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.results-intro-footer > button {
+  width: 160px !important;
+  margin: 40px 0px 0px 0px;
+}

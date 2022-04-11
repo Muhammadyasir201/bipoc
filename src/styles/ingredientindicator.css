@@ -1,0 +1,17 @@
+.ingredient-indicator {
+  position: absolute;
+  top: 4vh;
+  /* right: 40px; */
+  right: 2vw;
+  border-radius: 25px;
+  /* padding: 10px; */
+  padding: 1vmin;
+  text-align: center;
+
+  /* width: 140px;     */
+  min-width: 7.3vw;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

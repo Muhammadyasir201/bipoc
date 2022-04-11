@@ -1,0 +1,42 @@
+
+
+.ingredient {
+    --footerHeight: 34vh;
+    width: 76%;
+    max-width: 700px;
+}
+
+@media (max-height:650px) {
+    .ingredient {
+        --footerHeight: 40vh;
+    }
+}
+
+.ingredient-body {
+    height: calc(100% - var(--footerHeight));
+}
+
+.ingredient-footer {
+    height: var(--footerHeight);
+    text-align: center;
+    padding: 0px 3vw;
+}
+
+.ingredient-title {
+    margin: 2vh 0;
+}
+
+.ingredient-footer-title {
+    margin: 3vh 0px;
+}
+
+.ingredient input {
+    border-radius: 40px;
+    border: 1px solid #0FBCC0;
+    padding: 14px;
+    width: 100%;
+    max-width: 592px;
+    max-height: 60px;
+    height: 7vh;
+    font-size: 1rem;
+}

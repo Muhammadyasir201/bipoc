@@ -1,0 +1,43 @@
+
+.learn {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 5vh 4vw;
+}
+
+.learn-left-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.learn-right {
+    padding: 0 4vw;
+}
+
+.learn-right > div {
+    margin: 2vh 0px;
+}
+
+.learn-right-header {
+    font-weight: bold;
+}
+
+.learn-image {
+    max-width: 100%;
+    max-height: calc(100vh - 90px);
+}
+
+.learn-image-container {
+    text-align: center;
+}
+
+.learn-arrow {
+    width: 56px;
+}
+
+.learn-right-body {
+    overflow: auto;
+    max-height: calc(90vh - 120px);
+}

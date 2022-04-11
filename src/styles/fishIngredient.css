@@ -1,0 +1,72 @@
+.container {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.fish-container {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 3vh;
+  width: 60vw;
+}
+
+.select-text {
+  text-align: center;
+  background-color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 4vh 0;
+}
+
+.finFish-container {
+  grid-area: 1/1/2/-1;
+  justify-self: center;
+  z-index: 1;
+}
+
+.seaWeed-container {
+  margin-top: -32vh;
+}
+.shellFish-container {
+  justify-self: center;
+}
+
+.shrimp-container {
+  margin-top: -6vh;
+}
+
+.image-btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  width: fit-content;
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 1vw;
+}
+
+.btn-Finfish {
+  background-color: #6792d7;
+  margin-top: -7vh;
+}
+
+.btn-shellfish {
+  background-color: #686a65;
+  margin-top: -7vh;
+}
+
+.btn-Shrimp {
+  background-color: #f6a463;
+  margin-top: -5vh;
+}
+
+.btn-Seaweed {
+  background-color: #34a94a;
+  margin-right: -5vw;
+  margin-top: -10px;
+}

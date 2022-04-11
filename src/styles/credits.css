@@ -1,0 +1,98 @@
+.credits {
+  text-align: center;
+  height: 100%;
+  overflow: auto;
+  color: white;
+}
+
+.credits-header {
+  width: 66%;
+  max-width: 1248px;
+  margin: 2vh auto;
+  padding-top: 20px;
+}
+
+.credits-title {
+  font-weight: bold;
+}
+
+.credits-subtitle {
+  font-weight: bold;
+  margin-bottom: 2vh;
+}
+
+.credits-footer {
+  width: 60%;
+  max-width: 518px;
+  margin: 2vh auto;
+}
+
+.credits-body > img {
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.credits-footer-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.credits-footer-logos > img {
+  margin: 0px 20px;
+  cursor: pointer;
+}
+
+.credits-footer > div {
+  margin: 12px 0px;
+}
+
+.credits-table {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.credits-table-title {
+  font-weight: bold;
+  margin: 15px 0px;
+}
+
+.credits-table-footer {
+  margin: 2vh 0;
+}
+
+.creditBtn {
+  color: #0fbcc0;
+  background-color: white;
+}
+
+.creditBtn:hover {
+  filter: brightness(90%);
+}
+
+.credit-blackOverlay {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(48, 75, 87, 0.3);
+  z-index: -1;
+  position: absolute;
+}
+
+.public-domain-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 16vw;
+  margin-top: 4vh;
+}
+
+.fsFooter1 {
+  font-size: 0.7rem;
+}
+
+.footerText {
+  text-align: left;
+  margin-left: 10px;
+}

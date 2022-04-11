@@ -1,0 +1,28 @@
+.transparency {
+  --footerHeight: 14vh;
+}
+
+@media (max-height: 600px) {
+  .transparency {
+    --footerHeight: 24vh;
+  }
+}
+
+.transparency-body {
+  height: calc(100% - var(--footerHeight));
+}
+
+.transparency-footer {
+  height: var(--footerHeight);
+}
+
+.transparency-question {
+  margin: 20px 0px;
+  font-weight: 500;
+}
+
+.panel.transparency {
+  width: 70%;
+  max-width: 39vw;
+  min-width: 280px;
+}

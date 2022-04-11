@@ -1,0 +1,10 @@
+.slider {
+  display: flex;
+  align-items: center;
+}
+
+.slider img {
+  width: 29px;
+  /* height: 29px; */
+  height: 4vh;
+}

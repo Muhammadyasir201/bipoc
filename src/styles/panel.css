@@ -1,0 +1,17 @@
+.panel {
+  background-color: white;
+  width: 45%;
+  position: absolute;
+  /* top: 110px; */
+  top: calc(4vh + 60px);
+  /* right: 40px;   */
+  right: 2vw;
+  /* bottom: 50px; */
+  bottom: 5vh;
+  /* padding: 20px 50px 0px 50px; */
+  padding: 3vh 4vw 0px 4vw;
+}
+
+.panel-body {
+  overflow: auto;
+}

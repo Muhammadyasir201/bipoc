@@ -1,0 +1,40 @@
+.certifications {
+  --footerHeight: 14vh;
+}
+
+@media (max-height: 600px) {
+  .certifications {
+    --footerHeight: 16vh;
+  }
+}
+
+@media (max-height: 470px) {
+  .certifications {
+    --footerHeight: 22vh;
+  }
+}
+
+.certifications-body {
+  height: calc(100% - var(--footerHeight));
+}
+
+.certifications-footer {
+  height: var(--footerHeight);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel.certifications {
+  width: 70%;
+  max-width: 1200px;
+  /* min-width: 510px; */
+  min-width: 65vw;
+}
+
+.certifications-table {
+  display: flex;
+  margin: 20px 0px;
+  padding: 0px 20px 0px 0px;
+  justify-content: space-between;
+}

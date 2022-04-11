@@ -1,0 +1,70 @@
+.myContainer {
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mySubTitle {
+  font-size: 2rem;
+}
+
+.myTitle {
+  font-size: 4rem;
+  margin: 4vh 20vw;
+}
+
+.myBtn {
+  /* width: 3.6vw;
+  height: 4.6vh; */
+  width: 69px;
+  height: 43px;
+  padding: 10px 20px 10px 29px;
+  border-radius: 21.5px;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+  border: solid 1px #0fbcc0;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.polygon {
+  clip-path: polygon(0 0, 0% 100%, 100% 50%);
+  /* width: 1vw;
+  height: 2.4vh; */
+  width: 20px;
+  height: 23px;
+  background-color: #16b6fa;
+}
+
+.myBtn:hover {
+  filter: brightness(90%);
+}
+
+.subtitle2 {
+  width: 64vw;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.23;
+}
+
+.myInput {
+  box-shadow: 0 2px 6px 0 rgb(0 0 0 / 20%), 0 2px 6px 0 rgb(0 0 0 / 19%);
+  font-family: Work Sans;
+  border-radius: 25px;
+  text-align: center;
+  margin: 4px 2px;
+  min-width: 7vw;
+  font-size: 0.9rem;
+  padding: 10px;
+  border: solid 1px #0fbcc0;
+}
+
+.btnContainer {
+  margin: 2vh;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}

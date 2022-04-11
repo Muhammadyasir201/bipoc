@@ -1,0 +1,162 @@
+.section-header {
+  margin: 5vh 5vw;
+  width: 41%;
+  max-width: 680px;
+  color: white;
+}
+
+.section-icons {
+  display: flex;
+  /* height: 84px; */
+}
+
+.icon-grey {
+  filter: grayscale(1);
+}
+
+.section-main-icon img {
+  /* width: 70px;
+  height: 69px; */
+  width: 4vw;
+  height: 7vh;
+}
+
+.section-name {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1vw;
+  margin-top: 4px;
+}
+
+.section-icons-separator {
+  width: 1px;
+  margin: 0px 9px 0px 14px;
+}
+
+.section-icons-separator > div {
+  margin-top: 10px;
+  width: 100%;
+  height: calc(100% - 20px);
+}
+
+.section-icon {
+  margin: 0px 5px;
+  /* max-height: 50px; */
+  margin: 0px 5px;
+  height: 6vh;
+}
+
+.section-principle {
+  /* margin: 4vh 0px 0px 0px; */
+  margin-top: 2vh;
+}
+
+.section-header-title {
+  margin: 10px 0px;
+  font-weight: 500;
+}
+
+.section-header-title {
+  /* font-size: 2rem; */
+  font-size: 2vw;
+  text-transform: capitalize;
+}
+
+.finFish1 {
+  margin-left: 16vw;
+  width: 36vw;
+}
+
+.shrimp2 {
+  margin-left: 16vw;
+  width: 36vw;
+}
+
+.ShellFish9Title {
+  width: 31vw;
+}
+
+.ShellFish9 {
+  margin-left: 8vw;
+  width: 35vw;
+}
+
+.ShellFish10 {
+  margin-left: 13vw;
+  width: 35vw;
+}
+
+.ShellFish2 {
+  margin-left: 12.8vw;
+  width: 35vw;
+}
+
+.finFish10Title {
+  width: 27vw;
+}
+
+.finFish4 {
+  width: 49vw;
+}
+
+.ShellFish4title {
+  width: 42vw;
+}
+
+.ShellFish6 {
+  margin-left: 1vw;
+}
+
+.ShellFish6Title {
+  font-size: 1.9vw;
+}
+
+.finFish7 {
+  margin-left: 10.4vw;
+  width: 36vw;
+}
+
+.shrimp1 {
+  margin-left: 13vw;
+  width: 36vw;
+}
+
+.shrimp5 {
+  margin-left: 5vw;
+  width: 36vw;
+}
+
+.shrimp6 {
+  margin-left: 3vw;
+  width: 34vw;
+}
+
+.shrimp7 {
+  margin-left: 7vw;
+  width: 29vw;
+}
+
+.shrimp8 {
+  margin-left: 8vw;
+  width: 41vw;
+}
+
+.seaweed3 {
+  margin-left: 10vw;
+  width: 33vw;
+}
+
+.shrimpTitle2 {
+  margin-top: -3px;
+}
+
+.shrimp7Title {
+  width: 34vw;
+}
+
+@media (min-width: 795px) {
+  .finFish1Title {
+    width: 24vw;
+  }
+}

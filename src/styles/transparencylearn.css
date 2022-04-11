@@ -1,0 +1,14 @@
+.transparency-learn {
+  display: flex;
+  align-items: center;
+}
+
+.transparency-learn-body {
+  max-width: 1452px;
+  margin: 0 auto;
+  padding: 0 5vw;
+}
+
+.transparency-learn-footer {
+  margin-top: 15px;
+}
