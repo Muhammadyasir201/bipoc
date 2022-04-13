@@ -29,7 +29,7 @@ export class ProgressBar extends React.Component<IProgressBarProps> {
     const progressDotsLength: any = sections;
     return (
       <appContext.Consumer>
-        {({ transition, useData }) => {
+        {({ transition, fish }) => {
           return (
             <div className={`progress-bar ${className ?? ""}`}>
               <div>
@@ -44,23 +44,23 @@ export class ProgressBar extends React.Component<IProgressBarProps> {
                 </button>
               </div>
               <div>
-                {Array.from(
-                  Array(Number(progressDotsLength[useData])).keys()
-                ).map((i) => {
-                  const active = i == progress;
-                  return (
-                    <span
-                      key={i}
-                      className={`progress-dot ${active ? "active" : ""}`}
-                      style={{
-                        backgroundColor:
-                          section && active
-                            ? Settings.data.sections[section].color
-                            : undefined,
-                      }}
-                    />
-                  );
-                })}
+                {Array.from(Array(Number(progressDotsLength[fish])).keys()).map(
+                  (i) => {
+                    const active = i == progress;
+                    return (
+                      <span
+                        key={i}
+                        className={`progress-dot ${active ? "active" : ""}`}
+                        style={{
+                          backgroundColor:
+                            section && active
+                              ? Settings.data.sections[section].color
+                              : undefined,
+                        }}
+                      />
+                    );
+                  }
+                )}
               </div>
               <div>
                 {onNext ? (
