@@ -29,13 +29,14 @@ export class ProgressBar extends React.Component<IProgressBarProps> {
     const progressDotsLength: any = sections;
     return (
       <appContext.Consumer>
-        {({ transition, fish }) => {
+        {({ transition, useData }) => {
           return (
             <div className={`progress-bar ${className ?? ""}`}>
               <div>
                 <button
-                  className='icon-button'
-                  onClick={() => transition?.("/welcome")}>
+                  className="icon-button"
+                  onClick={() => transition?.("/welcome")}
+                >
                   <img
                     src={ProgressBar.assets.iconHome}
                     style={{ height: "4vh" }}
@@ -43,30 +44,30 @@ export class ProgressBar extends React.Component<IProgressBarProps> {
                 </button>
               </div>
               <div>
-                {Array.from(Array(Number(progressDotsLength[fish])).keys()).map(
-                  (i) => {
-                    const active = i == progress;
-                    return (
-                      <span
-                        key={i}
-                        className={`progress-dot ${active ? "active" : ""}`}
-                        style={{
-                          backgroundColor:
-                            section && active
-                              ? Settings.data.sections[section].color
-                              : undefined,
-                        }}
-                      />
-                    );
-                  }
-                )}
+                {Array.from(
+                  Array(Number(progressDotsLength[useData])).keys()
+                ).map((i) => {
+                  const active = i == progress;
+                  return (
+                    <span
+                      key={i}
+                      className={`progress-dot ${active ? "active" : ""}`}
+                      style={{
+                        backgroundColor:
+                          section && active
+                            ? Settings.data.sections[section].color
+                            : undefined,
+                      }}
+                    />
+                  );
+                })}
               </div>
               <div>
                 {onNext ? (
-                  <Button text='Next' onClick={onNext} disabled={disableNext} />
+                  <Button text="Next" onClick={onNext} disabled={disableNext} />
                 ) : (
                   <NavButton
-                    text='Next'
+                    text="Next"
                     route={nextRoute as string}
                     disabled={disableNext}
                   />

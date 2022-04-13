@@ -1,7 +1,7 @@
 .howto {
   --footerHeight: 80px;
   --leftPanelWidth: 35%;
-  --leftPanelColor: rgba(35, 136, 149, 0.73);
+  --leftPanelColor: #0fbcc0;
   --footerPadding: 4vh;
 }
 
@@ -13,7 +13,8 @@
 }
 
 .howto-body {
-  height: calc(100% - var(--footerHeight));
+  height: 100vh;
+  /* height: calc(100% - var(--footerHeight)); */
   overflow: auto;
   display: flex;
 }
@@ -28,10 +29,10 @@
 
 .howto-body-left img {
   position: absolute;
-  top: -24.00079345703125px;
-  left: -75.00079345703125px;
-  width: 483px;
-  height: 483px;
+  top: -50px;
+  left: -60px;
+  width: 47vh;
+  height: 49vh;
 }
 
 .howto-body-left.backdrop {
@@ -45,13 +46,81 @@
   padding: 6vh 10vh 0px 8vh;
 }
 
+.pointOuterWrapper {
+  display: flex;
+  gap: 37px;
+}
+
+.pointCount {
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.78;
+  letter-spacing: -0.36px;
+  color: #000;
+  display: block;
+  height: 100%;
+  width: 3%;
+  text-align: center;
+}
+
+.pointWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-left: solid 3px #e5e5e5;
+  padding-left: 37px;
+}
+
+.pointWrapperMargin {
+  margin-top: 5vh;
+}
+
+.pointTitle {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.78;
+  letter-spacing: -0.36px;
+  color: #000;
+}
+
+.pointDesc {
+  max-width: 786px;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5em;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.howTo-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  width: var(--leftPanelWidth);
+  padding: 6vh 7vh 0px 7vh;
+}
+
 .howto-title {
-  margin-bottom: 50px;
+  margin-bottom: 29px;
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .howto-text {
-  margin: 30px 3px;
+  margin: 0px 3px 30px;
+  font-size: 14px;
+  line-height: 1.5em;
 }
 
 .howto-footer {
@@ -73,7 +142,6 @@
 }
 
 .howto-footer-right {
-  width: calc(100% - var(--leftPanelWidth));
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -82,4 +150,10 @@
 
 .howto-footer-right-text {
   color: #0fbcc0;
+}
+
+@media (max-width: 900px) {
+  .howto-title {
+    font-size: 2rem;
+  }
 }

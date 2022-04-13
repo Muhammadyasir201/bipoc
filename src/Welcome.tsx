@@ -34,7 +34,7 @@ export class Welcome extends React.Component {
                         className="welcomeBtn"
                         onClick={() => {
                           sessionStorage.removeItem("howto-history-back");
-                          transition?.("/ingredient");
+                          transition?.("/welcome-2");
                         }}
                       >
                         Get Connected

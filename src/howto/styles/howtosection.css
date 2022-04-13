@@ -1,19 +1,16 @@
 .howtosection-container {
   display: flex;
+  align-items: center;
+  gap: 30px;
   margin: 4vh 0px;
 }
 
 .howtosection-left {
-  text-align: center;
-  width: 180px;
+  max-width: 94px;
 }
 
 .howtosection-left img {
   height: max(10vh, 100px);
-}
-
-.howtosection-right {
-  margin-left: 40px;
 }
 
 .howtosection-name {
@@ -25,7 +22,15 @@
 
 .howtosection-line {
   display: flex;
-  margin: 10px 0px;
+  margin-bottom: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: #000;
 }
 
 .howtosection-line-left {

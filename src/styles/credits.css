@@ -14,11 +14,68 @@
 
 .credits-title {
   font-weight: bold;
+  color: #95c33c;
 }
 
 .credits-subtitle {
   font-weight: bold;
   margin-bottom: 2vh;
+  color: #95c33c;
+}
+
+.content {
+  font-size: 0.8rem;
+  max-width: 861px;
+  text-align: center;
+  margin: 4vh auto 0;
+  line-height: 1.5em;
+  color: #000;
+  font-weight: 600;
+}
+
+.infoText {
+  margin-top: 1vh;
+  font-size: 0.65rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+.infoText a {
+  color: #000;
+  margin-left: 5px;
+}
+
+.createdByWrap {
+  margin-top: 5vh;
+}
+
+.teamTitle {
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.teamName {
+  margin-top: 1vh;
+  font-size: 0.85rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: -0.18px;
+  text-align: center;
+  color: #000;
 }
 
 .credits-footer {
@@ -51,7 +108,7 @@
 .credits-table {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .credits-table-title {
@@ -65,12 +122,15 @@
 
 .creditBtn {
   color: #0fbcc0;
-  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+  border: solid 1px #0fbcc0;
+  background-color: #fff;
 }
 
-.creditBtn:hover {
+/* .creditBtn:hover {
   filter: brightness(90%);
-}
+} */
 
 .credit-blackOverlay {
   width: 100vw;
@@ -93,6 +153,15 @@
 }
 
 .footerText {
+  margin-left: 2vh;
+  font-size: 0.65rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
   text-align: left;
-  margin-left: 10px;
+  color: #000;
+  width: 66%;
+  max-width: 790px;
 }

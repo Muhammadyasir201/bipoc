@@ -154,12 +154,13 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
               margin: "0 auto",
               backgroundColor: "#fff",
               padding: "4vw",
-            }}>
-            <div className='section-principle fsFooter'>Principle No. 5</div>
+            }}
+          >
+            <div className="section-principle fsFooter">Principle No. 5</div>
             <div className={`section-header-title fsSubtitle`}>
               {subContent.resultTitle}
             </div>
-            <div style={{ fontSize: "1vw" }} className='section-text'>
+            <div style={{ fontSize: "1vw" }} className="section-text">
               {html2React(subContent.text)}
             </div>
           </div>
@@ -168,7 +169,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
               return (
                 <React.Fragment>
                   <ProgressBar
-                    className='progress-bar-inline-shellfish-5'
+                    className="progress-bar-inline-shellfish-5"
                     progress={subContent.progress}
                     section={section}
                     onNext={() => {
@@ -215,10 +216,10 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
           titleCls={subContent.titleCls}
         />
         <Panel
-          className='section'
+          className="section"
           body={
             <React.Fragment>
-              <div className='section-title'>{subContent.question}</div>
+              <div className="section-title">{subContent.question}</div>
               <Slider
                 value={this.state.visibility}
                 color={color}
@@ -227,7 +228,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
                   this.recordAnswer(visibility, this.state.practices);
                 }}
               />
-              <div className='section-title'>Check all that apply:</div>
+              <div className="section-title">Check all that apply:</div>
               {subContent.practices.map((question: any, i: any) => {
                 return (
                   <Question
@@ -252,7 +253,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
                 return (
                   <React.Fragment>
                     <ProgressBar
-                      className='progress-bar-inline'
+                      className="progress-bar-inline"
                       progress={subContent.progress}
                       section={section}
                       onNext={() => {
@@ -284,14 +285,14 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
           visible={this.state.dialogVisible}
           title={dialogContent.title}
           content={html2React(dialogContent.content)}
-          bgColor='rgba(62, 137, 251, 0.75)'
+          bgColor="rgba(62, 137, 251, 0.75)"
           onClose={() => this.setState({ dialogVisible: false })}
         />
         {this.props.section === "planet" &&
           this.props.index === 1 &&
           sessionStorage.getItem("show-help-dialog") && (
             <div
-              className='section-click'
+              className="section-click"
               onClick={() => {
                 sessionStorage.removeItem("show-help-dialog");
                 this.setState({
@@ -336,7 +337,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
         "text/html"
       ).body;
       return {
-        title: HowTo.fish.sections[section].principles[i],
+        title: HowTo.Finfish.sections[section].principles[i],
         icon: (tree.querySelector("div > figure > img") as HTMLImageElement)
           .src,
         practices: DOMUtils.select(tree, "li").map((p) => p.innerText),

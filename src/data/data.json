@@ -19,6 +19,13 @@
     "logo2": "/public/images/surface1.svg",
     "logo3": "/public/images/logo-greenbrownblue.svg"
   },
+  "welcomeTwo": {
+    "backgroundImage": "/public/images/backgrounds/welcome-page-two-bg.svg",
+    "titleOne": "What is Just Sourcing?",
+    "titleTwo": "What is BIPOC Sourcing?",
+    "descriptionOne": "<div style='font-size: 0.9vw;'>Just Sourcing is a commitment to <strong>producers who deserve fair treatment and direct support</strong> in our food systems. Buyers who engage in Just Sourcing recognize that conventional, “business as usual” approaches to procurement lock out many small, midsize, regenerative, and BIPOC producers. Changing sourcing processes, collaborating with producer-aligned advocates to make inclusive changes, and overall transparency, integrity, and follow-through are all requirements for Just Sourcing success. </div>",
+    "descriptionTwo": "<div style='font-size: 0.9vw;'>BIPOC (pronounced “BUY-pock”) stands for <strong>Black, Indigenous, and People of Color.</strong> This terminology has emerged in popular usage over the last few years as a response to the ways that the term people of color, or POC, can contribute to the erasure of the particular legacies of racist oppression and exploitation that Black and Indigenous communities have survived. Companies and organizations who seek to support BIPOC suppliers via procurement should engage with learning about the history of regional and national food system policies and practices and the cumulative impacts on Black, Indigenous, Latinx, and Asian producers.</div>"
+  },
   "ingredient": {
     "backgroundImage": "/public/images/backgrounds/welcome.svg",
     "finFishImage": "/public/images/finfish.svg",
@@ -30,34 +37,33 @@
     "Finfish": {
       "icon": "/public/images/icon-howto.svg",
       "title": "How to use this tool",
-      "content": "Select the ingredient’s <strong>region</strong> of origin.<br /><br />Answer a <strong>series of questions</strong> based on the principles; these are divided into three thematic areas based on A Greener Blue’s Principles of Aquaculture. <br /><br />Review the <strong>outcomes screen</strong> that scores your supply chain knowledge. <br /><br />Based on your results, you will receive <strong>Get Connected</strong> action cards to help you work with your producers and suppliers to improve your knowledge about the ingredients you source and align your purchasing decisions with your company’s values.",
+      "content": "This tool was made by The Lexicon and released under CC BY-NC-SA 3.0 IGO license.",
+      "contentTwo": "The Lexicon is a 501(c)(3) non-profit organization based in Petaluma, CA, USA. <br/>To learn more about the Team behind Connected Markets: Just BIPOC Sourcing, click here.",
+      "pointOneTitle": "Get started",
+      "pointOneDesc": "To begin, you’ll answer a series of questions about your current foodservice sourcing operation. Remember, there are no right answers! Just be honest about how you’ve prepared for an equitable sourcing pilot. These questions will address three key areas of your foodservice sourcing operation. ",
+      "pointTwoTitle": "Find out how you did",
+      "pointTwoDesc": "Next, you’ll review an outcomes screen that scores your preparedness for a foodservice sourcing pilot. Based on your results, you’ll receive downloadable Get Connected Action Cards that show you areas where you can improve. They will help you work with your producers, distributors, suppliers to improve your knowledge about the ingredients you source and align your purchasing decisions with your values.",
       "principlesDesc": "A Greener Blue’s Ten Principles of Finfish Aquaculture are grouped into three areas food purchasers can support: <strong>Planet</strong>, which focuses primarily on the environmental benefits of aquaculture; <strong>People</strong>, which considers the positive effects that sharing aquaculture knowledge and skills can have on women and youth; and <strong>Supply Chains</strong>, which shows how supporting responsible handling and communication between partners builds resilience, accountability, and connection from the water to the table.",
       "sections": {
-        "planet": {
+        "chef": {
           "principles": [
-            "Helps address climate change",
-            "Supports global ecosystems and co-exists with wildlife",
-            "Optimizes impact on water resources and nutrient cycles",
-            "Ensures a safe growing environment for a safe food source"
+            "Individual client site",
+            "Culinary & operations team"
           ],
-          "icon": "/public/images/GLOBE.svg",
+          "icon": "/public/images/chef-orange.svg",
           "color": "#42b294"
         },
-        "people": {
-          "principles": [
-            "Enhances flavor and nutrition",
-            "Prioritizes fair treatment, inclusion, and equality of workers",
-            "Builds resilience and opportunity in local communities"
-          ],
-          "icon": "/public/images/fisherPerson.svg",
+        "foodProgram": {
+          "principles": ["Client company/organization", "Food program"],
+          "icon": "/public/images/food-program.svg",
           "color": "#3e89ff"
         },
-        "Supply Chain": {
+        "foodService": {
           "principles": [
-            "Preserves the product’s story and quality throughout<br/> the supply chain",
-            "Creates co-products beyond seafood"
+            "Foodservice management company",
+            "VPs & Regional leads"
           ],
-          "icon": "/public/images/supplyChain.svg",
+          "icon": "/public/images/food-service.svg",
           "color": "#fbb040"
         }
       },
@@ -1552,15 +1558,18 @@
     }
   },
   "credits": {
-    "bg": "/public/images/backgrounds/Credits – 1.svg",
-    "title": "Connected Markets: Aquaculture",
-    "subtitle": "Supply Chain Self-Assessment Tool",
-    "content": "Connected Markets: Aquaculture was developed by A Greener Blue, an initiative of Green Brown Blue. This food systems solutions activator brings together food companies, NGOs, scientists, entrepreneurs, and food producers from across the globe to tackle some of the most complex challenges facing our food systems. Instead of an activator for startups or new products, these groups design, rapidly prototype, and release ideas for change every six months.",
+    "bg": "/public/images/credits.svg",
+    "title": "Connected Markets: Just BIPOC Sourcing",
+    "subtitle": "Foodservice Self-Assessment Tool",
+    "content": "Connected Markets: Just BIPOC Sourcing was developed by The Lexicon, a 501(c)(3) non-profit organization based in Petaluma, CA, USA, in partnership with Kitchen Table Advisors, ALBA, and Esperanza Community Farms and with support from Food at Google.",
+    "infoText": "To learn more about Connected Markets: Just BIPOC Sourcing, contact",
+    "infoEmail": "info@thelexicon.org",
+    "createdBy": "Heather Frambach, Value Chain Strategist - Kitchen Table Advisors <br />Mireya Gomez-Contreras, Cultural Interpreter & Translator, Co-Owner - ALD&Y Organic <br />Guillermo Gomez-Contreras, Owner - Esperanza Community Farms",
     "teams": [
-      "Jennifer Bushman, Strategist<br/> Cora Hirashiki, Fat Moon Creative<br/> Blake Stok, Fair Trade USA<br/> Peter Handy, Bristol Seafood<br/> Stacy Shultz, Fortune Fish Co.<br/> Heather Barbod, Elemental Mktg<br/> Becca Millstein, Fishwife<br/> Barton Seaver, Chef<br/> Eva Mudde, GSSI<br/> Mark Kaplan, Topco / Envisible <br/> Michael Lee, California Aquaculture Association<br/> Derek Figueroa, Seattle Fish Co.<br/> Andrew Sutton, Disneyland Signature Restaurants<br/> Bill Dewey, Taylor Shellfish",
-      "Alf-Gøran Knutsen, Kvaroy Arctic <br/> Nick Mendoza, Neptune Snacks <br/> James Smith, Seatopia <br/> Todd English, Riverence Trout <br/> Kira Smiley, X Team <br/> Omar Alfi, Pacifico Aquaculture <br/> Michael Chambers, University of New Hampshire <br/> Bryton Shang, Aquabyte <br/> Corey Peet, Postelsia <br/> Steve Somerfield, Superior Fresh <br/> Sergio Guevara, Baja Shellfish <br/> Erick Peterson, Baja Shellfish <br/> John Finger, Hog Island Oyster Co. <br/> Tyler Isaac, Seafood Watch",
-      "Thierry Chopin, University of New Brunswick <br/> Rae Fuhrman, Stingray Sensing <br/> Michael Williamson, Cascadia Seaweed <br/> Jesse Baines, Atlantic Sea Farms <br/> Steve Meller, Rowena Pullan, CH4 Global <br/> Sea Briganti, LOLIWARE <br/> Alexandra Cousteau, Oceans 2050 <br/> Fritz Neumeyer, Oceans 2050 <br/> Rod Fujita, EDF <br/> Flavio Corsin, Aquaspark <br/> Michael Kann, Food at Google <br/> Adam Bent, Scout Canning <br/> Beth Walton, Oyster South <br/> Ian Jefferds, Penncove Shellfish"
+      "Laura Howard-Gayeton, Executive Director <br/>Douglas Gayeton, Creative Director, Information Architect <br/>Chloe Cho, Project Management, Writing, and Editing",
+      "Pier Giorgio Provenzano, Head of Digital <br />Emily VanderMey, Art Direction and UX Design <br />Alina Miller, Character Design"
     ],
+    "advisoryBoard": "April Word, Regional Sustainability Manager - Sodexo <br/>Melody Miranda, Culinary Director - Good Eating Company <br/>Renee McKeon, Sustainability and Marketing Manager - Artisan Restaurant Collection <br/>Maisie Ganzler, Chief Strategy and Brand Officer - Bon Appétit <br/>Jonathan Kaplan, Global Sustainability Director - Compass at Google <br/>Helene York, Independent Strategic Advisor <br/>Natily Santos, VP Speciality Supply Chain - Aramark",
     "gbb": {
       "title": "GREEN BROWN BLUE PRODUCTION TEAM",
       "teams": [
@@ -1572,8 +1581,8 @@
     "logo2": "/public/images/TheLexicon_logo.svg",
     "logoGBB": "/public/images/logo-greenbrownblue.svg",
     "gbbSubtitle": "Douglas Gayeton:  Creative Director and Information Architecture",
-    "logoCC": "/public/images/cc-zero.svg",
-    "footer": "<span style='text-align: left; font-size: 0.7rem;'><span style='font-style: italic; font-weight: 500;'>Connected Markets: Aquaculture</span> is made freely available to the public under a Creative Commons CC0 license. To the fullest extent possible under law, <span style='font-style: italic;'>A Greener Blue</span> and <span style='font-style: italic;'>Green Brown</span> Blue have waived all copyrights and related or neighboring rights to this content. </span>",
+    "logoCC": "/public/images/surface1.svg",
+    "footer": "Connected Markets: Just BIPOC Sourcing is made freely available to the public under a CC BY-NC-SA 3.0 IGO license. To the fullest extent possible under law, The Lexicon has waived all copyrights and related or neighboring rights to this content.",
     "reawakened1": "Green Brown Blue is produced by The Lexicon, a 501(c)(3) non-profit organization based in Petaluma, USA with support from Food at Google.",
     "reawakened2": "To learn more about Green Brown Blue and Connected Markets: Aquaculture, contact <a style='color: #fff; text-decoration: none;' href='mailto:info@greenbrownblue.com'>info@greenbrownblue.com</a>."
   },

@@ -12,6 +12,7 @@ import { Transition } from "./core/Transition";
 
 import { Intro } from "./Intro";
 import { Welcome } from "./Welcome";
+import { WelcomeTwo } from "./WelcomeTwo";
 import { HowTo } from "./howto/HowTo";
 import { Regions } from "./Regions";
 import { Section } from "./Section";
@@ -51,24 +52,6 @@ export class App extends React.Component<{}, IAppState> {
   Finfish = () => {
     this.setState({
       fish: "Finfish",
-    });
-  };
-
-  Shellfish = () => {
-    this.setState({
-      fish: "Shellfish",
-    });
-  };
-
-  Seaweed = () => {
-    this.setState({
-      fish: "Seaweed",
-    });
-  };
-
-  Shrimp = () => {
-    this.setState({
-      fish: "Shrimp",
     });
   };
 
@@ -134,6 +117,7 @@ export class App extends React.Component<{}, IAppState> {
               ![
                 "intro",
                 "welcome",
+                "welcome-2",
                 "howto",
                 "credits",
                 "principles",
@@ -141,17 +125,17 @@ export class App extends React.Component<{}, IAppState> {
               ].includes(section)
             ) {
               if (!this.state.fish) {
-                return <Redirect to='/intro' />;
+                return <Redirect to="/intro" />;
               }
             }
 
             if (section === "results") {
               if (Object.keys(Session.answers ?? {}).length < 3) {
-                return <Redirect to='/intro' />;
+                return <Redirect to="/intro" />;
               }
             }
 
-            const { Finfish, Shellfish, Seaweed, Shrimp } = this;
+            const { Finfish } = this;
             const { fish } = this.state;
 
             return (
@@ -162,11 +146,9 @@ export class App extends React.Component<{}, IAppState> {
                   history,
                   progress,
                   Finfish,
-                  Shellfish,
-                  Seaweed,
-                  Shrimp,
                   fish,
-                }}>
+                }}
+              >
                 {makeElem(m)}
               </appContext.Provider>
             );
@@ -178,10 +160,11 @@ export class App extends React.Component<{}, IAppState> {
     return (
       <React.Fragment>
         <div
-          className='fill-parent'
+          className="fill-parent"
           style={{
             display: this.state.rotateScreenPrompt ? "none" : undefined,
-          }}>
+          }}
+        >
           <BrowserRouter>
             <Switch>
               {makeRoute("intro", 0, () => (
@@ -189,6 +172,9 @@ export class App extends React.Component<{}, IAppState> {
               ))}
               {makeRoute("welcome", 0, () => (
                 <Welcome />
+              ))}
+              {makeRoute("welcome-2", 0, () => (
+                <WelcomeTwo />
               ))}
 
               {makeRoute("howto", 0, () => (
@@ -212,15 +198,15 @@ export class App extends React.Component<{}, IAppState> {
               ))}
 
               <Route
-                path='/section/:category/:index'
+                path="/section/:category/:index"
                 exact={true}
                 render={({ match: m, history }) => {
                   if (!this.state.fish) {
-                    return <Redirect to='/intro' />;
+                    return <Redirect to="/intro" />;
                   }
 
                   if (!Session.sourceRegion || !Session.destRegion) {
-                    return <Redirect to='/regions' />;
+                    return <Redirect to="/regions" />;
                   }
 
                   const { category, index } = m.params;
@@ -228,7 +214,7 @@ export class App extends React.Component<{}, IAppState> {
                   const progress =
                     Settings.data.sections[category].progress + _index;
 
-                  const { Finfish, Shellfish, Seaweed, Shrimp } = this;
+                  const { Finfish } = this;
                   const { fish } = this.state;
 
                   return (
@@ -240,11 +226,9 @@ export class App extends React.Component<{}, IAppState> {
                         progress,
                         localTransition,
                         Finfish,
-                        Shellfish,
-                        Seaweed,
-                        Shrimp,
                         fish,
-                      }}>
+                      }}
+                    >
                       <Section section={category} index={_index} />
                     </appContext.Provider>
                   );
@@ -264,26 +248,28 @@ export class App extends React.Component<{}, IAppState> {
               {makeRoute("results", 16, () => (
                 <Results />
               ))}
-              <Route render={() => <Redirect to='/intro' />} />
+              <Route render={() => <Redirect to="/intro" />} />
             </Switch>
           </BrowserRouter>
         </div>
-        <div id='dialog-layer' />
+        <div id="dialog-layer" />
         <Transition ref={(e) => (this._transition = e as Transition)} />
         <div
-          className='rotate-prompt'
+          className="rotate-prompt"
           style={{
             display: this.state.rotateScreenPrompt ? "grid" : "none",
-          }}>
+          }}
+        >
           <div>
             <div>
-              <img src='/public/rotate-device.png' />
+              <img src="/public/rotate-device.png" />
             </div>
             <div
               style={{
                 color: "white",
                 padding: "20px",
-              }}>
+              }}
+            >
               Please rotate your device
             </div>
           </div>
