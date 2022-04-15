@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "aquaculture-782c4"
+    "default": "bipoc-29241",
+    "staging": "bipoc-29241"
   }
 }

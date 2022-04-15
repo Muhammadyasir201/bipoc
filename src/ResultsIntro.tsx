@@ -115,10 +115,10 @@ export const ResultsIntro: React.FC<Props> = ({ onNext, answers }) => {
                         )
                         .reduce((acc, el) => acc.concat(el), []);
 
-                      // sendEMail(
-                      //   email,
-                      //   actionCards.join("~").replaceAll("~", "\n")
-                      // );
+                      sendEMail(
+                        email,
+                        actionCards.join("~").replaceAll("~", "\n")
+                      );
                       localTransition?.(onNext);
                     }}
                   >
