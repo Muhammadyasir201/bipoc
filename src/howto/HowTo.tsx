@@ -116,7 +116,7 @@ export class HowTo extends React.Component {
                           }}
                         />
                       ) : (
-                        <NavButton text="Next" route="/regions" />
+                        <NavButton text="Next" route="/section/planet/1" />
                       )}
                     </div>
                   </div>

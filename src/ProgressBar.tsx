@@ -33,8 +33,6 @@ export class ProgressBar extends React.Component<IProgressBarProps> {
         ? "/section/planet/1"
         : nextRoute;
 
-    console.log({ _nextRoute });
-
     return (
       <appContext.Consumer>
         {({ transition, fish }) => {
@@ -51,7 +49,7 @@ export class ProgressBar extends React.Component<IProgressBarProps> {
                   />
                 </button>
               </div>
-              <div>
+              <div style={{ flex: 1, marginLeft: 10 }}>
                 {Array.from(Array(Number(progressDotsLength[fish])).keys()).map(
                   (i) => {
                     const active = i == progress;

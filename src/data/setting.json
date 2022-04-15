@@ -1,16 +1,16 @@
 {
   "sections": {
     "planet": {
-      "color": "#42b294",
-      "progress": 1
+      "color": "#f5964e",
+      "progress": 0
     },
     "people": {
-      "color": "#3e89ff",
-      "progress": 7
+      "color": "#eec04e",
+      "progress": 3
     },
     "Supply Chain": {
-      "color": "#fbb040",
-      "progress": 11
+      "color": "#95c33c",
+      "progress": 7
     }
   },
 

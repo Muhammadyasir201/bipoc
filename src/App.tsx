@@ -205,9 +205,9 @@ export class App extends React.Component<{}, IAppState> {
                     return <Redirect to="/intro" />;
                   }
 
-                  if (!Session.sourceRegion || !Session.destRegion) {
-                    return <Redirect to="/regions" />;
-                  }
+                  // if (!Session.sourceRegion || !Session.destRegion) {
+                  //   return <Redirect to="/regions" />;
+                  // }
 
                   const { category, index } = m.params;
                   const _index = parseInt(index, 10);
@@ -245,7 +245,7 @@ export class App extends React.Component<{}, IAppState> {
               {makeRoute("transparency", 16, () => (
                 <Transparency />
               ))}
-              {makeRoute("results", 16, () => (
+              {makeRoute("results", 9, () => (
                 <Results />
               ))}
               <Route render={() => <Redirect to="/intro" />} />

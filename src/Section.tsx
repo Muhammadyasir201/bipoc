@@ -134,12 +134,19 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
     const principleIndex = index - 1;
     const { color } = content;
     const subContent = content.principles[principleIndex];
-    const icons = content.principles.map((s: any) => s.icon);
+
+    let icons: any = {};
+
+    Object.keys(Section.content[this.context.fish]).forEach((element: any) => {
+      icons[element] = Section.content[this.context.fish][element].icon;
+    });
+
+    console.log({ hussain: icons });
 
     if (this.context.fish === "Shellfish" && subContent.principleNo === "5") {
       return (
         <div>
-          <Background path={subContent?.bg} />
+          <Background path={subContent.bg} />
           <InfoButtonIngredient section={section} />
           <SectionHeader
             name={section}
@@ -170,7 +177,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
                 <React.Fragment>
                   <ProgressBar
                     className="progress-bar-inline-shellfish-5"
-                    progress={subContent?.progress ?? 0}
+                    progress={subContent?.progress}
                     section={section}
                     onNext={() => {
                       this.recordAnswer(
@@ -184,9 +191,9 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
                         const sectionIndex = sections.indexOf(section);
                         if (sectionIndex + 1 < sections.length) {
                           const nextSection = sections[sectionIndex + 1];
-                          transition?.(`/section/${nextSection}/0`);
+                          transition?.(`/section/${nextSection}/1`);
                         } else {
-                          transition?.("/certifications");
+                          transition?.("/results");
                         }
                       }
                     }}
@@ -201,7 +208,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
 
     return (
       <>
-        <Background path={subContent?.bg} cls={"section-overlay"} />
+        <Background path={subContent.bg} cls={"section-overlay"} />
         <InfoButtonIngredient section={section} />
         <SectionHeader
           name={section}
@@ -249,7 +256,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
                   <React.Fragment>
                     <ProgressBar
                       className="progress-bar-inline"
-                      progress={subContent?.progress ?? 0}
+                      progress={subContent?.progress}
                       section={section}
                       onNext={() => {
                         this.recordAnswer(
@@ -263,9 +270,9 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
                           const sectionIndex = sections.indexOf(section);
                           if (sectionIndex + 1 < sections.length) {
                             const nextSection = sections[sectionIndex + 1];
-                            transition?.(`/section/${nextSection}/0`);
+                            transition?.(`/section/${nextSection}/1`);
                           } else {
-                            transition?.("/certifications");
+                            transition?.("/results");
                           }
                         }
                       }}

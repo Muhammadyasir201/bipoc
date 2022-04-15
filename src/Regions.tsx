@@ -41,10 +41,10 @@ export class Regions extends React.Component<{}, IRegionsState> {
     const content = region;
     const { source, destination } = this.state;
     return (
-      <div className='regions'>
+      <div className="regions">
         <InfoButtonIngredient />
-        <div className='fill-parent'>
-          <div className='regions-body'>
+        <div className="fill-parent">
+          <div className="regions-body">
             <WorldMap
               source={source}
               dest={destination}
@@ -77,20 +77,20 @@ export class Regions extends React.Component<{}, IRegionsState> {
             />
             <div>
               <div>
-                <div className='regions-title fsTitle'>{content.title}</div>
-                <div className='regions-content'>{content.content}</div>
+                <div className="regions-title fsTitle">{content.title}</div>
+                <div className="regions-content">{content.content}</div>
               </div>
               <div>
                 <RegionLocation
                   icon={Regions.assets.pinSrc}
-                  text='Where is your operation based?'
+                  text="Where is your operation based?"
                   isSource={true}
                   location={source}
                 />
                 {(source || destination) && (
                   <RegionLocation
                     icon={Regions.assets.pinDest}
-                    text='Where would you like to source from?'
+                    text="Where would you like to source from?"
                     isSource={false}
                     location={destination}
                   />
@@ -98,10 +98,10 @@ export class Regions extends React.Component<{}, IRegionsState> {
               </div>
             </div>
           </div>
-          <div className='regions-footer'>
+          <div className="regions-footer">
             <ProgressBar
               disableNext={!(source && destination)}
-              nextRoute='/section/planet/0'
+              nextRoute="/section/planet/1"
               progress={0}
             />
           </div>

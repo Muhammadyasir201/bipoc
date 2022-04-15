@@ -83,10 +83,10 @@ export class Ingredient extends React.Component<{}, IIngredientState> {
         <Background path={_content.main.bg} />
         <InfoButton />
         <Panel
-          className='ingredient'
+          className="ingredient"
           body={
             <React.Fragment>
-              <div className='ingredient-title fsTitle'>
+              <div className="ingredient-title fsTitle">
                 {_content.main.title}
               </div>
               <div>{_content.main.content}</div>
@@ -94,13 +94,13 @@ export class Ingredient extends React.Component<{}, IIngredientState> {
           }
           footer={
             <React.Fragment>
-              <div className='ingredient-footer-title'>
+              <div className="ingredient-footer-title">
                 {_content.main.prompt}
               </div>
               <div>
                 <input
                   ref={(e) => (this._ingredient = e as HTMLInputElement)}
-                  type='text'
+                  type="text"
                   value={Session.ingredient ?? ""}
                   onChange={(e) => {
                     Session.setIngredient(e.target.value);
@@ -109,20 +109,21 @@ export class Ingredient extends React.Component<{}, IIngredientState> {
                 />
               </div>
               <ProgressBar
-                className='progress-bar-inline'
+                className="progress-bar-inline"
                 disableNext={!Session.ingredient?.length}
-                nextRoute='/regions'
+                nextRoute="/section/planet/1"
               />
               <appContext.Consumer>
                 {({ localTransition }) => {
                   return (
                     <div
-                      className='clickable fsFooter'
+                      className="clickable fsFooter"
                       onClick={() =>
                         localTransition?.(() =>
                           this.setState({ reawakened: true })
                         )
-                      }>
+                      }
+                    >
                       {_content.main.footer}
                     </div>
                   );

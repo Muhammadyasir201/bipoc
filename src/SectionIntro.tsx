@@ -32,7 +32,7 @@ export class SectionIntro extends React.Component<ISectionIntroProps> {
 
     const makePrinciple = (principle: IPrinciple) => {
       return (
-        <div className='section-intro-icon-container'>
+        <div className="section-intro-icon-container">
           <div>
             <img src={principle.icon} />
           </div>
@@ -44,30 +44,31 @@ export class SectionIntro extends React.Component<ISectionIntroProps> {
     return (
       <React.Fragment>
         <InfoButtonIngredient section={section} />
-        <div className='section-intro'>
+        <div className="section-intro">
           <div
-            className='section-intro-left'
-            style={{ backgroundColor: color }}>
+            className="section-intro-left"
+            style={{ backgroundColor: color }}
+          >
             <img src={icon} />
-            <div className='section-intro-left-footer'>
-              <div className='title'>{Utils.capitalize(section)}</div>
-              <div className='subtitle'>{text}</div>
+            <div className="section-intro-left-footer">
+              <div className="title">{Utils.capitalize(section)}</div>
+              <div className="subtitle">{text}</div>
             </div>
           </div>
-          <div className='section-intro-right'>
-            <div className='section-intro-icons-container'>
-              <div className='section-intro-icons'>
+          <div className="section-intro-right">
+            <div className="section-intro-icons-container">
+              <div className="section-intro-icons">
                 {makePrinciple(principles[0])}
                 {principles.length > 1 && makePrinciple(principles[1])}
               </div>
-              <div className='section-intro-icons'>
+              <div className="section-intro-icons">
                 {principles.length > 2 && makePrinciple(principles[2])}
                 {principles.length > 3 && makePrinciple(principles[3])}
                 {principles.length > 4 && makePrinciple(principles[4])}
               </div>
             </div>
           </div>
-          <div className='section-intro-footer'>
+          <div className="section-intro-footer">
             <ProgressBar
               nextRoute={`/section/${section}/1`}
               section={section}

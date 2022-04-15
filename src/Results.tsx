@@ -67,6 +67,8 @@ export class Results extends React.Component<{}, IResultsState> {
 
     this._actionCards = {
       planet: [],
+      people: [],
+      "Supply Chain": [],
     };
   }
 
@@ -195,7 +197,7 @@ export class Results extends React.Component<{}, IResultsState> {
                 onClose={() => this.setState({ explainer: false })}
               />
               <div className="results">
-                <IngredientIndicator />
+                {/* <IngredientIndicator /> */}
                 <div className="results-header">
                   <div className="fsSubtitle">
                     <p
@@ -205,8 +207,8 @@ export class Results extends React.Component<{}, IResultsState> {
                       {_content.title}
                     </p>
                   </div>
-                  <div>{_content.subTitle}</div>
-                  <div
+                  <div style={{ maxWidth: 836 }}>{_content.subTitle}</div>
+                  {/* <div
                     className="clickable"
                     onClick={() => {
                       this.setState({ explainer: true });
@@ -218,7 +220,7 @@ export class Results extends React.Component<{}, IResultsState> {
                     >
                       {_content.learn}
                     </p>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="results-body">
                   <svg
@@ -254,6 +256,7 @@ export class Results extends React.Component<{}, IResultsState> {
                   <div>
                     <span className="download">
                       <Button
+                        type={ButtonType.Blue}
                         text={html2React(_content.download)}
                         onClick={() => {
                           window.open(_content.allActionCards);
@@ -263,7 +266,6 @@ export class Results extends React.Component<{}, IResultsState> {
                     <span className="replay">
                       <Button
                         text={_content.replay}
-                        type={ButtonType.Blue}
                         onClick={() => {
                           Session.clear();
                           transition?.("/intro");

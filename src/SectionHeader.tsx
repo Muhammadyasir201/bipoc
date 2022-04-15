@@ -15,8 +15,6 @@ interface ISectionsHeaderProps {
   titleCls?: string;
 }
 
-const questIconsObj = [0, 0, 0, 1, 1, 1, 1, 2, 2];
-
 export class SectionHeader extends React.Component<ISectionsHeaderProps> {
   public render() {
     const {
@@ -48,17 +46,17 @@ export class SectionHeader extends React.Component<ISectionsHeaderProps> {
               }}
             />
           </div> */}
-          {icons.map((icon, i) => {
-            return (
-              <img
-                key={i}
-                src={icon}
-                className={`section-icon ${
-                  i === questIconsObj[index] ? "icon-normal" : "icon-grey"
-                }`}
-              />
-            );
-          })}
+          {icons &&
+            Object.keys(icons).map((key: any, index: any) => {
+              return (
+                <img
+                  key={`${key}-${index}`}
+                  src={icons[key]}
+                  className={`section-icon ${key !== name && "icon-grey"}`}
+                />
+              );
+            })}
+          ;
         </div>
         <div className={cls}>
           <div className="section-principle fsFooter">
