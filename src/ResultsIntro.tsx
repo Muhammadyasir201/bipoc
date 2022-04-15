@@ -88,23 +88,23 @@ export const ResultsIntro: React.FC<Props> = ({ onNext, answers }) => {
     <appContext.Consumer>
       {({ localTransition, fish }) => {
         return (
-          <div className='fill-parent'>
+          <div className="fill-parent">
             <Background path={youDidIt[fish]} />
-            <div className='myContainer'>
-              <div className='mySubTitle'>{youDidIt?.subtitle}</div>
-              <div className='myTitle'>{youDidIt?.title}</div>
-              <div className='subtitle2'>{youDidIt?.subtitle2}</div>
-              <div className='btnContainer'>
+            <div className="myContainer">
+              <div className="mySubTitle">{youDidIt?.subtitle}</div>
+              <div className="myTitle">{youDidIt?.title}</div>
+              <div className="subtitle2">{youDidIt?.subtitle2}</div>
+              <div className="btnContainer">
                 <input
                   onChange={(e) => setEmail(e.target.value.trim())}
-                  className='myInput'
-                  type='text'
+                  className="myInput"
+                  type="text"
                   value={email}
-                  placeholder='Insert your email'
+                  placeholder="Insert your email"
                 />
                 {isEmailValid(email) && (
                   <div
-                    className='myBtn'
+                    className="myBtn"
                     onClick={() => {
                       const actionCards = resultsPercentagesArr
                         .map(([name, arr]) =>
@@ -120,8 +120,9 @@ export const ResultsIntro: React.FC<Props> = ({ onNext, answers }) => {
                         actionCards.join("~").replaceAll("~", "\n")
                       );
                       localTransition?.(onNext);
-                    }}>
-                    <div className='polygon'></div>
+                    }}
+                  >
+                    See your results
                   </div>
                 )}
                 {/* <img

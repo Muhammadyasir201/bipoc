@@ -27,6 +27,14 @@ export class ProgressBar extends React.Component<IProgressBarProps> {
     const { nextRoute, disableNext, onNext, section, className, progress } =
       this.props;
     const progressDotsLength: any = sections;
+
+    const _nextRoute =
+      nextRoute == "/section/planet/0" || typeof nextRoute == "undefined"
+        ? "/section/planet/1"
+        : nextRoute;
+
+    console.log({ _nextRoute });
+
     return (
       <appContext.Consumer>
         {({ transition, fish }) => {
@@ -68,7 +76,7 @@ export class ProgressBar extends React.Component<IProgressBarProps> {
                 ) : (
                   <NavButton
                     text="Next"
-                    route={nextRoute as string}
+                    route={_nextRoute as string}
                     disabled={disableNext}
                   />
                 )}

@@ -45,20 +45,20 @@
       "pointTwoDesc": "Next, you’ll review an outcomes screen that scores your preparedness for a foodservice sourcing pilot. Based on your results, you’ll receive downloadable Get Connected Action Cards that show you areas where you can improve. They will help you work with your producers, distributors, suppliers to improve your knowledge about the ingredients you source and align your purchasing decisions with your values.",
       "principlesDesc": "A Greener Blue’s Ten Principles of Finfish Aquaculture are grouped into three areas food purchasers can support: <strong>Planet</strong>, which focuses primarily on the environmental benefits of aquaculture; <strong>People</strong>, which considers the positive effects that sharing aquaculture knowledge and skills can have on women and youth; and <strong>Supply Chains</strong>, which shows how supporting responsible handling and communication between partners builds resilience, accountability, and connection from the water to the table.",
       "sections": {
-        "chef": {
+        "planet": {
           "principles": [
             "Individual client site",
             "Culinary & operations team"
           ],
           "icon": "/public/images/chef-orange.svg",
-          "color": "#42b294"
+          "color": "#0fbcc0"
         },
-        "foodProgram": {
+        "people": {
           "principles": ["Client company/organization", "Food program"],
           "icon": "/public/images/food-program.svg",
           "color": "#3e89ff"
         },
-        "foodService": {
+        "Supply Chain": {
           "principles": [
             "Foodservice management company",
             "VPs & Regional leads"
@@ -83,7 +83,7 @@
             "Ensures a safe growing environment for a safe food source"
           ],
           "icon": "/public/images/GLOBE.svg",
-          "color": "#42b294"
+          "color": "#0fbcc0"
         },
         "people": {
           "principles": [
@@ -117,7 +117,7 @@
             "Positively impacts coastal waters and habitats"
           ],
           "icon": "/public/images/GLOBE.svg",
-          "color": "#42b294"
+          "color": "#0fbcc0"
         },
         "people": {
           "principles": [
@@ -153,7 +153,7 @@
             "Advance animal welfare"
           ],
           "icon": "/public/images/GLOBE.svg",
-          "color": "#42b294"
+          "color": "#0fbcc0"
         },
         "people": {
           "principles": [
@@ -182,248 +182,276 @@
   "section": {
     "Finfish": {
       "planet": {
-        "progress": "1",
-        "color": "#42b294",
+        "color": "#0fbcc0",
         "introIcon": "/public/images/GLOBEIntro.svg",
         "icon": "/public/images/Group 666.svg",
         "title": "The environmental benefits of aquaculture",
-        "sectionIntroHeadings": [
-          {
-            "title": "Helps address climate change",
-            "icon": "/public/images/CARBONFOOTPRINT.svg"
-          },
-          {
-            "title": "Supports global ecosystems and co-exists with wildlife",
-            "icon": "/public/images/COASTAL.svg"
-          },
-          {
-            "title": "Optimizes impact on water resources and nutrient cycles",
-            "icon": "/public/images/IMPROVEDWATERQUALITY-VerónicaDiaz.svg"
-          },
-          {
-            "title": "Ensures a safe growing environment for a safe food source",
-            "icon": "/public/images/REDUCEDINPUTS-AQUACULTURE.svg"
-          },
-          {
-            "title": "Advances animal welfare",
-            "icon": "/public/images/FISHFRIENDLY.svg"
-          }
-        ],
+        "progress": "1",
         "principles": [
           {
-            "progress": "2",
-            "title": "Helps Address Climate Change",
-            "resultTitle": "Helps address climate change",
+            "progress": "0",
+            "title": "Identifying client sites and encouraging participation",
+            "resultTitle": "Identifying client sites and encouraging participation",
             "resultIcon": "/public/images/Group 650.svg",
-            "icon": "/public/images/finfish/imag1.svg",
+            "icon": "/public/images/chef-orange.svg",
             "cls": "finFish1",
             "titleCls": "finFish1Title",
-            "principleNo": "1",
-            "practices": [
-              "Producer sells locally to reduce food miles",
-              "Producer and distributor use lower-carbon transportation methods (i.e. reduced or zero air freight)",
-              "Renewable energy is used at production and processing sites",
-              "Producer uses deforestation-free feed",
-              "Product packaging is sustainable (ex: reusable, recyclable, or biodegradable)",
-              "I don’t know"
-            ],
-            "text": "To fulfill its role as the sustainable protein source of the future, farmed fish must also play a part in building climate resilience and preparedness. Research suggests seafood has a notably lower carbon footprint than beef and pork, but beyond the choice of <strong>what to eat</strong>, there are ways to address emissions and resource use in <strong>how we grow and process</strong>. Whether it is through the product they grow or the types of transportation they choose, farmers and supply chain actors can work together to instill climate-smart practices into aquaculture.",
-            "question": "How much visibility do you have into the farming practices of this ingredient?",
-            "bg": "/public/images/backgrounds/Principle 1 – 1.svg",
+            "principleNo": "one",
+            "practices": ["Yes", "No"],
+            "text": "Foodservice is an especially important avenue for piloting partnerships with marginalized producers. Finding client sites or groups of client sites is the first step to establishing these BIPOC sourcing pilots.",
+            "question": "Is there an individual client site or group of sites that have or can be selected for a BIPOC sourcing pilot?",
+            "description": "Any sourcing effort that goes beyond the standardized and conventional model of procurement will require some measure of process change, experimentation, and iteration. Finding sites that are willing and able to have this flexibility will help ensure the pilot’s success.",
+            "bg": "/public/images/backgrounds/Question One – 1.svg",
             "actionCard": "https://drive.google.com/file/d/1uxySW2AHjL4z_4CzbFZUJM6tbOsep_aD/view"
           },
           {
-            "progress": "3",
-            "title": "SUPPORTS GLOBAL ECOSYSTEMS AND COEXISTS WITH WILDLIFE",
-            "resultTitle": "Supports global ecosystems and co-exists with wildlife",
-            "resultIcon": "/public/images/Group 651.svg",
-            "icon": "/public/images/finfish/imag2.svg",
+            "progress": "1",
+            "title": "Integrating new products into existing recipes and menus",
+            "resultTitle": "Integrating new products into existing recipes and menus",
+            "resultIcon": "/public/images/Group 561.svg",
+            "icon": "/public/images/food-program.svg",
             "cls": "finFish1",
             "titleCls": "",
-            "principleNo": "2",
+            "principleNo": "two",
             "practices": [
-              "Producer leads or supports restoration projects",
-              "Producer creates new habitat using growing medium",
-              "Operation respects and protects marine wildlife (ex: producer does not kill animals; uses non-lethal predator barriers)",
-              "Producer actively works to reduce entanglement and is transparent about entanglement events",
-              "Producer fallows (rests) sites",
-              "Sites are placed away from vulnerable wild stocks and sensitive habitats",
-              "Emergency nets and double barriers are used to prevent escapes",
-              "Escape events are documented",
-              "Producer uses and improves sustainable feed models and feed transparency",
-              "I don’t know"
+              "Yes, and can flexibly plan menus around an availability list",
+              "Yes, but only as a 1:1 substitute into existing menus",
+              "No"
             ],
-            "text": "Farmed seafood now makes up over 50% of all seafood eaten around the world. It is a key protein source for the future and is scaling rapidly, but it comes with external costs. Whether land or marine-based, fish farms must scale appropriately and safely. When farms are constructed and maintained with the surrounding wildlife and habitat in mind, they can mitigate impacts on the natural environment.",
-            "question": "How much visibility do you have into the farming practices of this ingredient?",
-            "bg": "/public/images/backgrounds/Principle 2 – 1.svg",
+            "text": "The cycles of menuing and purchasing in foodservice environments are inherently more flexible than a brick-and-mortar or e-commerce retailer, where products must often be of premium quality and designated for a physical or digital “slot” managed by the merchandising process.",
+            "question": "Do the target client sites have the ability to integrate products from small farms into their menus?",
+            "description": "Products from small farms often come in smaller volumes but with a greater variety of ingredients. Be sure to check with your selected client sites that they are able to be flexible and adaptive to integrate this variety into their menus.",
+            "bg": "/public/images/Question Two – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1etIaI5kvgmFs6D_b5POewiLkHz3ckyou/view"
+          },
+          {
+            "progress": "2",
+            "title": "Training chefs and operations team participating in the pilot",
+            "resultTitle": "Training chefs and operations team participating in the pilot",
+            "resultIcon": "/public/images/Group 561.svg",
+            "icon": "/public/images/food-service.svg",
+            "cls": "finFish1",
+            "titleCls": "",
+            "principleNo": "three",
+            "practices": ["Yes", "No"],
+            "text": "Individual site chefs and operations team members need to have an awareness and understanding of the benefits and potential limitations of ordering from small-scale BIPOC producers.",
+            "question": "Does the foodservice management company have the capacity to train site chefs on using a special availability list from small farms?",
+            "description": "Chefs and operations teams who are ordering and preparing ingredients may need extra support to understand how to best design menus and integrate smaller quantities of more diverse ingredients. The foodservice company and client sites should have the capacity to provide this support.",
+            "bg": "/public/images/Question Three – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1etIaI5kvgmFs6D_b5POewiLkHz3ckyou/view"
+          },
+          {
+            "progress": "3",
+            "title": "Setting formal crop plans with distributors and growers",
+            "resultTitle": "Setting formal crop plans with distributors and growers",
+            "resultIcon": "/public/images/Group 561.svg",
+            "icon": "/public/images/chef-orange.svg",
+            "cls": "finFish1",
+            "titleCls": "",
+            "principleNo": "four",
+            "practices": [
+              "Yes, the client partakes in formal yearly crop planning",
+              "Yes, they have informal seasonal programs",
+              "No, they are only seeking 1:1 substitution of existing products with new products"
+            ],
+            "text": "As pilots progress, purchasers, distributors, and producers should work together to create seasonal crop plans. This allows both producers and purchasers to provide input on what is grown and can lead to sustainable, long-term programs",
+            "question": "Is there a willingness on the part of the client company to direct client site chefs to engage in collaborative planning and menuing with the distributor and farmer group?",
+            "description": "Having client site leadership that provides chefs with the freedom and opportunity to collaboratively plan with distributors and growers has multiple benefits. Growers can ensure their products will be in demand based on what client companies actually want to serve.",
+            "bg": "/public/images/Question Four – 1.svg",
             "actionCard": "https://drive.google.com/file/d/1etIaI5kvgmFs6D_b5POewiLkHz3ckyou/view"
           },
           {
             "progress": "4",
-            "title": "OPTIMIZES IMPACT ON WATER RESOURCES AND NUTRIENT",
-            "resultTitle": "Optimizes impact on water resources and nutrient cycles",
-            "resultIcon": "/public/images/IMPROVEDWATERQUALITY-VerónicaDiaz (2).svg",
-            "icon": "/public/images/finfish/imag3.svg",
-            "cls": "",
+            "title": "Setting and tracking goals on spend and participation metrics",
+            "resultTitle": "Setting and tracking goals on spend and participation metrics",
+            "resultIcon": "/public/images/Group 561.svg",
+            "icon": "/public/images/food-program.svg",
+            "cls": "finFish1",
             "titleCls": "",
-            "principleNo": "3",
+            "principleNo": "five",
             "practices": [
-              "Operation, often land-based, captures “waste” and creates co-products from excess nutrients (ex: compost or fertilizer)",
-              "Producer reclaims nutrients as food (ex: aquaponics)",
-              "Regular testing and monitoring for nitrogen and phosphorus",
-              "Collaboration and data sharing with researchers",
-              "Limited freshwater use for production",
-              "Land-based producers have programs to reclaim or re-apply discharged water",
-              "I don’t know"
+              "Formal quotas",
+              "Documented and tracked goals around spend and participation",
+              "Voluntary/encouraged by client company",
+              "None"
             ],
-            "text": "In a time when ocean chemistry is changing dramatically and freshwater resources are under increasing stress, how producers use and treat  water could determine not only an aquaculture farm’s viability, but our food systems and watersheds. Whether in the ocean or on land, producers can monitor water quality, eliminate waste accumulation, or capture nutrients that would otherwise leak into the environment.",
-            "question": "How much visibility do you have into the farming practices of this ingredient? ",
-            "bg": "/public/images/backgrounds/Principle 3 – 1.svg",
-            "actionCard": "https://drive.google.com/file/d/1UiO-BLt3LCLvdua9Cav1aF4XQaHCuZRZ/view"
+            "text": "Tracking qualitative and quantitative data will help enhance, expand, and institutionalize the pilot into a foundational and impactful sourcing practice. This data can also be woven into a story for internal and external storytelling.",
+            "question": "Is there a mechanism within the larger client company to encourage or require site chefs to order from a special availability list?",
+            "description": "Tracking and evaluating certain key metrics will help create systems for continuous improvement with BIPOC sourcing pilots and programs. Companies should explore both qualitative (e.g. reports, interviews) and quantitative (e.g. percentage of BIPOC sourcing, dollar impact per target supplier) metrics.",
+            "bg": "/public/images/Question Five – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1etIaI5kvgmFs6D_b5POewiLkHz3ckyou/view"
           },
           {
             "progress": "5",
-            "title": "PROMOTES A SAFE GROWING ENVIRONMENT",
-            "resultTitle": "Ensures a safe growing environment for a safe food source",
-            "resultIcon": "/public/images/Group 694.svg",
-            "icon": "/public/images/finfish/imag4.svg",
-            "cls": "",
-            "titleCls": "finFish4",
-            "principleNo": "4",
+            "title": "Increasing pricing tolerance or shifting budgets for new products ",
+            "resultTitle": "Increasing pricing tolerance or shifting budgets for new products ",
+            "resultIcon": "/public/images/Group 561.svg",
+            "icon": "/public/images/food-service.svg",
+            "cls": "finFish1",
+            "titleCls": "",
+            "principleNo": "six",
             "practices": [
-              "Producer tests for and reports contaminant levels",
-              "Inputs are actively reduced",
-              "Producer does not feed antibiotics",
-              "Producer adheres to appropriate withdrawal period if antibiotics are prescribed for welfare",
-              "Producer does not use colorants, herbicides, or chemicals",
-              "Producer has regular and redundant pest and disease monitoring systems ",
-              "Disease outbreaks and mortality events at production sites are documented",
-              "I don’t know"
+              "Yes, lots. Also willing to shift budget to pay for increased pricing",
+              "Yes, some",
+              "No"
             ],
-            "text": "Where a farm is placed and which inputs are added to it not only affect ecosystem health and fish welfare, but the health of the people who eat its products. Pest management, disease, and external contaminants can be managed in creative ways using new AI-based technology or supporting the natural responses of the local ecosystem and raised species.",
-            "question": "How much visibility do you have into the farming practices of this ingredient? ",
-            "bg": "/public/images/backgrounds/Principle 4 – 1.svg",
-            "actionCard": "https://drive.google.com/file/d/1EL6X075GQdMBdUt4CEV7DsgPy8JjVa_j/view"
+            "text": "Foodservice can adapt to changes in pricing more nimbly than retail and can leverage the menuing process to achieve higher volumes and mutually-agreeable pricing with the right program setup. This makes it easier to set up BIPOC sourcing pilots.",
+            "question": "Is there some level of pricing tolerance for small farm products?",
+            "description": "Having some pricing tolerance for small farm products and new products helps support the pilot and makes it possible to scale and institutionalize the BIPOC pilot. This leniency can be essential for small farms in transitioning into new partnerships until they become more established.",
+            "bg": "/public/images/Question Six – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1etIaI5kvgmFs6D_b5POewiLkHz3ckyou/view"
           },
           {
             "progress": "6",
-            "title": "ADVANCES ANIMAL WELFARE",
-            "resultTitle": "Advances animal welfare",
-            "resultIcon": "/public/images/Group 684.svg",
-            "icon": "/public/images/finfish/imag5.svg",
-            "cls": "",
+            "title": "Recruiting and supporting less experienced growers",
+            "resultTitle": "Recruiting and supporting less experienced growers",
+            "resultIcon": "/public/images/Group 561.svg",
+            "icon": "/public/images/food-service.svg",
+            "cls": "finFish1",
             "titleCls": "",
-            "principleNo": "5",
+            "principleNo": "seven",
             "practices": [
-              "Fish can access light and shade as desired",
-              "Stocking densities are optimized based on species and life stage",
-              "Fish are given species appropriate feed (for example, feed is not made with the same species being raised)",
-              "Feed ingredients using marine resources are from a traceable/reliable source (e.g. from healthy reduction fisheries stocks)",
-              "Producers use a humane method of slaughtering (ex: Percussive, electric, or anesthetic stunning; slaughter performed directly at rearing facility, etc.)",
-              "I don’t know"
+              "Yes, scholarship and/or training support for wholesale fulfillment (quality, pack, etc.)",
+              "Yes, scholarship support for GAP certification",
+              "No, wholesale-ready farmers only"
             ],
-            "text": "Just as stressing a cow before harvest generates tough flesh, so too does stressing a fish. Not only is welfare important for the final product, but it is important to the well-being and animal happiness. Approximately 100 billion aquatic animals are farmed each year in neglected, sufferable conditions. Until recently, there has been little advocacy aimed at improving fish welfare. As aquaculture scales up, welfare policies and innovations must be supported. A happier fish means a healthier environment and a safer food source.",
-            "question": "How much visibility do you have into the farming practices of this ingredient? ",
-            "bg": "/public/images/backgrounds/Principle 5 – 1.svg",
-            "actionCard": "https://drive.google.com/file/d/1eHcyiwBZXjhoXmmbW1gXwgJwqJo2xIqJ/view"
+            "text": "Adding less experienced growers to the program is a key next step to continuing the expansion and growth of a BIPOC sourcing pilot. These growers may need extra support and training to achieve full market readiness but creating partnerships early will allow purchasers to have early access as their BIPOC sourcing programs grow.",
+            "question": "Is there long-term capacity and interest in supporting market readiness training for farmers less experienced with wholesale?",
+            "description": "This long-term capacity and interest to support less experienced growers will be an essential step in institutionalizing BIPOC sourcing programs. Having these systems in place increases the likelihood that the program will be sustainable and long-term.",
+            "bg": "/public/images/Question Seven – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1etIaI5kvgmFs6D_b5POewiLkHz3ckyou/view"
+          },
+          {
+            "progress": "7",
+            "title": "Directing distributor to onboard and manage grower group",
+            "resultTitle": "Directing distributor to onboard and manage grower group",
+            "resultIcon": "/public/images/Group 561.svg",
+            "icon": "/public/images/food-service.svg",
+            "cls": "finFish1",
+            "titleCls": "",
+            "principleNo": "eight",
+            "practices": [
+              "Yes, under normal onboarding process with direction from larger client company",
+              "Yes, under special circumstances and/or workaround processes",
+              "No, distributor cannot buy off-contract"
+            ],
+            "text": "In this framework, the distributor is assumed to be following the direction of the customer (client company and foodservice management company). This means that the responsibility to allow or not allow the onboarding of new BIPOC suppliers is up to the customer.",
+            "question": "Can the contracted distributor be directed to onboard new BIPOC suppliers?",
+            "description": "Allowing as much flexibility here as possible will help expand the reach of the pilot to onboard more BIPOC suppliers. Willingness to work with new growers can open up new opportunities.",
+            "bg": "/public/images/Question Eight – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1etIaI5kvgmFs6D_b5POewiLkHz3ckyou/view"
+          },
+          {
+            "progress": "8",
+            "title": "Creating special vendor programs and policies",
+            "resultTitle": "Creating special vendor programs and policies",
+            "resultIcon": "/public/images/Group 561.svg",
+            "icon": "/public/images/food-service.svg",
+            "cls": "finFish1",
+            "titleCls": "",
+            "principleNo": "nine",
+            "practices": [
+              "Yes, the FSMC (Food Service Management Company) has a special carve out or recruitment process for unique suppliers, minority and women-owned businesses, or other special cases",
+              "Yes, client sites can use P-cards (purchasing cards) for smaller purchases",
+              "No, but there is interest in developing them",
+              "No, and there are no plans to develop"
+            ],
+            "text": "Special vendor programs and policies can help support smaller and unique vendors, which will be helpful for institutionalizing BIPOC sourcing.",
+            "question": "Are there special programs or policies in place that support unique and/or smaller vendors?",
+            "description": "Special programs and policies that support unique and/or smaller vendors, such as minority and women-owned businesses, can ensure that your BIPOC sourcing pilot is equitable.",
+            "bg": "/public/images/Question Nine – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1etIaI5kvgmFs6D_b5POewiLkHz3ckyou/view"
           }
         ]
       },
+
       "people": {
-        "color": "#3e89ff",
-        "progress": "7",
-        "icon": "/public/images/Group 660.svg",
-        "introIcon": "/public/images/FISHERPERSON-FilipaCampos-2.svg",
-        "title": "Sharing aquaculture knowledge and skills",
-        "sectionIntroHeadings": [
-          {
-            "title": "Enhances flavor and nutrition",
-            "icon": "/public/images/Layer_21.svg"
-          },
-          {
-            "title": "Builds resilience and opportunity in local communities",
-            "icon": "/public/images/COMMUNITY-LOCAL (1).svg"
-          },
-          {
-            "title": "Prioritizes fair treatment of workers, inclusion, and equality",
-            "icon": "/public/images/WORKERWELFARE (1).svg"
-          }
-        ],
+        "color": "#0fbcc0",
+        "introIcon": "/public/images/GLOBEIntro.svg",
+        "icon": "/public/images/Group 666.svg",
+        "title": "The environmental benefits of aquaculture",
+        "progress": "",
         "principles": [
           {
-            "progress": "8",
-            "title": "ENHANCES FLAVOR AND NUTRITION",
-            "resultTitle": "Enhances flavor and nutrition",
-            "resultIcon": "/public/images/Group 683.svg",
-            "icon": "/public/images/finfish/imag6.svg",
-            "cls": "",
+            "progress": "3",
+            "title": "Setting formal crop plans with distributors and growers",
+            "resultTitle": "Setting formal crop plans with distributors and growers",
+            "resultIcon": "/public/images/Group 561.svg",
+            "icon": "/public/images/chef-orange.svg",
+            "cls": "finFish1",
             "titleCls": "",
-            "principleNo": "6",
+            "principleNo": "four",
             "practices": [
-              "Optimization or continuous improvement of Omega 3 fatty acids",
-              "Omega 3 to Omega 6 ratios (Omega 6s can cause inflammation in people)",
-              "Product is frozen at peak freshness",
-              "Product is consistent in color, size, and texture",
-              "Product is refrozen or refreshed only once after initial freezing",
-              "Product is low in fat, and high in protein",
-              "I don’t know"
+              "Yes, the client partakes in formal yearly crop planning",
+              "Yes, they have informal seasonal programs",
+              "No, they are only seeking 1:1 substitution of existing products with new products"
             ],
-            "text": "From sugar kelp to scallops to salmon, aquatic foods are nutrient dense and a major source of protein, trace minerals, and healthy Omega 3 fatty acids. Recent studies show that consuming aquatic foods can improve brain development and heart health and reduce the risk of cancer. With new innovations, knowledge sharing, and culinary imagination, chefs and producers are bringing a consistently healthy product to our tables in newly delicious ways.",
-            "question": "How much visibility do you have into the farming practices of this ingredient?",
-            "bg": "/public/images/backgrounds/Principle 6 – 1.svg",
-            "actionCard": "https://drive.google.com/file/d/1lBe1CXoKVDiiAc1N6LTMKx-il7thnnyE/view"
+            "text": "As pilots progress, purchasers, distributors, and producers should work together to create seasonal crop plans. This allows both producers and purchasers to provide input on what is grown and can lead to sustainable, long-term programs",
+            "question": "Is there a willingness on the part of the client company to direct client site chefs to engage in collaborative planning and menuing with the distributor and farmer group?",
+            "description": "Having client site leadership that provides chefs with the freedom and opportunity to collaboratively plan with distributors and growers has multiple benefits. Growers can ensure their products will be in demand based on what client companies actually want to serve.",
+            "bg": "/public/images/Question Four – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1etIaI5kvgmFs6D_b5POewiLkHz3ckyou/view"
           },
           {
-            "progress": "9",
-            "title": "BUILDS RESILIENCE AND SELF-SUFFICIENCY IN LOCAL COMMUNITIES",
-            "resultTitle": "Prioritizes fair treatment of workers, inclusion, and equality",
-            "resultIcon": "/public/images/Group 682.svg",
-            "icon": "/public/images/finfish/imag7.svg",
-            "cls": "finFish7",
+            "progress": "4",
+            "title": "Setting and tracking goals on spend and participation metrics",
+            "resultTitle": "Setting and tracking goals on spend and participation metrics",
+            "resultIcon": "/public/images/Group 561.svg",
+            "icon": "/public/images/food-program.svg",
+            "cls": "finFish1",
             "titleCls": "",
-            "principleNo": "7",
+            "principleNo": "five",
             "practices": [
-              "Producers and processors leverage existing waterfront infrastructure, knowledge, and labor",
-              "Producer or supplier offers equipment sharing or financial support programs",
-              "Supply chain partners work directly with smallholder farmers",
-              "Producer and suppliers target vulnerable regions and communities to increase climate preparedness",
-              "Partners support education programs and job training",
-              "Operations are part of local ecotourism industry",
-              "Producer leads community education programs",
-              "Partners respect and work with Indigenous/First Nation communities",
-              "Producer enables community participation in resource management and decision making (ex: town hall meetings)",
-              "I don’t know"
+              "Formal quotas",
+              "Documented and tracked goals around spend and participation",
+              "Voluntary/encouraged by client company",
+              "None"
             ],
-            "text": "Working waterfronts have been central to coastal communities’ culture and economy, but now face declining wild stocks, unrenewed permits, and rising sea levels. Aquaculture, in its incredible diversity of species and production methods, can mobilize workers in coastal communities, leverage existing infrastructure, and benefit from the generational knowledge of fishers and farmers. When producers are embedded in their communities and create space for public collaboration and decision making, they enable bottom-up place-based solutions, economic security, and regional food sovereignty.",
-            "question": "How much visibility do you have into the farming practices of this ingredient?",
-            "bg": "/public/images/backgrounds/Principle 7 – 1.svg",
-            "actionCard": "https://drive.google.com/file/d/1k-sfgMfDRlDcHEiTdPSok7UMP4oE8FKQ/view"
+            "text": "Tracking qualitative and quantitative data will help enhance, expand, and institutionalize the pilot into a foundational and impactful sourcing practice. This data can also be woven into a story for internal and external storytelling.",
+            "question": "Is there a mechanism within the larger client company to encourage or require site chefs to order from a special availability list?",
+            "description": "Tracking and evaluating certain key metrics will help create systems for continuous improvement with BIPOC sourcing pilots and programs. Companies should explore both qualitative (e.g. reports, interviews) and quantitative (e.g. percentage of BIPOC sourcing, dollar impact per target supplier) metrics.",
+            "bg": "/public/images/Question Five – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1etIaI5kvgmFs6D_b5POewiLkHz3ckyou/view"
           },
           {
-            "progress": "10",
-            "title": "PRIORITIZES INCLUSION, EQUALITY AND FAIR TREATMENT OF WORKERS",
-            "resultTitle": "Builds resilience and opportunity in local communities",
-            "resultIcon": "/public/images/Group 681.svg",
-            "icon": "/public/images/finfish/imag8.svg",
-            "cls": "finFish7",
+            "progress": "5",
+            "title": "Increasing pricing tolerance or shifting budgets for new products ",
+            "resultTitle": "Increasing pricing tolerance or shifting budgets for new products ",
+            "resultIcon": "/public/images/Group 561.svg",
+            "icon": "/public/images/food-service.svg",
+            "cls": "finFish1",
             "titleCls": "",
-            "principleNo": "8",
+            "principleNo": "six",
             "practices": [
-              "No bonded or forced labor, trafficking, or child labor",
-              "Health care and benefits are offered",
-              "Social, environmental, and safety training is provided at each site for all workers",
-              "Pay equity is guaranteed",
-              "Policies improve and ensure religious, ethnic, and gender equity",
-              "Producer engages in mentorship",
-              "Mentorship includes people from underserved communities",
-              "Employers engage in and do not inhibit collective bargaining or union organizing",
-              "Workers make a livable wage",
-              "I don’t know"
+              "Yes, lots. Also willing to shift budget to pay for increased pricing",
+              "Yes, some",
+              "No"
             ],
-            "text": "Women make up over 50% of the seafood-industry workforce yet are underrepresented in leadership and ownership roles. Aquaculture can weave fair and equal labor treatment into its expanding fabric. Gender equality is just one part of the equation. Fair compensation, and racial and religious equity are also central to a holistic aquaculture system. Both producers, suppliers, and retail owners can implement policies like non-discrimination, living wages, pay equity, and management practices like allowing collective bargaining, hiring women and members of marginalized communities into leadership roles to support, value, and include all workers.",
-            "question": "How much visibility do you have into the farming practices of this ingredient?",
-            "bg": "/public/images/backgrounds/Principle 8 – 1.svg",
-            "actionCard": "https://drive.google.com/file/d/1rtKjvnd8irXkAqAX8N5HiWrDzET6q6J0/view"
+            "text": "Foodservice can adapt to changes in pricing more nimbly than retail and can leverage the menuing process to achieve higher volumes and mutually-agreeable pricing with the right program setup. This makes it easier to set up BIPOC sourcing pilots.",
+            "question": "Is there some level of pricing tolerance for small farm products?",
+            "description": "Having some pricing tolerance for small farm products and new products helps support the pilot and makes it possible to scale and institutionalize the BIPOC pilot. This leniency can be essential for small farms in transitioning into new partnerships until they become more established.",
+            "bg": "/public/images/Question Six – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1etIaI5kvgmFs6D_b5POewiLkHz3ckyou/view"
+          },
+          {
+            "progress": "6",
+            "title": "Recruiting and supporting less experienced growers",
+            "resultTitle": "Recruiting and supporting less experienced growers",
+            "resultIcon": "/public/images/Group 561.svg",
+            "icon": "/public/images/food-service.svg",
+            "cls": "finFish1",
+            "titleCls": "",
+            "principleNo": "seven",
+            "practices": [
+              "Yes, scholarship and/or training support for wholesale fulfillment (quality, pack, etc.)",
+              "Yes, scholarship support for GAP certification",
+              "No, wholesale-ready farmers only"
+            ],
+            "text": "Adding less experienced growers to the program is a key next step to continuing the expansion and growth of a BIPOC sourcing pilot. These growers may need extra support and training to achieve full market readiness but creating partnerships early will allow purchasers to have early access as their BIPOC sourcing programs grow.",
+            "question": "Is there long-term capacity and interest in supporting market readiness training for farmers less experienced with wholesale?",
+            "description": "This long-term capacity and interest to support less experienced growers will be an essential step in institutionalizing BIPOC sourcing programs. Having these systems in place increases the likelihood that the program will be sustainable and long-term.",
+            "bg": "/public/images/Question Seven – 1.svg",
+            "actionCard": "https://drive.google.com/file/d/1etIaI5kvgmFs6D_b5POewiLkHz3ckyou/view"
           }
         ]
       },
@@ -495,7 +523,7 @@
     },
     "Shellfish": {
       "planet": {
-        "color": "#42b294",
+        "color": "#0fbcc0",
         "icon": "/public/images/Group 666.svg",
         "progress": "1",
         "title": "The environmental benefits of aquaculture",
@@ -550,7 +578,7 @@
             "title": "SUPPORTS GLOBAL ECOSYSTEMS aND COEXISTS WITH WILDLIFE",
             "resultTitle": "Supports global ecosystems and co-exists with wildlife",
             "resultIcon": "/public/images/Group 651.svg",
-            "icon": "/public/images/finfish/imag2.svg",
+            "icon": "/public/images/food-program.svg",
             "cls": "ShellFish2",
             "titleCls": "",
             "principleNo": "2",
@@ -573,7 +601,7 @@
             "title": "OPTIMIZES IMPACT ON WATER RESOURCES AND NUTRIENT CYCLES",
             "resultTitle": "Optimizes impact on water resources and nutrient cycles",
             "resultIcon": "/public/images/IMPROVEDWATERQUALITY-VerónicaDiaz (2).svg",
-            "icon": "/public/images/finfish/imag3.svg",
+            "icon": "/public/images/food-service.svg",
             "cls": "",
             "titleCls": "",
             "principleNo": "3",
@@ -595,7 +623,6 @@
             "title": "PROMOTES A SAFE GROWING ENVIRONMENT FOR FOOD",
             "resultTitle": "Ensures a safe growing environment for a safe food source",
             "resultIcon": "/public/images/Group 694.svg",
-            "icon": "/public/images/finfish/imag4.svg",
             "cls": "",
             "titleCls": "ShellFish4title",
             "principleNo": "4",
@@ -619,7 +646,6 @@
             "title": "ADVANCES ANIMAL WELFARE",
             "resultTitle": "Advances animal welfare",
             "resultIcon": "/public/images/Group 684.svg",
-            "icon": "/public/images/finfish/imag5.svg",
             "cls": "",
             "titleCls": "",
             "principleNo": "5",
@@ -798,7 +824,7 @@
     },
     "Seaweed": {
       "planet": {
-        "color": "#42b294",
+        "color": "#0fbcc0",
         "progress": "1",
         "icon": "/public/images/Group 666.svg",
         "introIcon": "/public/images/GLOBEIntro.svg",
@@ -843,7 +869,7 @@
             "title": "POSITIVELY IMPACTS COASTAL WATERS AND HABITATS",
             "resultTitle": "Positively impacts coastal waters and habitats",
             "resultIcon": "/public/images/Group 651.svg",
-            "icon": "/public/images/finfish/imag2.svg",
+            "icon": "/public/images/food-program.svg",
             "cls": "finFish1",
             "titleCls": "",
             "principleNo": "2",
@@ -1006,7 +1032,7 @@
     },
     "Shrimp": {
       "planet": {
-        "color": "#42b294",
+        "color": "#0fbcc0",
         "icon": "/public/images/Group 666.svg",
         "progress": "1",
         "title": "The environmental benefits of aquaculture",
@@ -1064,7 +1090,7 @@
             "title": "SUPPORTS GLOBAL ECOSYSTEMS aND COEXISTS WITH WILDLIFE",
             "resultTitle": "Supports global ecosystems and co-exists with wildlife",
             "resultIcon": "/public/images/Group 651.svg",
-            "icon": "/public/images/finfish/imag2.svg",
+            "icon": "/public/images/food-program.svg",
             "cls": "shrimp2",
             "titleCls": "shrimpTitle2",
             "principleNo": "2",
@@ -1090,7 +1116,7 @@
             "title": "OPTIMIZES IMPACT ON WATER RESOURCES AND NUTRIENT CYCLES",
             "resultTitle": "Optimizes impact on water resources and nutrient cycles",
             "resultIcon": "/public/images/IMPROVEDWATERQUALITY-VerónicaDiaz (2).svg",
-            "icon": "/public/images/finfish/imag3.svg",
+            "icon": "/public/images/food-service.svg",
             "cls": "finFish7",
             "titleCls": "",
             "principleNo": "3",
@@ -1113,7 +1139,6 @@
             "title": "PROMOTES A SAFE GROWING ENVIRONMENT FOR FOOD",
             "resultTitle": "Promotes a safe growing environment for a safe food source",
             "resultIcon": "/public/images/Group 694.svg",
-            "icon": "/public/images/finfish/imag4.svg",
             "cls": "finFish7",
             "titleCls": "",
             "principleNo": "4",
@@ -1138,7 +1163,6 @@
             "title": "ADVANCES ANIMAL WELFARE",
             "resultTitle": "Advances animal welfare",
             "resultIcon": "/public/images/Group 684.svg",
-            "icon": "/public/images/finfish/imag5.svg",
             "cls": "shrimp5",
             "titleCls": "",
             "principleNo": "5",
@@ -1587,13 +1611,13 @@
     "reawakened2": "To learn more about Green Brown Blue and Connected Markets: Aquaculture, contact <a style='color: #fff; text-decoration: none;' href='mailto:info@greenbrownblue.com'>info@greenbrownblue.com</a>."
   },
   "youDidIt": {
-    "Finfish": "/public/images/backgrounds/You Did It!1.svg",
-    "Shellfish": "/public/images/backgrounds/You Did It!1-1.svg",
-    "Seaweed": "/public/images/backgrounds/You Did It!-2.svg",
-    "Shrimp": "/public/images/backgrounds/You Did It!1 – 1.svg",
+    "Finfish": "/public/images/You Did It! – 1.svg",
+    "Shellfish": "/public/images/You Did It! – 1.svg",
+    "Seaweed": "/public/images/You Did It! – 1.svg",
+    "Shrimp": "/public/images/You Did It! – 1.svg",
     "btnImage": "/public/images/Group 6601.svg",
     "subtitle": "You did it!",
     "title": "Let’s check out your connected market.",
-    "subtitle2": "How well do you know your seafood suppliers? We’ll send you the results of this audit, along with personalized tools to improve your seafood sourcing, directly to your email inbox!"
+    "subtitle2": "How prepared are you to launch an equitable foodservice sourcing pilot? We’ll send you the results of this questionnaire, along with personalized tools to improve your foodservice operation, directly to your email inbox!"
   }
 }

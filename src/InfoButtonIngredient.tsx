@@ -11,7 +11,7 @@ export class InfoButtonIngredient extends React.Component<IInfoButtonIngredientP
     return (
       <React.Fragment>
         <InfoButton section={this.props.section} ingredient={true} />
-        <IngredientIndicator section={this.props.section} />
+        {/* <IngredientIndicator section={this.props.section} /> */}
       </React.Fragment>
     );
   }

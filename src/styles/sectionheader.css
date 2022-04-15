@@ -7,6 +7,7 @@
 
 .section-icons {
   display: flex;
+  gap: 22px;
   /* height: 84px; */
 }
 
@@ -41,31 +42,55 @@
 }
 
 .section-icon {
-  margin: 0px 5px;
-  /* max-height: 50px; */
-  margin: 0px 5px;
   height: 6vh;
 }
 
 .section-principle {
   /* margin: 4vh 0px 0px 0px; */
   margin-top: 2vh;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: capitalize;
+  color: #000;
 }
 
 .section-header-title {
   margin: 10px 0px;
   font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  width: 32vw;
+}
+
+.section-text {
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  width: 25vw;
 }
 
 .section-header-title {
   /* font-size: 2rem; */
   font-size: 2vw;
-  text-transform: capitalize;
 }
 
 .finFish1 {
-  margin-left: 16vw;
   width: 36vw;
+  margin-top: 5vh;
 }
 
 .shrimp2 {
@@ -156,7 +181,4 @@
 }
 
 @media (min-width: 795px) {
-  .finFish1Title {
-    width: 24vw;
-  }
 }

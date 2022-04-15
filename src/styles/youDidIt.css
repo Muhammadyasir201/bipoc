@@ -20,13 +20,16 @@
 .myBtn {
   /* width: 3.6vw;
   height: 4.6vh; */
-  width: 69px;
+  max-width: 218px;
+  width: 100%;
   height: 43px;
-  padding: 10px 20px 10px 29px;
   border-radius: 21.5px;
-  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   border: solid 1px #0fbcc0;
-  background-color: #fff;
+  background-color: #0fbcc0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
 }
 
@@ -56,7 +59,8 @@
   border-radius: 25px;
   text-align: center;
   margin: 4px 2px;
-  min-width: 7vw;
+  height: 43px;
+  width: 100%;
   font-size: 0.9rem;
   padding: 10px;
   border: solid 1px #0fbcc0;
@@ -67,4 +71,6 @@
   display: flex;
   align-items: center;
   gap: 1vw;
+  max-width: 748px;
+  width: 100%;
 }

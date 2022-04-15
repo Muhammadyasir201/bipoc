@@ -15,6 +15,8 @@ interface ISectionsHeaderProps {
   titleCls?: string;
 }
 
+const questIconsObj = [0, 0, 0, 1, 1, 1, 1, 2, 2];
+
 export class SectionHeader extends React.Component<ISectionsHeaderProps> {
   public render() {
     const {
@@ -31,41 +33,41 @@ export class SectionHeader extends React.Component<ISectionsHeaderProps> {
     } = this.props;
 
     return (
-      <div className='section-header'>
-        <div className='section-icons'>
-          <div className='section-main-icon' style={{ textAlign: "center" }}>
+      <div className="section-header">
+        <div className="section-icons">
+          {/* <div className='section-main-icon' style={{ textAlign: "center" }}>
             <div>
               <img src={icon} />
             </div>
             <div className='section-name'>{name}</div>
-          </div>
-          <div className='section-icons-separator'>
+          </div> */}
+          {/* <div className="section-icons-separator">
             <div
               style={{
                 backgroundColor: color,
               }}
             />
-          </div>
+          </div> */}
           {icons.map((icon, i) => {
             return (
               <img
                 key={i}
                 src={icon}
                 className={`section-icon ${
-                  i === index ? "icon-normal" : "icon-grey"
+                  i === questIconsObj[index] ? "icon-normal" : "icon-grey"
                 }`}
               />
             );
           })}
         </div>
         <div className={cls}>
-          <div className='section-principle fsFooter'>
-            {principleNo && `Principle No. ${principleNo}`}
+          <div className="section-principle fsFooter">
+            {principleNo && `Question ${principleNo}`}
           </div>
           <div className={`section-header-title fsSubtitle ${titleCls}`}>
             {title}
           </div>
-          <div style={{ fontSize: "1vw" }} className='section-text'>
+          <div style={{ fontSize: "1vw" }} className="section-text">
             {text}
           </div>
         </div>

@@ -119,17 +119,17 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
     // const content = Section.content.sections[section];
     // const dialogContent = Section.content.dialog;
 
-    if (index === 0) {
-      return (
-        <SectionIntro
-          section={section}
-          icon={content.introIcon}
-          text={content.title}
-          principles={content.sectionIntroHeadings}
-          color={content.color}
-        />
-      );
-    }
+    // if (index === 0) {
+    //   return (
+    //     <SectionIntro
+    //       section={section}
+    //       icon={content.introIcon}
+    //       text={content.title}
+    //       principles={content.sectionIntroHeadings}
+    //       color={content.color}
+    //     />
+    //   );
+    // }
 
     const principleIndex = index - 1;
     const { color } = content;
@@ -139,7 +139,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
     if (this.context.fish === "Shellfish" && subContent.principleNo === "5") {
       return (
         <div>
-          <Background path={subContent.bg} />
+          <Background path={subContent?.bg} />
           <InfoButtonIngredient section={section} />
           <SectionHeader
             name={section}
@@ -170,7 +170,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
                 <React.Fragment>
                   <ProgressBar
                     className="progress-bar-inline-shellfish-5"
-                    progress={subContent.progress}
+                    progress={subContent?.progress ?? 0}
                     section={section}
                     onNext={() => {
                       this.recordAnswer(
@@ -201,7 +201,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
 
     return (
       <>
-        <Background path={subContent.bg} cls={"section-overlay"} />
+        <Background path={subContent?.bg} cls={"section-overlay"} />
         <InfoButtonIngredient section={section} />
         <SectionHeader
           name={section}
@@ -209,27 +209,22 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
           color={color}
           icons={icons}
           icon={content.icon}
-          title={subContent.resultTitle}
-          text={html2React(subContent.text)}
-          principleNo={subContent.principleNo}
-          cls={subContent.cls}
-          titleCls={subContent.titleCls}
+          title={subContent?.resultTitle ?? ""}
+          text={html2React(subContent?.text ?? "")}
+          principleNo={subContent?.principleNo ?? ""}
+          cls={subContent?.cls ?? ""}
+          titleCls={subContent?.titleCls ?? ""}
         />
         <Panel
           className="section"
           body={
             <React.Fragment>
-              <div className="section-title">{subContent.question}</div>
-              <Slider
-                value={this.state.visibility}
-                color={color}
-                onChange={(visibility) => {
-                  this.setState({ visibility });
-                  this.recordAnswer(visibility, this.state.practices);
-                }}
-              />
-              <div className="section-title">Check all that apply:</div>
-              {subContent.practices.map((question: any, i: any) => {
+              <div className="section-title">{subContent?.question ?? ""}</div>
+
+              <div className="section-description">
+                {subContent?.description ?? ""}
+              </div>
+              {subContent?.practices.map((question: any, i: any) => {
                 return (
                   <Question
                     key={i}
@@ -244,7 +239,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
                     }}
                   />
                 );
-              })}
+              }) ?? ""}
             </React.Fragment>
           }
           footer={
@@ -254,7 +249,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
                   <React.Fragment>
                     <ProgressBar
                       className="progress-bar-inline"
-                      progress={subContent.progress}
+                      progress={subContent?.progress ?? 0}
                       section={section}
                       onNext={() => {
                         this.recordAnswer(

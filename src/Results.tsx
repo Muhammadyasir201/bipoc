@@ -67,8 +67,6 @@ export class Results extends React.Component<{}, IResultsState> {
 
     this._actionCards = {
       planet: [],
-      people: [],
-      "Supply Chain": [],
     };
   }
 
@@ -173,7 +171,7 @@ export class Results extends React.Component<{}, IResultsState> {
           y={layout.legend.h * index}
           width={layout.legend.w}
           height={layout.legend.h}
-          fill='transparent'
+          fill="transparent"
         />
       );
     };
@@ -192,38 +190,42 @@ export class Results extends React.Component<{}, IResultsState> {
                 graph={_content.explainer.graph}
                 visible={this.state.explainer}
                 title={_content.explainer.title}
-                bgColor='rgba(62, 137, 251, 0.75)'
+                bgColor="rgba(62, 137, 251, 0.75)"
                 content={html2React(_content.explainer.content)}
                 onClose={() => this.setState({ explainer: false })}
               />
-              <div className='results'>
+              <div className="results">
                 <IngredientIndicator />
-                <div className='results-header'>
-                  <div className='fsSubtitle'>
+                <div className="results-header">
+                  <div className="fsSubtitle">
                     <p
-                      className='title has-text-color'
-                      style={{ color: "rgb(15, 188, 192)", fontWeight: 500 }}>
+                      className="title has-text-color"
+                      style={{ color: "rgb(15, 188, 192)", fontWeight: 500 }}
+                    >
                       {_content.title}
                     </p>
                   </div>
                   <div>{_content.subTitle}</div>
                   <div
-                    className='clickable'
+                    className="clickable"
                     onClick={() => {
                       this.setState({ explainer: true });
-                    }}>
+                    }}
+                  >
                     <p
-                      className='results-learn has-text-color'
-                      style={{ color: "rgb(15, 188, 192)" }}>
+                      className="results-learn has-text-color"
+                      style={{ color: "rgb(15, 188, 192)" }}
+                    >
                       {_content.learn}
                     </p>
                   </div>
                 </div>
-                <div className='results-body'>
+                <div className="results-body">
                   <svg
-                    className='fill-parent'
+                    className="fill-parent"
                     viewBox={`0 0 ${svg.w} ${svg.h}`}
-                    preserveAspectRatio='xMidYMid meet'>
+                    preserveAspectRatio="xMidYMid meet"
+                  >
                     {makeLine(0)}
                     {makeLine(1)}
                     {makeLine(2)}
@@ -233,7 +235,7 @@ export class Results extends React.Component<{}, IResultsState> {
                       : makeSection("people", 96 * 5)}
                     {makeSection("Supply Chain", 96 * 8)}
                     <line
-                      className='baseline'
+                      className="baseline"
                       x1={0}
                       x2={layout.grid.w}
                       y1={200}
@@ -245,12 +247,12 @@ export class Results extends React.Component<{}, IResultsState> {
                   </svg>
                 </div>
                 <canvas
-                  className='fill-parent'
+                  className="fill-parent"
                   ref={(e) => (this._canvas = e as HTMLCanvasElement)}
                 />
-                <div className='results-footer'>
+                <div className="results-footer">
                   <div>
-                    <span className='download'>
+                    <span className="download">
                       <Button
                         text={html2React(_content.download)}
                         onClick={() => {
@@ -258,7 +260,7 @@ export class Results extends React.Component<{}, IResultsState> {
                         }}
                       />
                     </span>
-                    <span className='replay'>
+                    <span className="replay">
                       <Button
                         text={_content.replay}
                         type={ButtonType.Blue}
@@ -270,13 +272,15 @@ export class Results extends React.Component<{}, IResultsState> {
                     </span>
                   </div>
                   <div
-                    className='clickable fsFooter'
+                    className="clickable fsFooter"
                     onClick={() => {
                       transition?.("/credits");
-                    }}>
+                    }}
+                  >
                     <p
-                      className='learn-team has-text-color'
-                      style={{ color: "rgb(15, 188, 192)" }}>
+                      className="learn-team has-text-color"
+                      style={{ color: "rgb(15, 188, 192)" }}
+                    >
                       {html2React(_content.learnTeam)}
                     </p>
                   </div>
