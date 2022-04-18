@@ -42,4 +42,4 @@ const start = function (port) {
   app.listen(port, () => console.log(`Server started at port ${port}`));
 };
 
-start(process.env.PORT || 8081);
+start(process.env.PORT || 8080);

@@ -234,8 +234,8 @@ export class Results extends React.Component<{}, IResultsState> {
                     {makeSection("planet", 2)}
                     {this.context.fish === "Seaweed"
                       ? makeSection("people", 96 * 4)
-                      : makeSection("people", 96 * 5)}
-                    {makeSection("Supply Chain", 96 * 8)}
+                      : makeSection("people", 96 * 3)}
+                    {makeSection("Supply Chain", 96 * 7)}
                     <line
                       className="baseline"
                       x1={0}
