@@ -3,11 +3,11 @@
     <clipPath id="clip-path">
       <rect id="Rectangle_247" data-name="Rectangle 247" width="1954.57" height="1119.278" transform="translate(147.43 261.249)" fill="none"/>
     </clipPath>
-    <clipPath id="clip-Welcome_Page_1">
+    <clipPath id="clip-Welcome_Page">
       <rect width="1920" height="1080"/>
     </clipPath>
   </defs>
-  <g id="Welcome_Page_1" data-name="Welcome Page – 1" clip-path="url(#clip-Welcome_Page_1)">
+  <g id="Welcome_Page" data-name="Welcome Page" clip-path="url(#clip-Welcome_Page)">
     <rect width="1920" height="1080" fill="#fff"/>
     <g id="Background" transform="translate(-164.43 -280.249)">
       <rect id="Rectangle_174" data-name="Rectangle 174" width="1954.57" height="1119.278" transform="translate(147.43 261.249)" fill="#e4f0e5"/>
