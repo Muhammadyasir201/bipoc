@@ -167,9 +167,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
             <div className={`section-header-title fsSubtitle`}>
               {subContent.resultTitle}
             </div>
-            <div style={{ fontSize: "1vw" }} className="section-text">
-              {html2React(subContent.text)}
-            </div>
+            <div className="section-text">{html2React(subContent.text)}</div>
           </div>
           <appContext.Consumer>
             {({ transition }) => {

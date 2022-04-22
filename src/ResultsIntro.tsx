@@ -1,10 +1,10 @@
-import React, {useState} from "react";
-import {Background} from "./Background";
-import {appContext} from "./core/AppContext";
-import {Button} from "./core/Button";
-import {youDidIt as data} from "./data/data.json";
+import React, { useState } from "react";
+import { Background } from "./Background";
+import { appContext } from "./core/AppContext";
+import { Button } from "./core/Button";
+import { youDidIt as data } from "./data/data.json";
 import "./styles/youDidIt.css";
-import {section} from "./data/data.json";
+import { section } from "./data/data.json";
 import emailjs from "@emailjs/browser";
 
 export interface IResultsIntroContent {
@@ -30,7 +30,7 @@ const sendEMail = (email: any, actionCards1: any) => {
     .send(
       "service_37jxh3h",
       "template_xppfuxn",
-      {email: email, actionCards: actionCards1},
+      { email: email, actionCards: actionCards1 },
       "iiuZC1_zWW8wLL2jS"
     )
     .then(
@@ -61,7 +61,7 @@ const sendEMail = (email: any, actionCards1: any) => {
     );
 };
 
-export const ResultsIntro: React.FC<Props> = ({onNext, answers}) => {
+export const ResultsIntro: React.FC<Props> = ({ onNext, answers }) => {
   const [email, setEmail] = useState("");
   const youDidIt: any = data;
   const sections: any = section;
@@ -71,7 +71,7 @@ export const ResultsIntro: React.FC<Props> = ({onNext, answers}) => {
 
   const resultsPercentagesArr = Object.entries(answers).map(
     ([name, arr]: any) => {
-      const result = arr.map(({practices}: any, index: number) => {
+      const result = arr.map(({ practices }: any, index: number) => {
         const trueAnswersLength = practices.filter(
           (value: Boolean) => value === true
         ).length;
@@ -86,25 +86,25 @@ export const ResultsIntro: React.FC<Props> = ({onNext, answers}) => {
 
   return (
     <appContext.Consumer>
-      {({localTransition, fish}) => {
+      {({ localTransition, fish }) => {
         return (
-          <div className='fill-parent'>
+          <div className="fill-parent">
             <Background path={youDidIt[fish]} />
-            <div className='myContainer'>
-              <div className='mySubTitle'>{youDidIt?.subtitle}</div>
-              <div className='myTitle'>{youDidIt?.title}</div>
-              <div className='subtitle2'>{youDidIt?.subtitle2}</div>
-              <div className='btnContainer'>
+            <div className="myContainer">
+              <div className="mySubTitle">{youDidIt?.subtitle}</div>
+              <div className="myTitle">{youDidIt?.title}</div>
+              <div className="subtitle2">{youDidIt?.subtitle2}</div>
+              <div className="btnContainer">
                 <input
                   onChange={(e) => setEmail(e.target.value.trim())}
-                  className='myInput'
-                  type='text'
+                  className="myInput"
+                  type="text"
                   value={email}
-                  placeholder='Insert your email'
+                  placeholder="Insert your email"
                 />
                 {isEmailValid(email) && (
                   <div
-                    className='myBtn'
+                    className="myBtn"
                     onClick={() => {
                       const actionCards = resultsPercentagesArr
                         .map(([name, arr]) =>
@@ -115,12 +115,13 @@ export const ResultsIntro: React.FC<Props> = ({onNext, answers}) => {
                         )
                         .reduce((acc, el) => acc.concat(el), []);
 
-                      sendEMail(
-                        email,
-                        actionCards.join("~").replaceAll("~", "\n")
-                      );
+                      // sendEMail(
+                      //   email,
+                      //   actionCards.join("~").replaceAll("~", "\n")
+                      // );
                       localTransition?.(onNext);
-                    }}>
+                    }}
+                  >
                     See your results
                   </div>
                 )}

@@ -56,7 +56,6 @@ export class SectionHeader extends React.Component<ISectionsHeaderProps> {
                 />
               );
             })}
-          ;
         </div>
         <div className={cls}>
           <div className="section-principle fsFooter">
@@ -65,9 +64,7 @@ export class SectionHeader extends React.Component<ISectionsHeaderProps> {
           <div className={`section-header-title fsSubtitle ${titleCls}`}>
             {title}
           </div>
-          <div style={{ fontSize: "1vw" }} className="section-text">
-            {text}
-          </div>
+          <div className="section-text">{text}</div>
         </div>
       </div>
     );

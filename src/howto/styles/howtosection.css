@@ -2,11 +2,11 @@
   display: flex;
   align-items: center;
   gap: 30px;
-  margin: 4vh 0px;
+  margin: 2vh 0px 0;
 }
 
 .howtosection-left {
-  max-width: 94px;
+  max-width: 100%;
 }
 
 .howtosection-left img {

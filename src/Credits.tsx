@@ -91,7 +91,7 @@ export class Credits extends React.Component {
             <img
               onClick={() =>
                 window.open(
-                  "https://creativecommons.org/publicdomain/zero/1.0/"
+                  "https://creativecommons.org/licenses/by-nc-sa/3.0/igo"
                 )
               }
               style={{ margin: 0 }}
