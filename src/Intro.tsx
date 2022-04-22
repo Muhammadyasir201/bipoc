@@ -22,7 +22,11 @@ export class Intro extends React.Component {
         <div className="fill-parent intro-container">
           <div className="intro-body">
             <div className="main-logo-wrap">
-              <img className="logo" src={intro?.logo2} />
+              <img
+                onClick={() => window.open("https://www.thelexicon.org")}
+                className="logo"
+                src={intro?.logo2}
+              />
             </div>
             {/* <div className="black-overlay"></div> */}
             <div className="intro-title">{intro?.title}</div>
