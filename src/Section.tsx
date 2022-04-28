@@ -1,28 +1,28 @@
 import * as React from "react";
-import { Background } from "./Background";
-import { Categories } from "./Categories";
-import { appContext } from "./core/AppContext";
-import { Dialog } from "./core/Dialog";
-import { DOMUtils } from "./core/DOMUtils";
-import { Images } from "./core/Images";
-import { LoadingIndicator } from "./core/LoadingIndicator";
-import { Settings } from "./core/Settings";
-import { HowTo } from "./howto/HowTo";
-import { InfoButtonIngredient } from "./InfoButtonIngredient";
-import { Panel } from "./Panel";
-import { IPostJson } from "./Posts";
-import { ProgressBar } from "./ProgressBar";
-import { Question } from "./Question";
-import { SectionHeader } from "./SectionHeader";
-import { SectionIntro } from "./SectionIntro";
-import { Session } from "./Session";
-import { Slider } from "./Slider";
-import { section as mySection } from "./data/data.json";
+import {Background} from "./Background";
+import {Categories} from "./Categories";
+import {appContext} from "./core/AppContext";
+import {Dialog} from "./core/Dialog";
+import {DOMUtils} from "./core/DOMUtils";
+import {Images} from "./core/Images";
+import {LoadingIndicator} from "./core/LoadingIndicator";
+import {Settings} from "./core/Settings";
+import {HowTo} from "./howto/HowTo";
+import {InfoButtonIngredient} from "./InfoButtonIngredient";
+import {Panel} from "./Panel";
+import {IPostJson} from "./Posts";
+import {ProgressBar} from "./ProgressBar";
+import {Question} from "./Question";
+import {SectionHeader} from "./SectionHeader";
+import {SectionIntro} from "./SectionIntro";
+import {Session} from "./Session";
+import {Slider} from "./Slider";
+import {section as mySection} from "./data/data.json";
 
 import "./styles/section.css";
 
 // tslint:disable-next-line
-const { default: html2React } = require("html2react");
+const {default: html2React} = require("html2react");
 
 interface ISectionsProps {
   section: string;
@@ -92,15 +92,15 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
   public componentDidMount() {
     this.load(this.props)
       .then(() => this.initPractices(this.props))
-      .then(() => this.setState({ loaded: true }));
+      .then(() => this.setState({loaded: true}));
   }
 
   public UNSAFE_componentWillReceiveProps(nextProps: ISectionsProps) {
     if (nextProps.section !== this.props.section) {
-      this.setState({ loaded: false });
+      this.setState({loaded: false});
       this.load(nextProps)
         .then(() => this.initPractices(nextProps))
-        .then(() => this.setState({ loaded: true }));
+        .then(() => this.setState({loaded: true}));
     } else if (nextProps.index !== this.props.index) {
       this.initPractices(nextProps);
     }
@@ -111,7 +111,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
       return <LoadingIndicator />;
     }
 
-    const { section, index } = this.props;
+    const {section, index} = this.props;
     const content = Section.content[this.context.fish][section];
     const dialogContent = Section.content.dialog;
 
@@ -132,7 +132,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
     // }
 
     const principleIndex = index - 1;
-    const { color } = content;
+    const {color} = content;
     const subContent = content.principles[principleIndex];
 
     let icons: any = {};
@@ -140,71 +140,6 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
     Object.keys(Section.content[this.context.fish]).forEach((element: any) => {
       icons[element] = Section.content[this.context.fish][element].icon;
     });
-
-    console.log({ hussain: icons });
-
-    if (this.context.fish === "Shellfish" && subContent.principleNo === "5") {
-      return (
-        <div>
-          <Background path={subContent.bg} />
-          <InfoButtonIngredient section={section} />
-          <SectionHeader
-            name={section}
-            index={principleIndex}
-            color={color}
-            icons={icons}
-            icon={content.icon}
-          />
-          <div
-            style={{
-              width: "39vw",
-              margin: "0 auto",
-              backgroundColor: "#fff",
-              padding: "4vw",
-            }}
-          >
-            <div className="section-principle fsFooter">Principle No. 5</div>
-            <div className={`section-header-title fsSubtitle`}>
-              {subContent.resultTitle}
-            </div>
-            <div style={{ fontSize: "1vw" }} className="section-text">
-              {html2React(subContent.text)}
-            </div>
-          </div>
-          <appContext.Consumer>
-            {({ transition }) => {
-              return (
-                <React.Fragment>
-                  <ProgressBar
-                    className="progress-bar-inline-shellfish-5"
-                    progress={subContent?.progress}
-                    section={section}
-                    onNext={() => {
-                      this.recordAnswer(
-                        this.state.visibility,
-                        this.state.practices
-                      );
-                      if (principleIndex + 1 < content.principles.length) {
-                        transition?.(`/section/${section}/${index + 1}`);
-                      } else {
-                        const sections = Object.keys(Settings.data.sections);
-                        const sectionIndex = sections.indexOf(section);
-                        if (sectionIndex + 1 < sections.length) {
-                          const nextSection = sections[sectionIndex + 1];
-                          transition?.(`/section/${nextSection}/1`);
-                        } else {
-                          transition?.("/results");
-                        }
-                      }
-                    }}
-                  />
-                </React.Fragment>
-              );
-            }}
-          </appContext.Consumer>
-        </div>
-      );
-    }
 
     return (
       <>
@@ -223,12 +158,12 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
           titleCls={subContent?.titleCls ?? ""}
         />
         <Panel
-          className="section"
+          className='section'
           body={
             <React.Fragment>
-              <div className="section-title">{subContent?.question ?? ""}</div>
+              <div className='section-title'>{subContent?.question ?? ""}</div>
 
-              <div className="section-description">
+              <div className='section-description'>
                 {subContent?.description ?? ""}
               </div>
               {subContent?.practices.map((question: any, i: any) => {
@@ -241,7 +176,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
                     onChecked={(checked) => {
                       const practices = [...this.state.practices];
                       practices[i] = checked;
-                      this.setState({ practices });
+                      this.setState({practices});
                       this.recordAnswer(this.state.visibility, practices);
                     }}
                   />
@@ -251,11 +186,11 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
           }
           footer={
             <appContext.Consumer>
-              {({ transition }) => {
+              {({transition}) => {
                 return (
                   <React.Fragment>
                     <ProgressBar
-                      className="progress-bar-inline"
+                      className='progress-bar-inline'
                       progress={subContent?.progress}
                       section={section}
                       onNext={() => {
@@ -287,14 +222,14 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
           visible={this.state.dialogVisible}
           title={dialogContent.title}
           content={html2React(dialogContent.content)}
-          bgColor="rgba(62, 137, 251, 0.75)"
-          onClose={() => this.setState({ dialogVisible: false })}
+          bgColor='rgba(62, 137, 251, 0.75)'
+          onClose={() => this.setState({dialogVisible: false})}
         />
         {this.props.section === "planet" &&
           this.props.index === 1 &&
           sessionStorage.getItem("show-help-dialog") && (
             <div
-              className="section-click"
+              className='section-click'
               onClick={() => {
                 sessionStorage.removeItem("show-help-dialog");
                 this.setState({
@@ -308,7 +243,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
   }
 
   private async load(props: ISectionsProps) {
-    const { section } = props;
+    const {section} = props;
     if (props.section in mySection.Finfish) {
       return;
     }
@@ -375,7 +310,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
   }
 
   private initPractices(props: ISectionsProps) {
-    const { section, index } = props;
+    const {section, index} = props;
     if (index === 0) {
       return;
     }
@@ -390,7 +325,7 @@ export class Section extends React.Component<ISectionsProps, ISectionState> {
   }
 
   private recordAnswer(visibility: number, practices: boolean[]) {
-    const { section, index } = this.props;
+    const {section, index} = this.props;
     Session.setAnswers(section, index - 1, visibility, practices);
   }
 }

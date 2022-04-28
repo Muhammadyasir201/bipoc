@@ -66,18 +66,24 @@ export const ResultsIntro: React.FC<Props> = ({onNext, answers}) => {
   const youDidIt: any = data;
   const sections: any = section;
 
-  const percentage = (partialValue: number, totalValue: number) =>
-    Math.round((100 * partialValue) / totalValue);
-
   const resultsPercentagesArr = Object.entries(answers).map(
     ([name, arr]: any) => {
       const result = arr.map(({practices}: any, index: number) => {
+        if (practices[practices.length - 1]) return [0, index];
+
         const trueAnswersLength = practices.filter(
-          (value: Boolean) => value === true
+          (value: Boolean) => value
         ).length;
 
-        const per = percentage(trueAnswersLength, practices.length);
-        if (per < 50) return [per, index];
+        if (!trueAnswersLength) return [0, index];
+
+        if (
+          practices.length === 4 &&
+          trueAnswersLength === 1 &&
+          practices[practices.length - 2]
+        ) {
+          return [0, index];
+        }
       });
 
       return [name, result.filter((v: any) => v !== undefined)];
@@ -124,10 +130,6 @@ export const ResultsIntro: React.FC<Props> = ({onNext, answers}) => {
                     See your results
                   </div>
                 )}
-                {/* <img
-                  // onClick={() => window.open("https://www.greenbrownblue.com/")}
-                  src={youDidIt.btnImage}
-                /> */}
               </div>
             </div>
           </div>
