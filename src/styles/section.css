@@ -38,6 +38,8 @@
 .section-title {
   margin: 3vh 0px;
   font-weight: 500;
+  line-height: 1.31;
+  font-size: 1.2em;
 }
 
 .section-description {

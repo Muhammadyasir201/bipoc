@@ -15,9 +15,6 @@
   display: grid;
 }
 
-.intro-body {
-}
-
 .main-logo-wrap {
   margin-top: 45px;
   display: flex;
@@ -27,6 +24,7 @@
 .main-logo-wrap .logo {
   max-width: 100%;
   width: 165px;
+  cursor: pointer;
 }
 
 .intro-title {

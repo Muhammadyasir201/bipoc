@@ -50,21 +50,30 @@ export class Welcome extends React.Component {
               {welcome.footerText}
 
               <span>
+                {" "}
                 Learn more{" "}
                 <strong
                   style={{ cursor: "pointer" }}
                   onClick={() =>
                     window.open(
-                      "https://creativecommons.org/publicdomain/zero/1.0/"
+                      "https://creativecommons.org/licenses/by-nc-sa/3.0/igo"
                     )
                   }
                 >
-                  here
+                  here.
                 </strong>
               </span>
             </div>
             <div className="welcome-footer-logos">
-              <img src={welcome.logo2} />
+              <img
+                onClick={() =>
+                  window.open(
+                    "https://creativecommons.org/licenses/by-nc-sa/3.0/igo"
+                  )
+                }
+                style={{ cursor: "pointer" }}
+                src={welcome.logo2}
+              />
             </div>
           </div>
         </div>

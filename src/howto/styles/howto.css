@@ -43,7 +43,7 @@
 
 .howto-body-right {
   width: calc(100% - var(--leftPanelWidth));
-  padding: 6vh 10vh 0px 8vh;
+  padding: 3.5vh 10vh 0px 8vh;
 }
 
 .pointOuterWrapper {
@@ -89,7 +89,7 @@
 }
 
 .pointDesc {
-  max-width: 786px;
+  max-width: 41vw;
   font-size: 1rem;
   font-weight: normal;
   font-stretch: normal;
@@ -98,6 +98,7 @@
   letter-spacing: normal;
   text-align: left;
   color: #000;
+  margin-bottom: 1vh;
 }
 
 .howTo-wrapper {
@@ -114,7 +115,6 @@
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   font-size: 4rem;
   font-weight: 500;
-  line-height: 1.5;
 }
 
 .howto-text {
@@ -145,7 +145,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 1vh 7vh var(--footerPadding) 8vh;
+  padding: 0 7vh 1vh 8vh;
 }
 
 .howto-footer-right-text {

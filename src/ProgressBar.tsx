@@ -41,7 +41,7 @@ export class ProgressBar extends React.Component<IProgressBarProps> {
               <div>
                 <button
                   className="icon-button"
-                  onClick={() => transition?.("/welcome")}
+                  onClick={() => transition?.("/intro")}
                 >
                   <img
                     src={ProgressBar.assets.iconHome}
