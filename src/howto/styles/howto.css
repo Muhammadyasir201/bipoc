@@ -44,6 +44,9 @@
 .howto-body-right {
   width: calc(100% - var(--leftPanelWidth));
   padding: 3.5vh 10vh 0px 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .pointOuterWrapper {
