@@ -93,6 +93,7 @@
             "titleCls": "finFish1Title",
             "principleNo": "one",
             "practices": ["Yes", "No"],
+            "score": ["0.99", "0.01"],
             "text": "Foodservice is an especially important avenue for piloting partnerships with marginalized producers. Finding client sites or groups of client sites is the first step to establishing these BIPOC sourcing pilots.",
             "question": "Is there an individual client site or group of sites that have or can be selected for a BIPOC sourcing pilot?",
             "description": "Any sourcing effort that goes beyond the standardized and conventional model of procurement will require some measure of process change, experimentation, and iteration. Finding sites that are willing and able to have this flexibility will help ensure the pilot’s success.",
@@ -113,6 +114,7 @@
               "Yes, but only as a 1:1 substitute into existing menus",
               "No"
             ],
+            "score": ["0.66", "0.33", "0.01"],
             "text": "The cycles of menuing and purchasing in foodservice environments are inherently more flexible than a brick-and-mortar or e-commerce retailer, where products must often be of premium quality and designated for a physical or digital “slot” managed by the merchandising process.",
             "question": "Do the target client sites have the ability to integrate products from small farms into their menus?",
             "description": "Products from small farms often come in smaller volumes but with a greater variety of ingredients. Be sure to check with your selected client sites that they are able to be flexible and adaptive to integrate this variety into their menus.",
@@ -129,6 +131,7 @@
             "titleCls": "",
             "principleNo": "three",
             "practices": ["Yes", "No"],
+            "score": ["0.99", "0.01"],
             "text": "Individual site chefs and operations team members need to have an awareness and understanding of the benefits and potential limitations of ordering from small-scale BIPOC producers.",
             "question": "Does the foodservice management company have the capacity to train site chefs on using a special availability list from small farms?",
             "description": "Chefs and operations teams who are ordering and preparing ingredients may need extra support to understand how to best design menus and integrate smaller quantities of more diverse ingredients. The foodservice company and client sites should have the capacity to provide this support.",
@@ -159,6 +162,7 @@
               "Yes, they have informal seasonal programs",
               "No, they are only seeking 1:1 substitution of existing products with new products"
             ],
+            "score": ["0.66", "0.33", "0.01"],
             "text": "As pilots progress, purchasers, distributors, and producers should work together to create seasonal crop plans. This allows both producers and purchasers to provide input on what is grown and can lead to sustainable, long-term programs",
             "question": "Is there a willingness on the part of the client company to direct client site chefs to engage in collaborative planning and menuing with the distributor and farmer group?",
             "description": "Having client site leadership that provides chefs with the freedom and opportunity to collaboratively plan with distributors and growers has multiple benefits. Growers can ensure their products will be in demand based on what client companies actually want to serve.",
@@ -180,6 +184,7 @@
               "Voluntary/encouraged by client company",
               "None"
             ],
+            "score": ["0.50", "0.33", "0.16", "0.01"],
             "text": "Tracking qualitative and quantitative data will help enhance, expand, and institutionalize the pilot into a foundational and impactful sourcing practice. This data can also be woven into a story for internal and external storytelling.",
             "question": "Is there a mechanism within the larger client company to encourage or require site chefs to order from a special availability list?",
             "description": "Tracking and evaluating certain key metrics will help create systems for continuous improvement with BIPOC sourcing pilots and programs. Companies should explore both qualitative (e.g. reports, interviews) and quantitative (e.g. percentage of BIPOC sourcing, dollar impact per target supplier) metrics.",
@@ -200,6 +205,7 @@
               "Yes, some",
               "No"
             ],
+            "score": ["0.66", "0.33", "0.01"],
             "text": "Foodservice can adapt to changes in pricing more nimbly than retail and can leverage the menuing process to achieve higher volumes and mutually-agreeable pricing with the right program setup. This makes it easier to set up BIPOC sourcing pilots.",
             "question": "Is there some level of pricing tolerance for small farm products?",
             "description": "Having some pricing tolerance for small farm products and new products helps support the pilot and makes it possible to scale and institutionalize the BIPOC pilot. This leniency can be essential for small farms in transitioning into new partnerships until they become more established.",
@@ -220,6 +226,7 @@
               "Yes, scholarship support for GAP certification",
               "No, wholesale-ready farmers only"
             ],
+            "score": ["0.66", "0.33", "0.01"],
             "text": "Adding less experienced growers to the program is a key next step to continuing the expansion and growth of a BIPOC sourcing pilot. These growers may need extra support and training to achieve full market readiness but creating partnerships early will allow purchasers to have early access as their BIPOC sourcing programs grow.",
             "question": "Is there long-term capacity and interest in supporting market readiness training for farmers less experienced with wholesale?",
             "description": "This long-term capacity and interest to support less experienced growers will be an essential step in institutionalizing BIPOC sourcing programs. Having these systems in place increases the likelihood that the program will be sustainable and long-term.",
@@ -249,6 +256,7 @@
               "Yes, under special circumstances and/or workaround processes",
               "No, distributor cannot buy off-contract"
             ],
+            "score": ["0.66", "0.33", "0.01"],
             "text": "In this framework, the distributor is assumed to be following the direction of the customer (client company and foodservice management company). This means that the responsibility to allow or not allow the onboarding of new BIPOC suppliers is up to the customer.",
             "question": "Can the contracted distributor be directed to onboard new BIPOC suppliers?",
             "description": "Allowing as much flexibility here as possible will help expand the reach of the pilot to onboard more BIPOC suppliers. Willingness to work with new growers can open up new opportunities.",
@@ -270,6 +278,7 @@
               "No, but there is interest in developing them",
               "No, and there are no plans to develop"
             ],
+            "score": ["0.50", "0.33", "0.16", "0.01"],
             "text": "Special vendor programs and policies can help support smaller and unique vendors, which will be helpful for institutionalizing BIPOC sourcing.",
             "question": "Are there special programs or policies in place that support unique and/or smaller vendors?",
             "description": "Special programs and policies that support unique and/or smaller vendors, such as minority and women-owned businesses, can ensure that your BIPOC sourcing pilot is equitable.",

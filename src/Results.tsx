@@ -1,27 +1,27 @@
-import { yellow } from "@material-ui/core/colors";
+import {yellow} from "@material-ui/core/colors";
 import * as React from "react";
-import { Background } from "./Background";
-import { Categories } from "./Categories";
-import { appContext } from "./core/AppContext";
-import { Button, ButtonType } from "./core/Button";
-import { DOMUtils } from "./core/DOMUtils";
-import { Images } from "./core/Images";
-import { LoadingIndicator } from "./core/LoadingIndicator";
-import { Settings } from "./core/Settings";
-import { IngredientIndicator } from "./IngredientIndicator";
-import { IPostJson } from "./Posts";
-import { ActionCardSvg } from "./results/ActionCardSvg";
-import { ScoreBarSvg } from "./results/ScoreBarSvg";
-import { ResultsExplainer } from "./ResultsExplainer";
-import { IResultsIntroContent, ResultsIntro } from "./ResultsIntro";
-import { Section } from "./Section";
-import { Session } from "./Session";
-import { result } from "./data/data.json";
+import {Background} from "./Background";
+import {Categories} from "./Categories";
+import {appContext} from "./core/AppContext";
+import {Button, ButtonType} from "./core/Button";
+import {DOMUtils} from "./core/DOMUtils";
+import {Images} from "./core/Images";
+import {LoadingIndicator} from "./core/LoadingIndicator";
+import {Settings} from "./core/Settings";
+import {IngredientIndicator} from "./IngredientIndicator";
+import {IPostJson} from "./Posts";
+import {ActionCardSvg} from "./results/ActionCardSvg";
+import {ScoreBarSvg} from "./results/ScoreBarSvg";
+import {ResultsExplainer} from "./ResultsExplainer";
+import {IResultsIntroContent, ResultsIntro} from "./ResultsIntro";
+import {Section} from "./Section";
+import {Session} from "./Session";
+import {result} from "./data/data.json";
 import json from "./data/result.json";
-import { LearnDialog } from "./core/LearnDialog";
+import {LearnDialog} from "./core/LearnDialog";
 
 // tslint:disable-next-line
-const { default: html2React } = require("html2react");
+const {default: html2React} = require("html2react");
 
 import "./styles/results.css";
 
@@ -54,7 +54,7 @@ export class Results extends React.Component<{}, IResultsState> {
   private static _content1: IResultsContent;
 
   private _canvas!: HTMLCanvasElement;
-  private _actionCards: { [section: string]: ActionCardSvg[] };
+  private _actionCards: {[section: string]: ActionCardSvg[]};
   private _legends: SVGElement[] = [];
 
   constructor(props: {}) {
@@ -97,7 +97,7 @@ export class Results extends React.Component<{}, IResultsState> {
       return (
         <ResultsIntro
           answers={Session.answers}
-          onNext={() => this.setState({ intro: false })}
+          onNext={() => this.setState({intro: false})}
         />
       );
     }
@@ -113,33 +113,31 @@ export class Results extends React.Component<{}, IResultsState> {
     //   );
     // }
 
-    const svg = { w: 1062, h: 390 };
+    const svg = {w: 1062, h: 390};
     const layout = {
-      bar: { x: 17, y: 200 },
-      actionCard: { y: 219 },
-      legend: { x: 950, w: 140, h: 67 },
-      grid: { y: 7, w: 937, spacing: 63 },
+      bar: {x: 17, y: 200},
+      actionCard: {y: 219},
+      legend: {x: 950, w: 140, h: 67},
+      grid: {y: 7, w: 937, spacing: 63},
     };
 
     const makeSection = (section: string, x: number) => {
       const principles = Section.getPrinciples(section, this.context.fish);
-      const getScore = (principle: number) => {
+      const getScore = (principle: number, score: string[]) => {
         const answers = Session.answers?.[section];
         const answer = answers?.[principle];
         const practices = answer?.practices as boolean[];
-        const visibility = answer?.visibility as number;
-        const usedPractices = practices.filter((p) => p).length;
-        const maxPracticesScore = practices.length * 0.2;
-        const practicesScore = usedPractices * 0.2;
-        const visibilityScore = visibility > 0.5 ? 1 : 0;
-        const maxVisibilityScore = 1;
-        const maxScore = maxPracticesScore + maxVisibilityScore;
-        const score = Math.max(
-          practicesScore + visibilityScore,
-          maxScore * 0.05
-        ); // bias to ensure bar is non-zero
-        const scoreNormalized = score / maxScore;
-        return scoreNormalized;
+        const usedPractices = practices
+          .map((p, i) => p && +score[i])
+          .filter((v) => v);
+
+        if (!usedPractices.length || practices[practices.length - 1])
+          return +score[score.length - 1];
+
+        //@ts-ignore
+        const scoreBareHeight = usedPractices.reduce((a, c) => a + c);
+
+        return Number(scoreBareHeight);
       };
       return principles.map((p: any, i: any) => {
         const color = Settings.data.sections[section].color;
@@ -147,7 +145,7 @@ export class Results extends React.Component<{}, IResultsState> {
           <React.Fragment key={`${section}_${i}`}>
             <ScoreBarSvg
               color={color}
-              score={getScore(i)}
+              score={getScore(i, p.score)}
               x={x + layout.bar.x + i * 96}
               y={layout.bar.y}
             />
@@ -173,7 +171,7 @@ export class Results extends React.Component<{}, IResultsState> {
           y={layout.legend.h * index}
           width={layout.legend.w}
           height={layout.legend.h}
-          fill="transparent"
+          fill='transparent'
         />
       );
     };
@@ -185,29 +183,28 @@ export class Results extends React.Component<{}, IResultsState> {
 
     return (
       <appContext.Consumer>
-        {({ transition, localTransition }) => {
+        {({transition, localTransition}) => {
           return (
             <React.Fragment>
               <LearnDialog
                 graph={_content.explainer.graph}
                 visible={this.state.explainer}
                 title={_content.explainer.title}
-                bgColor="rgba(62, 137, 251, 0.75)"
+                bgColor='rgba(62, 137, 251, 0.75)'
                 content={html2React(_content.explainer.content)}
-                onClose={() => this.setState({ explainer: false })}
+                onClose={() => this.setState({explainer: false})}
               />
-              <div className="results">
+              <div className='results'>
                 {/* <IngredientIndicator /> */}
-                <div className="results-header">
-                  <div className="fsSubtitle">
+                <div className='results-header'>
+                  <div className='fsSubtitle'>
                     <p
-                      className="title has-text-color"
-                      style={{ color: "rgb(15, 188, 192)", fontWeight: 500 }}
-                    >
+                      className='title has-text-color'
+                      style={{color: "rgb(15, 188, 192)", fontWeight: 500}}>
                       {_content.title}
                     </p>
                   </div>
-                  <div style={{ maxWidth: 836 }}>{_content.subTitle}</div>
+                  <div style={{maxWidth: 836}}>{_content.subTitle}</div>
                   {/* <div
                     className="clickable"
                     onClick={() => {
@@ -222,12 +219,11 @@ export class Results extends React.Component<{}, IResultsState> {
                     </p>
                   </div> */}
                 </div>
-                <div className="results-body">
+                <div className='results-body'>
                   <svg
-                    className="fill-parent"
+                    className='fill-parent'
                     viewBox={`0 0 ${svg.w} ${svg.h}`}
-                    preserveAspectRatio="xMidYMid meet"
-                  >
+                    preserveAspectRatio='xMidYMid meet'>
                     {makeLine(0)}
                     {makeLine(1)}
                     {makeLine(2)}
@@ -237,7 +233,7 @@ export class Results extends React.Component<{}, IResultsState> {
                       : makeSection("people", 96 * 3)}
                     {makeSection("Supply Chain", 96 * 7)}
                     <line
-                      className="baseline"
+                      className='baseline'
                       x1={0}
                       x2={layout.grid.w}
                       y1={200}
@@ -249,12 +245,12 @@ export class Results extends React.Component<{}, IResultsState> {
                   </svg>
                 </div>
                 <canvas
-                  className="fill-parent"
+                  className='fill-parent'
                   ref={(e) => (this._canvas = e as HTMLCanvasElement)}
                 />
-                <div className="results-footer">
+                <div className='results-footer'>
                   <div>
-                    <span className="download">
+                    <span className='download'>
                       <Button
                         type={ButtonType.Blue}
                         text={html2React(_content.download)}
@@ -263,7 +259,7 @@ export class Results extends React.Component<{}, IResultsState> {
                         }}
                       />
                     </span>
-                    <span className="replay">
+                    <span className='replay'>
                       <Button
                         text={_content.replay}
                         onClick={() => {
@@ -274,15 +270,13 @@ export class Results extends React.Component<{}, IResultsState> {
                     </span>
                   </div>
                   <div
-                    className="clickable fsFooter"
+                    className='clickable fsFooter'
                     onClick={() => {
                       transition?.("/credits");
-                    }}
-                  >
+                    }}>
                     <p
-                      className="learn-team has-text-color"
-                      style={{ color: "rgb(15, 188, 192)" }}
-                    >
+                      className='learn-team has-text-color'
+                      style={{color: "rgb(15, 188, 192)"}}>
                       {html2React(_content.learnTeam)}
                     </p>
                   </div>
@@ -373,7 +367,7 @@ export class Results extends React.Component<{}, IResultsState> {
     // await Images.preload([content.intro.bg, content.explainer.graph]);
 
     Results._content1 = content;
-    this.setState({ loaded: true });
+    this.setState({loaded: true});
   }
 
   private onResize() {
@@ -389,7 +383,7 @@ export class Results extends React.Component<{}, IResultsState> {
     // NOTE use setTimeout if you see drawing offset again!
     const context = this._canvas.getContext("2d") as CanvasRenderingContext2D;
     const dummyCard = this._actionCards.planet[0];
-    const maxTextSize = { w: 98, h: 78 };
+    const maxTextSize = {w: 98, h: 78};
     const font = `${(dummyCard.text.width * 10) / maxTextSize.w}px Work Sans`;
     const lineHeight = (dummyCard.text.height * 13) / maxTextSize.h;
     context.font = font;
@@ -446,7 +440,7 @@ export class Results extends React.Component<{}, IResultsState> {
     const drawSection = (section: string) => {
       Section.getPrinciples(section, this.context.fish).forEach(
         (p: any, i: any) => {
-          const { icon, text } = this._actionCards[section][i];
+          const {icon, text} = this._actionCards[section][i];
           var imageObj1 = new Image();
           imageObj1.src = p.resultIcon;
           imageObj1.onload = function () {
@@ -474,7 +468,7 @@ export class Results extends React.Component<{}, IResultsState> {
     drawSection("Supply Chain");
 
     Results._content1.main.legend.forEach((legend, i) => {
-      const { left, top, width, height } =
+      const {left, top, width, height} =
         this._legends[i].getBoundingClientRect();
       drawText(legend, left, top, width, height, false);
     });
